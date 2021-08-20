@@ -1,0 +1,1123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BrokerError"
+- "Broker"
+provides-nominal:
+- "5Franz11BrokerErrorO"
+- "5Franz6BrokerC"
+- "5Franz6BrokerC11CancelTokenC"
+provides-member:
+- ["5Franz11BrokerErrorO", ""]
+- ["5Franz6BrokerC", ""]
+- ["5Franz6BrokerC11CancelTokenC", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$__adminReadQueue"
+- "$__lazy_storage_$__groupCoordinationQueue"
+- "$__lazy_storage_$__metadataReadQueue"
+- "$__lazy_storage_$__metadataWriteQueue"
+- "_adminReadQueue"
+- "_connection"
+- "_groupCoordinationQueue"
+- "_metadataReadQueue"
+- "_metadataWriteQueue"
+- "_readQueues"
+- "cancel"
+- "commitGroupOffset"
+- "connect"
+- "data"
+- "dataLength"
+- "describeGroups"
+- "fetch"
+- "fetchOffsets"
+- "getGroupCoordinator"
+- "getOffsets"
+- "getReadQueue"
+- "getTopicMetadata"
+- "groupMembership"
+- "heartbeatRequest"
+- "host"
+- "ipv4"
+- "join"
+- "leaveGroup"
+- "listGroups"
+- "nodeId"
+- "poll"
+- "port"
+- "send"
+- "shouldCancel"
+- "syncGroup"
+depends-top-level:
+- "!="
+- !private "+"
+- "=="
+- "ApiVersion"
+- "Array"
+- "AssignmentPrecedence"
+- !private "AssignmentStrategy"
+- "Bool"
+- "BooleanLiteralType"
+- "Broker"
+- "BrokerError"
+- "CancelToken"
+- "Connection"
+- "ConsumerGroupMetadata"
+- "Data"
+- !private "DescribeGroupsRequest"
+- "DescribeGroupsResponse"
+- "Dictionary"
+- "DispatchQueue"
+- "Error"
+- !private "FetchRequest"
+- "FetchResponse"
+- !private "FloatLiteralType"
+- "Group"
+- !private "GroupCoordinatorRequest"
+- "GroupCoordinatorResponse"
+- "GroupMemberAssignment"
+- "GroupMembership"
+- !private "GroupMembershipRequest"
+- "GroupState"
+- !private "HeartbeatRequest"
+- "HeartbeatResponse"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- "JoinGroupResponse"
+- !private "KafkaConnection"
+- "KafkaErrorCode"
+- "KafkaType"
+- !private "LeaveGroupRequest"
+- "LeaveGroupResponse"
+- !private "ListGroupsRequest"
+- "ListGroupsResponse"
+- "Message"
+- "MessageSet"
+- "MetadataResponse"
+- "Offset"
+- !private "OffsetCommitRequest"
+- "OffsetCommitResponse"
+- !private "OffsetFetchRequest"
+- "OffsetFetchResponse"
+- "OffsetMetadata"
+- !private "OffsetRequest"
+- "OffsetResponse"
+- "PartitionId"
+- !private "ProduceRequest"
+- "ReplicaId"
+- "String"
+- "StringLiteralType"
+- !private "SyncGroupRequest"
+- "SyncGroupResponse"
+- "TernaryPrecedence"
+- "TimeOffset"
+- !private "TopicMetadataRequest"
+- "TopicName"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "_connection"
+- !private "_readQueues"
+- !private "connect"
+- !private "fetch"
+- !private "getOffsets"
+- !private "getReadQueue"
+- !private "groupMembership"
+- !private "host"
+- !private "ipv4"
+- !private "nodeId"
+- !private "port"
+- "print"
+- !private "shouldCancel"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "data"]
+- !private ["s18AdditiveArithmeticP", "dataLength"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["5Franz10ApiVersionO", "defaultVersion"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "last"]
+- !private ["Sa", "map"]
+- !private ["Sa", "mapValues"]
+- !private ["Sa", "sorted"]
+- !private ["5Franz18AssignmentStrategyO", "RoundRobin"]
+- !private ["5Franz18AssignmentStrategyO", ""]
+- !private ["So17OS_dispatch_queueC8DispatchE10AttributesV", "concurrent"]
+- !private ["SK", ""]
+- !private ["SK", "data"]
+- !private ["SK", "dataLength"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["SK", "flatMap"]
+- !private ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SK", "map"]
+- !private ["SK", "mapValues"]
+- !private ["SK", "sorted"]
+- !private ["Sz", ""]
+- !private ["Sz", "data"]
+- !private ["Sz", "dataLength"]
+- !private ["Sz", "init"]
+- !private ["5Franz6BrokerC", "$__lazy_storage_$__adminReadQueue"]
+- !private ["5Franz6BrokerC", "$__lazy_storage_$__groupCoordinationQueue"]
+- !private ["5Franz6BrokerC", "$__lazy_storage_$__metadataReadQueue"]
+- !private ["5Franz6BrokerC", "$__lazy_storage_$__metadataWriteQueue"]
+- ["5Franz6BrokerC", "ApiVersion"]
+- !private ["5Franz6BrokerC", "AssignmentStrategy"]
+- ["5Franz6BrokerC", "Bool"]
+- ["5Franz6BrokerC", "BrokerError"]
+- ["5Franz6BrokerC", "CancelToken"]
+- ["5Franz6BrokerC", "Connection"]
+- !private ["5Franz6BrokerC", "ConsumerGroupMetadata"]
+- ["5Franz6BrokerC", "Data"]
+- !private ["5Franz6BrokerC", "DescribeGroupsRequest"]
+- !private ["5Franz6BrokerC", "DescribeGroupsResponse"]
+- !private ["5Franz6BrokerC", "Dictionary"]
+- ["5Franz6BrokerC", "DispatchQueue"]
+- !private ["5Franz6BrokerC", "FetchRequest"]
+- !private ["5Franz6BrokerC", "FetchResponse"]
+- !private ["5Franz6BrokerC", "Group"]
+- !private ["5Franz6BrokerC", "GroupCoordinatorRequest"]
+- ["5Franz6BrokerC", "GroupCoordinatorResponse"]
+- ["5Franz6BrokerC", "GroupMemberAssignment"]
+- ["5Franz6BrokerC", "GroupMembership"]
+- !private ["5Franz6BrokerC", "GroupMembershipRequest"]
+- ["5Franz6BrokerC", "GroupState"]
+- !private ["5Franz6BrokerC", "HeartbeatRequest"]
+- !private ["5Franz6BrokerC", "HeartbeatResponse"]
+- ["5Franz6BrokerC", "Int"]
+- ["5Franz6BrokerC", "Int32"]
+- !private ["5Franz6BrokerC", "JoinGroupResponse"]
+- !private ["5Franz6BrokerC", "KafkaConnection"]
+- !private ["5Franz6BrokerC", "LeaveGroupRequest"]
+- !private ["5Franz6BrokerC", "LeaveGroupResponse"]
+- !private ["5Franz6BrokerC", "ListGroupsRequest"]
+- !private ["5Franz6BrokerC", "ListGroupsResponse"]
+- ["5Franz6BrokerC", "Message"]
+- ["5Franz6BrokerC", "MessageSet"]
+- ["5Franz6BrokerC", "MetadataResponse"]
+- ["5Franz6BrokerC", "Offset"]
+- !private ["5Franz6BrokerC", "OffsetCommitRequest"]
+- !private ["5Franz6BrokerC", "OffsetCommitResponse"]
+- !private ["5Franz6BrokerC", "OffsetFetchRequest"]
+- !private ["5Franz6BrokerC", "OffsetFetchResponse"]
+- ["5Franz6BrokerC", "OffsetMetadata"]
+- !private ["5Franz6BrokerC", "OffsetRequest"]
+- !private ["5Franz6BrokerC", "OffsetResponse"]
+- ["5Franz6BrokerC", "PartitionId"]
+- !private ["5Franz6BrokerC", "ProduceRequest"]
+- ["5Franz6BrokerC", "ReplicaId"]
+- ["5Franz6BrokerC", "String"]
+- !private ["5Franz6BrokerC", "SyncGroupRequest"]
+- !private ["5Franz6BrokerC", "SyncGroupResponse"]
+- ["5Franz6BrokerC", "TimeOffset"]
+- !private ["5Franz6BrokerC", "TopicMetadataRequest"]
+- ["5Franz6BrokerC", "TopicName"]
+- ["5Franz6BrokerC", "Void"]
+- ["5Franz6BrokerC", ""]
+- !private ["5Franz6BrokerC", "_adminReadQueue"]
+- !private ["5Franz6BrokerC", "_connection"]
+- !private ["5Franz6BrokerC", "_groupCoordinationQueue"]
+- !private ["5Franz6BrokerC", "_metadataReadQueue"]
+- !private ["5Franz6BrokerC", "_metadataWriteQueue"]
+- !private ["5Franz6BrokerC", "_readQueues"]
+- ["5Franz6BrokerC", "commitGroupOffset"]
+- ["5Franz6BrokerC", "connect"]
+- !private ["5Franz6BrokerC", "connection"]
+- ["5Franz6BrokerC", "data"]
+- ["5Franz6BrokerC", "dataLength"]
+- ["5Franz6BrokerC", "deinit"]
+- ["5Franz6BrokerC", "describeGroups"]
+- ["5Franz6BrokerC", "fetch"]
+- ["5Franz6BrokerC", "fetchOffsets"]
+- ["5Franz6BrokerC", "getGroupCoordinator"]
+- ["5Franz6BrokerC", "getOffsets"]
+- !private ["5Franz6BrokerC", "getReadQueue"]
+- ["5Franz6BrokerC", "getTopicMetadata"]
+- !private ["5Franz6BrokerC", "groupCoordinationQueue"]
+- ["5Franz6BrokerC", "groupMembership"]
+- ["5Franz6BrokerC", "heartbeatRequest"]
+- ["5Franz6BrokerC", "host"]
+- ["5Franz6BrokerC", "init"]
+- ["5Franz6BrokerC", "ipv4"]
+- ["5Franz6BrokerC", "join"]
+- ["5Franz6BrokerC", "leaveGroup"]
+- ["5Franz6BrokerC", "listGroups"]
+- !private ["5Franz6BrokerC", "metadataReadQueue"]
+- ["5Franz6BrokerC", "nodeId"]
+- ["5Franz6BrokerC", "poll"]
+- ["5Franz6BrokerC", "port"]
+- !private ["5Franz6BrokerC", "print"]
+- !private ["5Franz6BrokerC", "readQueues"]
+- ["5Franz6BrokerC", "send"]
+- !private ["5Franz6BrokerC", "shouldCancel"]
+- ["5Franz6BrokerC", "syncGroup"]
+- ["5Franz11BrokerErrorO", "KafkaErrorCode"]
+- ["5Franz11BrokerErrorO", ""]
+- ["5Franz11BrokerErrorO", "_code"]
+- ["5Franz11BrokerErrorO", "_domain"]
+- ["5Franz11BrokerErrorO", "_getEmbeddedNSError"]
+- ["5Franz11BrokerErrorO", "_userInfo"]
+- ["5Franz11BrokerErrorO", "code"]
+- ["5Franz11BrokerErrorO", "domain"]
+- ["5Franz11BrokerErrorO", "fetchFailed"]
+- ["5Franz11BrokerErrorO", "kafkaError"]
+- ["5Franz11BrokerErrorO", "noConnection"]
+- ["5Franz11BrokerErrorO", "noGroupMembershipForBroker"]
+- ["5Franz11BrokerErrorO", "userInfo"]
+- !private ["s7CVarArgP", "Attributes"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataLength"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "flatMap"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "mapValues"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["s7CVarArgP", "subscript"]
+- ["5Franz6BrokerC11CancelTokenC", "cancel"]
+- ["5Franz6BrokerC11CancelTokenC", "deinit"]
+- ["5Franz6BrokerC11CancelTokenC", "init"]
+- !private ["5Franz6BrokerC11CancelTokenC", "shouldCancel"]
+- !private ["Sl", "Element"]
+- !private ["Sl", ""]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "data"]
+- !private ["Sl", "dataLength"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "flatMap"]
+- ["Sl", "init"]
+- !private ["Sl", "last"]
+- !private ["Sl", "map"]
+- !private ["Sl", "mapValues"]
+- !private ["Sl", "sorted"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "data"]
+- !private ["SL", "dataLength"]
+- !private ["SL", "init"]
+- !private ["5Franz10ConnectionP", "init"]
+- !private ["5Franz10ConnectionP", "write"]
+- !private ["5Franz21ConsumerGroupMetadataC", ""]
+- !private ["5Franz21ConsumerGroupMetadataC", "init"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "flatMap"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "mapValues"]
+- !private ["10Foundation15ContiguousBytesP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "Attributes"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataLength"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "mapValues"]
+- !private ["s28CustomDebugStringConvertibleP", "noError"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "dataLength"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "mapValues"]
+- !private ["s17CustomReflectableP", "noError"]
+- !private ["s17CustomReflectableP", "sorted"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Attributes"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataLength"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "mapValues"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "flatMap"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "mapValues"]
+- !private ["10Foundation12DataProtocolP", "sorted"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "data"]
+- !private ["Se", "dataLength"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "flatMap"]
+- ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "map"]
+- !private ["Se", "mapValues"]
+- !private ["Se", "noError"]
+- !private ["Se", "sorted"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["5Franz21DescribeGroupsRequestC", "init"]
+- !private ["5Franz22DescribeGroupsResponseC", ""]
+- !private ["5Franz22DescribeGroupsResponseC", "init"]
+- !private ["5Franz22DescribeGroupsResponseC", "states"]
+- !private ["SD", "compactMap"]
+- !private ["SD", "filter"]
+- ["SD", "init"]
+- !private ["SD", "map"]
+- !private ["SD", "mapValues"]
+- !private ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "Attributes"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "init"]
+- ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "Attributes"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "data"]
+- !private ["SE", "dataLength"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "flatMap"]
+- ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "map"]
+- !private ["SE", "mapValues"]
+- !private ["SE", "noError"]
+- !private ["SE", "sorted"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Attributes"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", "RoundRobin"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- !private ["SQ", "code"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "concurrent"]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataLength"]
+- !private ["SQ", "defaultVersion"]
+- !private ["SQ", "description"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "flatMap"]
+- ["SQ", "init"]
+- !private ["SQ", "last"]
+- !private ["SQ", "map"]
+- !private ["SQ", "mapValues"]
+- !private ["SQ", "noError"]
+- !private ["SQ", "sorted"]
+- !private ["SQ", "subscript"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "domain"]
+- !private ["s5ErrorP", "fetchFailed"]
+- !private ["s5ErrorP", "kafkaError"]
+- !private ["s5ErrorP", "noGroupMembershipForBroker"]
+- ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "concurrent"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "mapValues"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "compactMap"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "filter"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "mapValues"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dataLength"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "data"]
+- !private ["s27ExpressibleByIntegerLiteralP", "dataLength"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "noError"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "dataLength"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "dataLength"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dataLength"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["5Franz12FetchRequestC", "init"]
+- !private ["5Franz13FetchResponseC", ""]
+- !private ["5Franz13FetchResponseC", "init"]
+- !private ["5Franz13FetchResponseC", "topics"]
+- !private ["s17FixedWidthIntegerP", "data"]
+- !private ["s17FixedWidthIntegerP", "dataLength"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["5Franz5GroupC", "generationId"]
+- !private ["5Franz5GroupC", "init"]
+- !private ["5Franz23GroupCoordinatorRequestC", "init"]
+- !private ["5Franz24GroupCoordinatorResponseC", ""]
+- !private ["5Franz24GroupCoordinatorResponseC", "init"]
+- !private ["5Franz21GroupMemberAssignmentC", ""]
+- !private ["5Franz21GroupMemberAssignmentC", "init"]
+- !private ["5Franz15GroupMembershipC", "group"]
+- !private ["5Franz15GroupMembershipC", "init"]
+- !private ["5Franz15GroupMembershipC", "memberId"]
+- !private ["5Franz22GroupMembershipRequestC", "init"]
+- !private ["5Franz18GroupStateResponseC", "error"]
+- !private ["5Franz18GroupStateResponseC", "id"]
+- !private ["5Franz18GroupStateResponseC", "state"]
+- !private ["SH", "Attributes"]
+- !private ["SH", "RoundRobin"]
+- !private ["SH", ""]
+- !private ["SH", "async"]
+- !private ["SH", "code"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "data"]
+- !private ["SH", "dataLength"]
+- !private ["SH", "defaultVersion"]
+- !private ["SH", "description"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "flatMap"]
+- ["SH", "init"]
+- !private ["SH", "last"]
+- !private ["SH", "map"]
+- !private ["SH", "mapValues"]
+- !private ["SH", "noError"]
+- !private ["SH", "sorted"]
+- !private ["SH", "subscript"]
+- !private ["5Franz16HeartbeatRequestC", "init"]
+- !private ["5Franz17HeartbeatResponseC", ""]
+- !private ["5Franz17HeartbeatResponseC", "error"]
+- !private ["5Franz17HeartbeatResponseC", "init"]
+- !private ["s5Int32V", ""]
+- !private ["s5Int32V", "data"]
+- !private ["s5Int32V", "dataLength"]
+- !private ["s5Int32V", "init"]
+- !private ["5Franz17JoinGroupResponseC", ""]
+- !private ["5Franz17JoinGroupResponseC", "error"]
+- !private ["5Franz17JoinGroupResponseC", "generationId"]
+- !private ["5Franz17JoinGroupResponseC", "groupProtocol"]
+- !private ["5Franz17JoinGroupResponseC", "init"]
+- !private ["5Franz17JoinGroupResponseC", "memberId"]
+- !private ["5Franz17JoinGroupResponseC", "members"]
+- !private ["5Franz15KafkaConnectionC", ""]
+- !private ["5Franz15KafkaConnectionC", "init"]
+- !private ["5Franz14KafkaErrorCodeO", ""]
+- !private ["5Franz14KafkaErrorCodeO", "code"]
+- !private ["5Franz14KafkaErrorCodeO", "description"]
+- !private ["5Franz14KafkaErrorCodeO", "noError"]
+- !private ["5Franz13KafkaMetadataP", "init"]
+- ["5Franz12KafkaRequestC", ""]
+- !private ["5Franz13KafkaResponseP", "error"]
+- !private ["5Franz13KafkaResponseP", "generationId"]
+- !private ["5Franz13KafkaResponseP", "groupProtocol"]
+- !private ["5Franz13KafkaResponseP", "groups"]
+- !private ["5Franz13KafkaResponseP", "init"]
+- !private ["5Franz13KafkaResponseP", "memberAssignment"]
+- !private ["5Franz13KafkaResponseP", "memberId"]
+- !private ["5Franz13KafkaResponseP", "members"]
+- !private ["5Franz13KafkaResponseP", "states"]
+- !private ["5Franz13KafkaResponseP", "topicalPartitionedOffsets"]
+- !private ["5Franz13KafkaResponseP", "topics"]
+- !private ["5Franz9KafkaTypeP", "ApiVersion"]
+- !private ["5Franz9KafkaTypeP", "AssignmentStrategy"]
+- !private ["5Franz9KafkaTypeP", "CancelToken"]
+- !private ["5Franz9KafkaTypeP", "ConsumerGroupMetadata"]
+- !private ["5Franz9KafkaTypeP", "DescribeGroupsRequest"]
+- !private ["5Franz9KafkaTypeP", "DescribeGroupsResponse"]
+- !private ["5Franz9KafkaTypeP", "Dictionary"]
+- ["5Franz9KafkaTypeP", "DispatchQueue"]
+- !private ["5Franz9KafkaTypeP", "FetchRequest"]
+- !private ["5Franz9KafkaTypeP", "FetchResponse"]
+- !private ["5Franz9KafkaTypeP", "Group"]
+- !private ["5Franz9KafkaTypeP", "GroupCoordinatorRequest"]
+- !private ["5Franz9KafkaTypeP", "GroupCoordinatorResponse"]
+- !private ["5Franz9KafkaTypeP", "GroupMemberAssignment"]
+- ["5Franz9KafkaTypeP", "GroupMembership"]
+- !private ["5Franz9KafkaTypeP", "GroupMembershipRequest"]
+- !private ["5Franz9KafkaTypeP", "HeartbeatRequest"]
+- !private ["5Franz9KafkaTypeP", "HeartbeatResponse"]
+- ["5Franz9KafkaTypeP", "Int32"]
+- !private ["5Franz9KafkaTypeP", "JoinGroupResponse"]
+- !private ["5Franz9KafkaTypeP", "KafkaConnection"]
+- !private ["5Franz9KafkaTypeP", "LeaveGroupRequest"]
+- !private ["5Franz9KafkaTypeP", "LeaveGroupResponse"]
+- !private ["5Franz9KafkaTypeP", "ListGroupsRequest"]
+- !private ["5Franz9KafkaTypeP", "ListGroupsResponse"]
+- !private ["5Franz9KafkaTypeP", "MetadataResponse"]
+- !private ["5Franz9KafkaTypeP", "Offset"]
+- !private ["5Franz9KafkaTypeP", "OffsetCommitRequest"]
+- !private ["5Franz9KafkaTypeP", "OffsetCommitResponse"]
+- !private ["5Franz9KafkaTypeP", "OffsetFetchRequest"]
+- !private ["5Franz9KafkaTypeP", "OffsetFetchResponse"]
+- !private ["5Franz9KafkaTypeP", "OffsetRequest"]
+- !private ["5Franz9KafkaTypeP", "OffsetResponse"]
+- !private ["5Franz9KafkaTypeP", "PartitionId"]
+- !private ["5Franz9KafkaTypeP", "ProduceRequest"]
+- !private ["5Franz9KafkaTypeP", "ReplicaId"]
+- ["5Franz9KafkaTypeP", "String"]
+- !private ["5Franz9KafkaTypeP", "SyncGroupRequest"]
+- !private ["5Franz9KafkaTypeP", "SyncGroupResponse"]
+- !private ["5Franz9KafkaTypeP", "TopicMetadataRequest"]
+- !private ["5Franz9KafkaTypeP", "TopicName"]
+- ["5Franz9KafkaTypeP", ""]
+- !private ["5Franz9KafkaTypeP", "_connection"]
+- !private ["5Franz9KafkaTypeP", "_groupCoordinationQueue"]
+- !private ["5Franz9KafkaTypeP", "_metadataReadQueue"]
+- !private ["5Franz9KafkaTypeP", "_readQueues"]
+- !private ["5Franz9KafkaTypeP", "connect"]
+- !private ["5Franz9KafkaTypeP", "connection"]
+- ["5Franz9KafkaTypeP", "data"]
+- ["5Franz9KafkaTypeP", "dataLength"]
+- !private ["5Franz9KafkaTypeP", "describeGroups"]
+- !private ["5Franz9KafkaTypeP", "error"]
+- !private ["5Franz9KafkaTypeP", "fetch"]
+- !private ["5Franz9KafkaTypeP", "fetchOffsets"]
+- !private ["5Franz9KafkaTypeP", "filter"]
+- !private ["5Franz9KafkaTypeP", "first"]
+- !private ["5Franz9KafkaTypeP", "flatMap"]
+- !private ["5Franz9KafkaTypeP", "getGroupCoordinator"]
+- !private ["5Franz9KafkaTypeP", "getOffsets"]
+- !private ["5Franz9KafkaTypeP", "getReadQueue"]
+- !private ["5Franz9KafkaTypeP", "getTopicMetadata"]
+- !private ["5Franz9KafkaTypeP", "groupCoordinationQueue"]
+- !private ["5Franz9KafkaTypeP", "groupMembership"]
+- !private ["5Franz9KafkaTypeP", "heartbeatRequest"]
+- !private ["5Franz9KafkaTypeP", "host"]
+- !private ["5Franz9KafkaTypeP", "id"]
+- ["5Franz9KafkaTypeP", "init"]
+- !private ["5Franz9KafkaTypeP", "ipv4"]
+- !private ["5Franz9KafkaTypeP", "join"]
+- !private ["5Franz9KafkaTypeP", "last"]
+- !private ["5Franz9KafkaTypeP", "leaveGroup"]
+- !private ["5Franz9KafkaTypeP", "listGroups"]
+- !private ["5Franz9KafkaTypeP", "map"]
+- !private ["5Franz9KafkaTypeP", "mapValues"]
+- !private ["5Franz9KafkaTypeP", "messages"]
+- !private ["5Franz9KafkaTypeP", "metadataReadQueue"]
+- !private ["5Franz9KafkaTypeP", "nodeId"]
+- !private ["5Franz9KafkaTypeP", "offset"]
+- !private ["5Franz9KafkaTypeP", "offsets"]
+- !private ["5Franz9KafkaTypeP", "partition"]
+- !private ["5Franz9KafkaTypeP", "partitionedOffsets"]
+- !private ["5Franz9KafkaTypeP", "partitions"]
+- !private ["5Franz9KafkaTypeP", "poll"]
+- !private ["5Franz9KafkaTypeP", "port"]
+- !private ["5Franz9KafkaTypeP", "print"]
+- !private ["5Franz9KafkaTypeP", "readQueues"]
+- !private ["5Franz9KafkaTypeP", "send"]
+- !private ["5Franz9KafkaTypeP", "shouldCancel"]
+- !private ["5Franz9KafkaTypeP", "sorted"]
+- !private ["5Franz9KafkaTypeP", "state"]
+- !private ["5Franz9KafkaTypeP", "syncGroup"]
+- !private ["5Franz9KafkaTypeP", "topic"]
+- !private ["5Franz9KafkaTypeP", "topicName"]
+- !private ["5Franz23KafkaVariableLengthTypeP", "data"]
+- !private ["5Franz23KafkaVariableLengthTypeP", "dataLength"]
+- !private ["5Franz23KafkaVariableLengthTypeP", "init"]
+- !private ["5Franz17LeaveGroupRequestC", "init"]
+- !private ["5Franz18LeaveGroupResponseC", ""]
+- !private ["5Franz18LeaveGroupResponseC", "error"]
+- !private ["5Franz18LeaveGroupResponseC", "init"]
+- !private ["5Franz17ListGroupsRequestC", "init"]
+- !private ["5Franz18ListGroupsResponseC", ""]
+- !private ["5Franz18ListGroupsResponseC", "error"]
+- !private ["5Franz18ListGroupsResponseC", "groups"]
+- !private ["5Franz18ListGroupsResponseC", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "dataLength"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["5Franz16MetadataResponseC", ""]
+- !private ["5Franz16MetadataResponseC", "init"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "dataLength"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["SM", "flatMap"]
+- !private ["SM", "last"]
+- !private ["SM", "map"]
+- !private ["SM", "mapValues"]
+- !private ["SM", "sorted"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "flatMap"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "mapValues"]
+- !private ["10Foundation19MutableDataProtocolP", "sorted"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "dataLength"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "dataLength"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderReadingP", "dataLength"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So21NSItemProviderWritingP", "dataLength"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So16NSMutableCopyingP", "dataLength"]
+- !private ["So8NSObjectC", "Attributes"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataLength"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "suspend"]
+- ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectP", "Attributes"]
+- !private ["So8NSObjectP", ""]
+- ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataLength"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "suspend"]
+- ["So8NSObjectP", "sync"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "dataLength"]
+- !private ["So8NSStringC", "data"]
+- !private ["So8NSStringC", "dataLength"]
+- !private ["Sj", ""]
+- !private ["Sj", "data"]
+- !private ["Sj", "dataLength"]
+- !private ["Sj", "init"]
+- !private ["So9OS_objectC", "Attributes"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "init"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- ["So9OS_objectC", "suspend"]
+- ["So9OS_objectC", "sync"]
+- !private ["5Franz29OffsetCommitPartitionResponseC", "error"]
+- !private ["5Franz19OffsetCommitRequestC", "init"]
+- !private ["5Franz20OffsetCommitResponseC", ""]
+- !private ["5Franz20OffsetCommitResponseC", "init"]
+- !private ["5Franz20OffsetCommitResponseC", "topics"]
+- !private ["5Franz25OffsetCommitTopicResponseC", "partitions"]
+- !private ["5Franz020OffsetFetchPartitionB0C", "offset"]
+- !private ["5Franz020OffsetFetchPartitionB0C", "partition"]
+- !private ["5Franz18OffsetFetchRequestC", "init"]
+- !private ["5Franz19OffsetFetchResponseC", ""]
+- !private ["5Franz19OffsetFetchResponseC", "init"]
+- !private ["5Franz19OffsetFetchResponseC", "topics"]
+- !private ["5Franz24OffsetFetchTopicResponseC", "partitions"]
+- !private ["5Franz24OffsetFetchTopicResponseC", "topic"]
+- !private ["5Franz13OffsetRequestC", "init"]
+- !private ["5Franz14OffsetResponseC", ""]
+- !private ["5Franz14OffsetResponseC", "init"]
+- !private ["5Franz14OffsetResponseC", "topicalPartitionedOffsets"]
+- !private ["s9OptionSetP", "concurrent"]
+- ["s9OptionSetP", "contains"]
+- ["s9OptionSetP", "formIntersection"]
+- ["s9OptionSetP", "formSymmetricDifference"]
+- ["s9OptionSetP", "formUnion"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "insert"]
+- ["s9OptionSetP", "intersection"]
+- ["s9OptionSetP", "remove"]
+- ["s9OptionSetP", "symmetricDifference"]
+- ["s9OptionSetP", "union"]
+- ["s9OptionSetP", "update"]
+- !private ["Sq", "noError"]
+- !private ["5Franz24PartitionedFetchResponseC", "error"]
+- !private ["5Franz24PartitionedFetchResponseC", "messages"]
+- !private ["5Franz24PartitionedFetchResponseC", "offset"]
+- !private ["5Franz24PartitionedFetchResponseC", "partition"]
+- !private ["5Franz18PartitionedOffsetsC", "error"]
+- !private ["5Franz18PartitionedOffsetsC", "offsets"]
+- !private ["5Franz14ProduceRequestC", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sk", "flatMap"]
+- !private ["Sk", "last"]
+- !private ["Sk", "map"]
+- !private ["Sk", "mapValues"]
+- !private ["Sk", "sorted"]
+- !private ["Sm", "Element"]
+- !private ["Sm", ""]
+- !private ["Sm", "data"]
+- !private ["Sm", "dataLength"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["Sm", "flatMap"]
+- !private ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["Sm", "map"]
+- !private ["Sm", "mapValues"]
+- !private ["Sm", "sorted"]
+- !private ["SY", "RawValue"]
+- !private ["SY", "RoundRobin"]
+- !private ["SY", ""]
+- !private ["SY", "code"]
+- !private ["SY", "concurrent"]
+- !private ["SY", "defaultVersion"]
+- !private ["SY", "description"]
+- !private ["SY", "noError"]
+- !private ["5Franz9ReplicaIdO", "none"]
+- !private ["s10SIMDScalarP", "data"]
+- !private ["s10SIMDScalarP", "dataLength"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["7Combine9SchedulerP", "Attributes"]
+- !private ["7Combine9SchedulerP", "async"]
+- ["7Combine9SchedulerP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "compactMap"]
+- !private ["ST", "data"]
+- !private ["ST", "dataLength"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "flatMap"]
+- ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["ST", "map"]
+- !private ["ST", "mapValues"]
+- !private ["ST", "sorted"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "concurrent"]
+- ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "formIntersection"]
+- ["s10SetAlgebraP", "formSymmetricDifference"]
+- ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "insert"]
+- ["s10SetAlgebraP", "intersection"]
+- ["s10SetAlgebraP", "isDisjoint"]
+- ["s10SetAlgebraP", "isEmpty"]
+- ["s10SetAlgebraP", "isSubset"]
+- ["s10SetAlgebraP", "isSuperset"]
+- ["s10SetAlgebraP", "remove"]
+- ["s10SetAlgebraP", "subtract"]
+- ["s10SetAlgebraP", "subtracting"]
+- ["s10SetAlgebraP", "symmetricDifference"]
+- ["s10SetAlgebraP", "union"]
+- ["s10SetAlgebraP", "update"]
+- !private ["SZ", "data"]
+- !private ["SZ", "dataLength"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "data"]
+- !private ["s13SignedNumericP", "dataLength"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["So16NSStreamDelegateP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "data"]
+- !private ["Sx", "dataLength"]
+- !private ["Sx", "init"]
+- !private ["SS", ""]
+- !private ["SS", "data"]
+- !private ["SS", "dataLength"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "data"]
+- !private ["Sy", "dataLength"]
+- !private ["Sy", "init"]
+- !private ["5Franz16SyncGroupRequestC", "init"]
+- !private ["5Franz17SyncGroupResponseC", ""]
+- !private ["5Franz17SyncGroupResponseC", "error"]
+- !private ["5Franz17SyncGroupResponseC", "init"]
+- !private ["5Franz17SyncGroupResponseC", "memberAssignment"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "dataLength"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "dataLength"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["5Franz10TimeOffsetO", "earliest"]
+- !private ["5Franz10TimeOffsetO", "latest"]
+- !private ["5Franz20TopicMetadataRequestC", "init"]
+- !private ["5Franz20TopicalFetchResponseC", "partitions"]
+- !private ["5Franz20TopicalFetchResponseC", "topicName"]
+- !private ["5Franz25TopicalPartitionedOffsetsC", "partitionedOffsets"]
+- !private ["5Franz25TopicalPartitionedOffsetsC", "topicName"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "flatMap"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "mapValues"]
+- !private ["s14_ArrayProtocolP", "sorted"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "dataLength"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "mapValues"]
+- !private ["s24_DestructorSafeContainerP", "sorted"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "dataLength"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "data"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "dataLength"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "dataLength"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "dataLength"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "dataLength"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "flatMap"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "mapValues"]
+- !private ["s19_HasContiguousBytesP", "sorted"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "dataLength"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "flatMap"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "mapValues"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sorted"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Attributes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataLength"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Attributes"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataLength"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "dataLength"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "mapValues"]
+- !private ["s21_ObjectiveCBridgeableP", "noError"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s26_OptionalNilComparisonTypeV", "noError"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "5Franz10ApiVersionO"
+- !private "Sa"
+- !private "5Franz18AssignmentStrategyO"
+- !private "So17OS_dispatch_queueC8DispatchE10AttributesV"
+- !private "SK"
+- !private "Sz"
+- "5Franz6BrokerC"
+- "5Franz11BrokerErrorO"
+- "s7CVarArgP"
+- "5Franz6BrokerC11CancelTokenC"
+- "Sl"
+- !private "SL"
+- !private "5Franz10ConnectionP"
+- !private "5Franz21ConsumerGroupMetadataC"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "5Franz21DescribeGroupsRequestC"
+- !private "5Franz22DescribeGroupsResponseC"
+- "SD"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "5Franz12FetchRequestC"
+- !private "5Franz13FetchResponseC"
+- !private "s17FixedWidthIntegerP"
+- !private "5Franz5GroupC"
+- !private "5Franz23GroupCoordinatorRequestC"
+- !private "5Franz24GroupCoordinatorResponseC"
+- !private "5Franz21GroupMemberAssignmentC"
+- !private "5Franz15GroupMembershipC"
+- !private "5Franz22GroupMembershipRequestC"
+- !private "5Franz18GroupStateResponseC"
+- "SH"
+- !private "5Franz16HeartbeatRequestC"
+- !private "5Franz17HeartbeatResponseC"
+- !private "s5Int32V"
+- !private "5Franz17JoinGroupResponseC"
+- !private "5Franz15KafkaConnectionC"
+- !private "5Franz14KafkaErrorCodeO"
+- !private "5Franz13KafkaMetadataP"
+- "5Franz12KafkaRequestC"
+- !private "5Franz13KafkaResponseP"
+- "5Franz9KafkaTypeP"
+- !private "5Franz23KafkaVariableLengthTypeP"
+- !private "5Franz17LeaveGroupRequestC"
+- !private "5Franz18LeaveGroupResponseC"
+- !private "5Franz17ListGroupsRequestC"
+- !private "5Franz18ListGroupsResponseC"
+- !private "s25LosslessStringConvertibleP"
+- !private "5Franz16MetadataResponseC"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "5Franz29OffsetCommitPartitionResponseC"
+- !private "5Franz19OffsetCommitRequestC"
+- !private "5Franz20OffsetCommitResponseC"
+- !private "5Franz25OffsetCommitTopicResponseC"
+- !private "5Franz020OffsetFetchPartitionB0C"
+- !private "5Franz18OffsetFetchRequestC"
+- !private "5Franz19OffsetFetchResponseC"
+- !private "5Franz24OffsetFetchTopicResponseC"
+- !private "5Franz13OffsetRequestC"
+- !private "5Franz14OffsetResponseC"
+- "s9OptionSetP"
+- !private "Sq"
+- !private "5Franz24PartitionedFetchResponseC"
+- !private "5Franz18PartitionedOffsetsC"
+- !private "5Franz14ProduceRequestC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "5Franz9ReplicaIdO"
+- !private "s10SIMDScalarP"
+- "7Combine9SchedulerP"
+- "ST"
+- "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "So16NSStreamDelegateP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "5Franz16SyncGroupRequestC"
+- !private "5Franz17SyncGroupResponseC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "5Franz10TimeOffsetO"
+- !private "5Franz20TopicMetadataRequestC"
+- !private "5Franz20TopicalFetchResponseC"
+- !private "5Franz25TopicalPartitionedOffsetsC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8b7686378c1ac4e874ea451dbea7929d"

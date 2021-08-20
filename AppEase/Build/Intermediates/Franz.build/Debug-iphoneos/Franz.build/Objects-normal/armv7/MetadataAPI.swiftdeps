@@ -1,0 +1,265 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TopicMetadataRequest"
+- "TopicMetadataRequestMessage"
+- "MetadataResponse"
+provides-nominal:
+- "5Franz20TopicMetadataRequestC"
+- "5Franz27TopicMetadataRequestMessageC"
+- "5Franz16MetadataResponseC"
+provides-member:
+- ["5Franz20TopicMetadataRequestC", ""]
+- ["5Franz27TopicMetadataRequestMessageC", ""]
+- ["5Franz16MetadataResponseC", ""]
+provides-dynamic-lookup:
+- "$__lazy_storage_$_data"
+- "$__lazy_storage_$_dataLength"
+- "_metadataBrokers"
+- "_topicMetadata"
+- "brokers"
+- "data"
+- "dataLength"
+- "topics"
+- "values"
+depends-top-level:
+- !private "+"
+- !private "ApiKey"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Broker"
+- "Data"
+- "Int"
+- "Int32"
+- "KafkaRequest"
+- "KafkaResponse"
+- "KafkaTopic"
+- "KafkaType"
+- "MetadataResponse"
+- "String"
+- "TopicMetadataRequest"
+- "TopicMetadataRequestMessage"
+- !private "_metadataBrokers"
+- !private "_topicMetadata"
+- "self"
+- !private "values"
+depends-member:
+- !private ["5Franz6ApiKeyO", "metadataRequest"]
+- ["Sa", ""]
+- ["Sa", "data"]
+- ["Sa", "dataLength"]
+- !private ["Sa", "init"]
+- ["SK", ""]
+- ["SK", "data"]
+- ["SK", "dataLength"]
+- !private ["SK", "init"]
+- !private ["5Franz6BrokerC", ""]
+- !private ["5Franz6BrokerC", "nodeId"]
+- ["s7CVarArgP", "data"]
+- ["s7CVarArgP", "dataLength"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- ["Sl", ""]
+- ["Sl", "data"]
+- ["Sl", "dataLength"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- ["10Foundation15ContiguousBytesP", "data"]
+- ["10Foundation15ContiguousBytesP", "dataLength"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "data"]
+- ["s28CustomDebugStringConvertibleP", "dataLength"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "data"]
+- ["s17CustomReflectableP", "dataLength"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "data"]
+- ["s23CustomStringConvertibleP", "dataLength"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["10Foundation12DataProtocolP", ""]
+- ["10Foundation12DataProtocolP", "data"]
+- ["10Foundation12DataProtocolP", "dataLength"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- ["Se", "data"]
+- ["Se", "dataLength"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["SE", "data"]
+- ["SE", "dataLength"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- ["SQ", "data"]
+- ["SQ", "dataLength"]
+- !private ["SQ", "init"]
+- !private ["SQ", "metadataRequest"]
+- !private ["SQ", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "data"]
+- ["s25ExpressibleByArrayLiteralP", "dataLength"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["SH", "data"]
+- ["SH", "dataLength"]
+- !private ["SH", "init"]
+- !private ["SH", "metadataRequest"]
+- !private ["SH", "subscript"]
+- !private ["5Franz12KafkaRequestC", "ApiKey"]
+- ["5Franz12KafkaRequestC", "String"]
+- ["5Franz12KafkaRequestC", "TopicMetadataRequestMessage"]
+- ["5Franz12KafkaRequestC", ""]
+- ["5Franz12KafkaRequestC", "init"]
+- !private ["5Franz13KafkaResponseP", "Broker"]
+- !private ["5Franz13KafkaResponseP", "Int32"]
+- !private ["5Franz13KafkaResponseP", "KafkaTopic"]
+- !private ["5Franz13KafkaResponseP", "String"]
+- ["5Franz13KafkaResponseP", ""]
+- !private ["5Franz13KafkaResponseP", "_metadataBrokers"]
+- !private ["5Franz13KafkaResponseP", "_topicMetadata"]
+- ["5Franz13KafkaResponseP", "init"]
+- !private ["5Franz13KafkaResponseP", "metadataBrokers"]
+- !private ["5Franz13KafkaResponseP", "topicMetadata"]
+- !private ["5Franz10KafkaTopicC", ""]
+- !private ["5Franz10KafkaTopicC", "name"]
+- !private ["5Franz9KafkaTypeP", "String"]
+- ["5Franz9KafkaTypeP", ""]
+- ["5Franz9KafkaTypeP", "data"]
+- ["5Franz9KafkaTypeP", "dataLength"]
+- ["5Franz9KafkaTypeP", "init"]
+- !private ["5Franz9KafkaTypeP", "name"]
+- !private ["5Franz9KafkaTypeP", "nodeId"]
+- ["5Franz9KafkaTypeP", "self"]
+- ["5Franz9KafkaTypeP", "values"]
+- ["5Franz16MetadataResponseC", "Broker"]
+- ["5Franz16MetadataResponseC", "Data"]
+- ["5Franz16MetadataResponseC", "Int"]
+- ["5Franz16MetadataResponseC", "Int32"]
+- ["5Franz16MetadataResponseC", "KafkaTopic"]
+- ["5Franz16MetadataResponseC", "String"]
+- !private ["5Franz16MetadataResponseC", "_metadataBrokers"]
+- !private ["5Franz16MetadataResponseC", "_topicMetadata"]
+- ["5Franz16MetadataResponseC", "brokers"]
+- ["5Franz16MetadataResponseC", "data"]
+- ["5Franz16MetadataResponseC", "dataLength"]
+- ["5Franz16MetadataResponseC", "deinit"]
+- ["5Franz16MetadataResponseC", "init"]
+- !private ["5Franz16MetadataResponseC", "metadataBrokers"]
+- !private ["5Franz16MetadataResponseC", "topicMetadata"]
+- ["5Franz16MetadataResponseC", "topics"]
+- ["SM", ""]
+- ["SM", "data"]
+- ["SM", "dataLength"]
+- !private ["SM", "init"]
+- ["10Foundation19MutableDataProtocolP", "data"]
+- ["10Foundation19MutableDataProtocolP", "dataLength"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- ["Sk", ""]
+- ["Sk", "data"]
+- ["Sk", "dataLength"]
+- !private ["Sk", "init"]
+- ["Sm", ""]
+- ["Sm", "data"]
+- ["Sm", "dataLength"]
+- !private ["Sm", "init"]
+- !private ["SY", "metadataRequest"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- ["ST", "data"]
+- ["ST", "dataLength"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "subscript"]
+- ["SS", ""]
+- !private ["5Franz20TopicMetadataRequestC", "ApiKey"]
+- ["5Franz20TopicMetadataRequestC", "String"]
+- ["5Franz20TopicMetadataRequestC", "TopicMetadataRequestMessage"]
+- ["5Franz20TopicMetadataRequestC", "deinit"]
+- ["5Franz20TopicMetadataRequestC", "init"]
+- !private ["5Franz27TopicMetadataRequestMessageC", "$__lazy_storage_$_data"]
+- !private ["5Franz27TopicMetadataRequestMessageC", "$__lazy_storage_$_dataLength"]
+- ["5Franz27TopicMetadataRequestMessageC", "Data"]
+- ["5Franz27TopicMetadataRequestMessageC", "Int"]
+- ["5Franz27TopicMetadataRequestMessageC", "String"]
+- ["5Franz27TopicMetadataRequestMessageC", ""]
+- ["5Franz27TopicMetadataRequestMessageC", "data"]
+- ["5Franz27TopicMetadataRequestMessageC", "dataLength"]
+- ["5Franz27TopicMetadataRequestMessageC", "deinit"]
+- ["5Franz27TopicMetadataRequestMessageC", "init"]
+- ["5Franz27TopicMetadataRequestMessageC", "self"]
+- ["5Franz27TopicMetadataRequestMessageC", "values"]
+- ["s14_ArrayProtocolP", "data"]
+- ["s14_ArrayProtocolP", "dataLength"]
+- !private ["s14_ArrayProtocolP", "init"]
+- ["s24_DestructorSafeContainerP", "data"]
+- ["s24_DestructorSafeContainerP", "dataLength"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- ["s19_HasContiguousBytesP", "data"]
+- ["s19_HasContiguousBytesP", "dataLength"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dataLength"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "data"]
+- ["s21_ObjectiveCBridgeableP", "dataLength"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "5Franz6ApiKeyO"
+- "Sa"
+- "SK"
+- !private "5Franz6BrokerC"
+- "s7CVarArgP"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "SD"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "5Franz12KafkaRequestC"
+- "5Franz13KafkaResponseP"
+- !private "5Franz10KafkaTopicC"
+- "5Franz9KafkaTypeP"
+- "5Franz16MetadataResponseC"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "ST"
+- "SS"
+- "5Franz20TopicMetadataRequestC"
+- "5Franz27TopicMetadataRequestMessageC"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4420ad155711c2e85e9ec98f122678c0"

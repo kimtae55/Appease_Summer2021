@@ -1,0 +1,391 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PedometerManager"
+provides-nominal:
+- "26AppEase_WatchKit_Extension16PedometerManagerC"
+provides-member:
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", ""]
+provides-dynamic-lookup:
+- "$distance"
+- "$steps"
+- "_distance"
+- "_steps"
+- "distance"
+- "getPedometerData"
+- "isPedometerAvailable"
+- "pedometer"
+- "steps"
+depends-top-level:
+- !private "&&"
+- "=="
+- !private "AssignmentPrecedence"
+- "Bool"
+- "CMPedometer"
+- !private "Calendar"
+- "Date"
+- "Double"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Measurement"
+- "ObservableObject"
+- "PedometerManager"
+- "Published"
+- "StringLiteralType"
+- "UnitLength"
+- !private "isPedometerAvailable"
+- "print"
+depends-member:
+- !private ["8CloudKit21CKRecordValueProtocolP", "doubleValue"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "intValue"]
+- ["So11CMPedometerC", "init"]
+- !private ["So11CMPedometerC", "isDistanceAvailable"]
+- !private ["So11CMPedometerC", "isPedometerEventTrackingAvailable"]
+- !private ["So11CMPedometerC", "isStepCountingAvailable"]
+- !private ["So11CMPedometerC", "queryPedometerData"]
+- !private ["So15CMPedometerDataC", "distance"]
+- !private ["So15CMPedometerDataC", "numberOfSteps"]
+- !private ["s7CVarArgP", "distance"]
+- !private ["s7CVarArgP", "doubleValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "isDistanceAvailable"]
+- !private ["s7CVarArgP", "isPedometerEventTrackingAvailable"]
+- !private ["s7CVarArgP", "isStepCountingAvailable"]
+- !private ["s7CVarArgP", "meters"]
+- !private ["s7CVarArgP", "miles"]
+- !private ["s7CVarArgP", "numberOfSteps"]
+- !private ["s7CVarArgP", "queryPedometerData"]
+- !private ["10Foundation8CalendarV", "current"]
+- !private ["10Foundation8CalendarV", "date"]
+- !private ["SL", "converted"]
+- !private ["SL", "init"]
+- !private ["SL", "value"]
+- !private ["10Foundation8CalendarV9ComponentO", "minute"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "converted"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isDistanceAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "isPedometerEventTrackingAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "isStepCountingAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "meters"]
+- !private ["s28CustomDebugStringConvertibleP", "miles"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfSteps"]
+- !private ["s28CustomDebugStringConvertibleP", "queryPedometerData"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "converted"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "date"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "value"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "converted"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "distance"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isDistanceAvailable"]
+- !private ["s23CustomStringConvertibleP", "isPedometerEventTrackingAvailable"]
+- !private ["s23CustomStringConvertibleP", "isStepCountingAvailable"]
+- !private ["s23CustomStringConvertibleP", "meters"]
+- !private ["s23CustomStringConvertibleP", "miles"]
+- !private ["s23CustomStringConvertibleP", "numberOfSteps"]
+- !private ["s23CustomStringConvertibleP", "queryPedometerData"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", "converted"]
+- !private ["Se", "current"]
+- !private ["Se", "date"]
+- !private ["Se", "init"]
+- !private ["Se", "value"]
+- ["So11NSDimensionC", ""]
+- !private ["So11NSDimensionC", "meters"]
+- !private ["So11NSDimensionC", "miles"]
+- !private ["SE", "converted"]
+- !private ["SE", "current"]
+- !private ["SE", "date"]
+- !private ["SE", "init"]
+- !private ["SE", "value"]
+- ["SQ", ""]
+- !private ["SQ", "converted"]
+- !private ["SQ", "current"]
+- !private ["SQ", "date"]
+- !private ["SQ", "distance"]
+- !private ["SQ", "doubleValue"]
+- ["SQ", "init"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "isDistanceAvailable"]
+- !private ["SQ", "isPedometerEventTrackingAvailable"]
+- !private ["SQ", "isStepCountingAvailable"]
+- !private ["SQ", "meters"]
+- !private ["SQ", "miles"]
+- !private ["SQ", "minute"]
+- !private ["SQ", "numberOfSteps"]
+- !private ["SQ", "queryPedometerData"]
+- !private ["SQ", "value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "converted"]
+- !private ["SH", "current"]
+- !private ["SH", "date"]
+- !private ["SH", "distance"]
+- !private ["SH", "doubleValue"]
+- ["SH", "init"]
+- !private ["SH", "intValue"]
+- !private ["SH", "isDistanceAvailable"]
+- !private ["SH", "isPedometerEventTrackingAvailable"]
+- !private ["SH", "isStepCountingAvailable"]
+- !private ["SH", "meters"]
+- !private ["SH", "miles"]
+- !private ["SH", "minute"]
+- !private ["SH", "numberOfSteps"]
+- !private ["SH", "queryPedometerData"]
+- !private ["SH", "value"]
+- !private ["10Foundation11MeasurementV", "converted"]
+- !private ["10Foundation11MeasurementV", "init"]
+- !private ["10Foundation11MeasurementV", "value"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "distance"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So8NSCodingP", "meters"]
+- !private ["So8NSCodingP", "miles"]
+- !private ["So8NSCodingP", "numberOfSteps"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "distance"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So9NSCopyingP", "meters"]
+- !private ["So9NSCopyingP", "miles"]
+- !private ["So9NSCopyingP", "numberOfSteps"]
+- !private ["So20NSFetchRequestResultP", "doubleValue"]
+- !private ["So20NSFetchRequestResultP", "intValue"]
+- !private ["So8NSNumberC", "doubleValue"]
+- !private ["So8NSNumberC", "intValue"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "distance"]
+- !private ["So8NSObjectC", "doubleValue"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "intValue"]
+- !private ["So8NSObjectC", "isDistanceAvailable"]
+- !private ["So8NSObjectC", "isPedometerEventTrackingAvailable"]
+- !private ["So8NSObjectC", "isStepCountingAvailable"]
+- !private ["So8NSObjectC", "meters"]
+- !private ["So8NSObjectC", "miles"]
+- !private ["So8NSObjectC", "numberOfSteps"]
+- !private ["So8NSObjectC", "queryPedometerData"]
+- !private ["So8NSObjectC", "queryPedometerDataFromDate"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "distance"]
+- !private ["So8NSObjectP", "doubleValue"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intValue"]
+- !private ["So8NSObjectP", "isDistanceAvailable"]
+- !private ["So8NSObjectP", "isPedometerEventTrackingAvailable"]
+- !private ["So8NSObjectP", "isStepCountingAvailable"]
+- !private ["So8NSObjectP", "meters"]
+- !private ["So8NSObjectP", "miles"]
+- !private ["So8NSObjectP", "numberOfSteps"]
+- !private ["So8NSObjectP", "queryPedometerData"]
+- !private ["So8NSObjectP", "queryPedometerDataFromDate"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "distance"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So14NSSecureCodingP", "meters"]
+- !private ["So14NSSecureCodingP", "miles"]
+- !private ["So14NSSecureCodingP", "numberOfSteps"]
+- ["So7NSValueC", ""]
+- !private ["So7NSValueC", "doubleValue"]
+- !private ["So7NSValueC", "intValue"]
+- ["7Combine16ObservableObjectP", "CMPedometer"]
+- !private ["7Combine16ObservableObjectP", "Calendar"]
+- !private ["7Combine16ObservableObjectP", "Date"]
+- ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Failure"]
+- !private ["7Combine16ObservableObjectP", "Measurement"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Published"]
+- !private ["7Combine16ObservableObjectP", "UnitLength"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_distance"]
+- !private ["7Combine16ObservableObjectP", "_steps"]
+- !private ["7Combine16ObservableObjectP", "distance"]
+- !private ["7Combine16ObservableObjectP", "isPedometerAvailable"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "pedometer"]
+- !private ["7Combine16ObservableObjectP", "print"]
+- !private ["7Combine16ObservableObjectP", "steps"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "$distance"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "$steps"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "Bool"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "CMPedometer"]
+- !private ["26AppEase_WatchKit_Extension16PedometerManagerC", "Calendar"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "Date"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "Default_ObjectWillChangePublisher"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "Double"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "Int"]
+- !private ["26AppEase_WatchKit_Extension16PedometerManagerC", "Measurement"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "ObjectWillChangePublisher"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "Published"]
+- !private ["26AppEase_WatchKit_Extension16PedometerManagerC", "UnitLength"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", ""]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "_Default_ObjectWillChangePublisher"]
+- !private ["26AppEase_WatchKit_Extension16PedometerManagerC", "_distance"]
+- !private ["26AppEase_WatchKit_Extension16PedometerManagerC", "_steps"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "deinit"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "distance"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "getPedometerData"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "init"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "isPedometerAvailable"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "objectWillChange"]
+- !private ["26AppEase_WatchKit_Extension16PedometerManagerC", "pedometer"]
+- !private ["26AppEase_WatchKit_Extension16PedometerManagerC", "print"]
+- ["26AppEase_WatchKit_Extension16PedometerManagerC", "steps"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "converted"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["10Foundation20ReferenceConvertibleP", "date"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "value"]
+- ["So6NSUnitC", ""]
+- !private ["So6NSUnitC", "meters"]
+- !private ["So6NSUnitC", "miles"]
+- !private ["So12NSUnitLengthC", "meters"]
+- !private ["So12NSUnitLengthC", "miles"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isDistanceAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isPedometerEventTrackingAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isStepCountingAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "meters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "miles"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSteps"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queryPedometerData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "distance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "doubleValue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "intValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isDistanceAvailable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isPedometerEventTrackingAvailable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isStepCountingAvailable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "meters"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "miles"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfSteps"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "queryPedometerData"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "converted"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "date"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "value"]
+- !private ["So13CKRecordValueP", "doubleValue"]
+- !private ["So13CKRecordValueP", "intValue"]
+depends-nominal:
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "So11CMPedometerC"
+- !private "So15CMPedometerDataC"
+- "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- "So11NSDimensionC"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "10Foundation11MeasurementV"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So7NSValueC"
+- "7Combine16ObservableObjectP"
+- "26AppEase_WatchKit_Extension16PedometerManagerC"
+- "7Combine9PublishedV"
+- !private "10Foundation20ReferenceConvertibleP"
+- "So6NSUnitC"
+- !private "So12NSUnitLengthC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/_WatchKit_SwiftUI.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/HomeKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/HealthKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/ClockKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/HomeKit.framework/Headers/HomeKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "b9f8bb0ce7ab0bb48b95bca77b24ebf3"

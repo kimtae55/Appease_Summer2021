@@ -1,0 +1,402 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TimeOffset"
+- "MinBytes"
+- "ReplicaId"
+- "KafkaErrorCode"
+- "RequestAcknowledgement"
+- "CompressionCodec"
+- "ApiKey"
+- "ApiVersion"
+- "GroupProtocol"
+- "GroupState"
+- "AssignmentStrategy"
+provides-nominal:
+- "5Franz10TimeOffsetO"
+- "5Franz8MinBytesO"
+- "5Franz9ReplicaIdO"
+- "5Franz14KafkaErrorCodeO"
+- "5Franz22RequestAcknowledgementO"
+- "5Franz16CompressionCodecO"
+- "5Franz6ApiKeyO"
+- "5Franz10ApiVersionO"
+- "5Franz13GroupProtocolO"
+- "5Franz10GroupStateO"
+- "5Franz18AssignmentStrategyO"
+provides-member:
+- ["5Franz10TimeOffsetO", ""]
+- ["5Franz8MinBytesO", ""]
+- ["5Franz9ReplicaIdO", ""]
+- ["5Franz14KafkaErrorCodeO", ""]
+- ["5Franz22RequestAcknowledgementO", ""]
+- ["5Franz16CompressionCodecO", ""]
+- ["5Franz6ApiKeyO", ""]
+- ["5Franz10ApiVersionO", ""]
+- ["5Franz13GroupProtocolO", ""]
+- ["5Franz10GroupStateO", ""]
+- ["5Franz18AssignmentStrategyO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "=="
+- "ApiKey"
+- "ApiVersion"
+- !private "Array"
+- "AssignmentStrategy"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CompressionCodec"
+- "FloatLiteralType"
+- "GroupProtocol"
+- "GroupState"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "IntegerLiteralType"
+- "KafkaErrorCode"
+- "MinBytes"
+- "ReplicaId"
+- "RequestAcknowledgement"
+- "String"
+- "StringLiteralType"
+- "TimeOffset"
+- "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "v0"
+- !private "~="
+depends-member:
+- ["5Franz6ApiKeyO", "=="]
+- ["5Franz6ApiKeyO", "Default_RawValue"]
+- ["5Franz6ApiKeyO", "RawValue"]
+- ["5Franz6ApiKeyO", ""]
+- ["5Franz6ApiKeyO", "_Default_RawValue"]
+- ["5Franz6ApiKeyO", "_rawHashValue"]
+- ["5Franz6ApiKeyO", "describeGroupsRequest"]
+- ["5Franz6ApiKeyO", "fetchRequest"]
+- ["5Franz6ApiKeyO", "groupCoordinatorRequest"]
+- ["5Franz6ApiKeyO", "hash"]
+- ["5Franz6ApiKeyO", "hashValue"]
+- ["5Franz6ApiKeyO", "heartbeatRequest"]
+- ["5Franz6ApiKeyO", "init"]
+- ["5Franz6ApiKeyO", "joinGroupRequest"]
+- ["5Franz6ApiKeyO", "leaveGroupRequest"]
+- ["5Franz6ApiKeyO", "listGroupsRequest"]
+- ["5Franz6ApiKeyO", "metadataRequest"]
+- ["5Franz6ApiKeyO", "offsetCommitRequest"]
+- ["5Franz6ApiKeyO", "offsetFetchRequest"]
+- ["5Franz6ApiKeyO", "offsetRequest"]
+- ["5Franz6ApiKeyO", "produceRequest"]
+- ["5Franz6ApiKeyO", "rawValue"]
+- ["5Franz6ApiKeyO", "syncGroupRequest"]
+- ["5Franz10ApiVersionO", "=="]
+- ["5Franz10ApiVersionO", "ApiVersion"]
+- ["5Franz10ApiVersionO", "Default_RawValue"]
+- ["5Franz10ApiVersionO", "RawValue"]
+- ["5Franz10ApiVersionO", ""]
+- ["5Franz10ApiVersionO", "_Default_RawValue"]
+- ["5Franz10ApiVersionO", "_rawHashValue"]
+- ["5Franz10ApiVersionO", "defaultVersion"]
+- ["5Franz10ApiVersionO", "hash"]
+- ["5Franz10ApiVersionO", "hashValue"]
+- ["5Franz10ApiVersionO", "init"]
+- ["5Franz10ApiVersionO", "rawValue"]
+- ["5Franz10ApiVersionO", "v0"]
+- ["5Franz10ApiVersionO", "v1"]
+- ["5Franz10ApiVersionO", "v2"]
+- ["5Franz18AssignmentStrategyO", "=="]
+- ["5Franz18AssignmentStrategyO", "Default_RawValue"]
+- ["5Franz18AssignmentStrategyO", "Range"]
+- ["5Franz18AssignmentStrategyO", "RawValue"]
+- ["5Franz18AssignmentStrategyO", "RoundRobin"]
+- ["5Franz18AssignmentStrategyO", ""]
+- ["5Franz18AssignmentStrategyO", "_Default_RawValue"]
+- !private ["5Franz18AssignmentStrategyO", "_findStringSwitchCase"]
+- ["5Franz18AssignmentStrategyO", "_rawHashValue"]
+- !private ["5Franz18AssignmentStrategyO", "findStringSwitchCase"]
+- ["5Franz18AssignmentStrategyO", "hash"]
+- ["5Franz18AssignmentStrategyO", "hashValue"]
+- ["5Franz18AssignmentStrategyO", "init"]
+- ["5Franz18AssignmentStrategyO", "rawValue"]
+- ["5Franz16CompressionCodecO", "=="]
+- ["5Franz16CompressionCodecO", "Default_RawValue"]
+- ["5Franz16CompressionCodecO", "RawValue"]
+- ["5Franz16CompressionCodecO", ""]
+- ["5Franz16CompressionCodecO", "_Default_RawValue"]
+- ["5Franz16CompressionCodecO", "_rawHashValue"]
+- ["5Franz16CompressionCodecO", "gzip"]
+- ["5Franz16CompressionCodecO", "hash"]
+- ["5Franz16CompressionCodecO", "hashValue"]
+- ["5Franz16CompressionCodecO", "init"]
+- ["5Franz16CompressionCodecO", "none"]
+- ["5Franz16CompressionCodecO", "rawValue"]
+- ["5Franz16CompressionCodecO", "snappy"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "brokerNotAvailable"]
+- ["SQ", "clusterAuthorizationFailedCode"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "groupAuthorizationFailedCode"]
+- ["SQ", "groupCoordinatorNotAvailableCode"]
+- ["SQ", "groupLoadInProgressCode"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "illegalGenerationCode"]
+- ["SQ", "inconsistentGroupProtocolCode"]
+- ["SQ", "init"]
+- ["SQ", "invalidCommitOffsetSizeCode"]
+- ["SQ", "invalidGroupIdCode"]
+- ["SQ", "invalidMessage"]
+- ["SQ", "invalidMessageSize"]
+- ["SQ", "invalidRequiredAcksCode"]
+- ["SQ", "invalidSessionTimeoutCode"]
+- ["SQ", "invalidTopicCode"]
+- ["SQ", "leaderNotAvailable"]
+- ["SQ", "messageSizeTooLarge"]
+- ["SQ", "noError"]
+- ["SQ", "notCoordinatorForGroupCode"]
+- ["SQ", "notEnoughReplicasAfterAppendCode"]
+- ["SQ", "notEnoughReplicasCode"]
+- ["SQ", "notLeaderForPartition"]
+- ["SQ", "offsetMetadataTooLargeCode"]
+- ["SQ", "offsetOutOfRange"]
+- ["SQ", "rawValue"]
+- ["SQ", "rebalanceInProgressCode"]
+- ["SQ", "recordListTooLargeCode"]
+- ["SQ", "replicaNotAvailable"]
+- ["SQ", "requestTimedOut"]
+- ["SQ", "staleControllerEpochCode"]
+- ["SQ", "topicAuthorizationFailedCode"]
+- ["SQ", "unknown"]
+- ["SQ", "unknownMemberIdCode"]
+- ["SQ", "unknownTopicOrPartition"]
+- !private ["SQ", "v0"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["5Franz13GroupProtocolO", "String"]
+- ["5Franz13GroupProtocolO", "consumer"]
+- ["5Franz13GroupProtocolO", "custom"]
+- ["5Franz13GroupProtocolO", "value"]
+- ["5Franz10GroupStateO", "=="]
+- ["5Franz10GroupStateO", "AwaitingSync"]
+- ["5Franz10GroupStateO", "Dead"]
+- ["5Franz10GroupStateO", "Default_RawValue"]
+- ["5Franz10GroupStateO", "Down"]
+- ["5Franz10GroupStateO", "Empty"]
+- ["5Franz10GroupStateO", "Initialize"]
+- ["5Franz10GroupStateO", "Joining"]
+- ["5Franz10GroupStateO", "PreparingRebalance"]
+- ["5Franz10GroupStateO", "RawValue"]
+- ["5Franz10GroupStateO", "Stable"]
+- ["5Franz10GroupStateO", ""]
+- ["5Franz10GroupStateO", "_Default_RawValue"]
+- !private ["5Franz10GroupStateO", "_findStringSwitchCase"]
+- ["5Franz10GroupStateO", "_rawHashValue"]
+- !private ["5Franz10GroupStateO", "findStringSwitchCase"]
+- ["5Franz10GroupStateO", "hash"]
+- ["5Franz10GroupStateO", "hashValue"]
+- ["5Franz10GroupStateO", "init"]
+- ["5Franz10GroupStateO", "rawValue"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "brokerNotAvailable"]
+- ["SH", "clusterAuthorizationFailedCode"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "groupAuthorizationFailedCode"]
+- ["SH", "groupCoordinatorNotAvailableCode"]
+- ["SH", "groupLoadInProgressCode"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "illegalGenerationCode"]
+- ["SH", "inconsistentGroupProtocolCode"]
+- ["SH", "init"]
+- ["SH", "invalidCommitOffsetSizeCode"]
+- ["SH", "invalidGroupIdCode"]
+- ["SH", "invalidMessage"]
+- ["SH", "invalidMessageSize"]
+- ["SH", "invalidRequiredAcksCode"]
+- ["SH", "invalidSessionTimeoutCode"]
+- ["SH", "invalidTopicCode"]
+- ["SH", "leaderNotAvailable"]
+- ["SH", "messageSizeTooLarge"]
+- ["SH", "noError"]
+- ["SH", "notCoordinatorForGroupCode"]
+- ["SH", "notEnoughReplicasAfterAppendCode"]
+- ["SH", "notEnoughReplicasCode"]
+- ["SH", "notLeaderForPartition"]
+- ["SH", "offsetMetadataTooLargeCode"]
+- ["SH", "offsetOutOfRange"]
+- ["SH", "rawValue"]
+- ["SH", "rebalanceInProgressCode"]
+- ["SH", "recordListTooLargeCode"]
+- ["SH", "replicaNotAvailable"]
+- ["SH", "requestTimedOut"]
+- ["SH", "staleControllerEpochCode"]
+- ["SH", "topicAuthorizationFailedCode"]
+- ["SH", "unknown"]
+- ["SH", "unknownMemberIdCode"]
+- ["SH", "unknownTopicOrPartition"]
+- !private ["SH", "v0"]
+- ["5Franz14KafkaErrorCodeO", "=="]
+- ["5Franz14KafkaErrorCodeO", "Bool"]
+- ["5Franz14KafkaErrorCodeO", "Default_RawValue"]
+- ["5Franz14KafkaErrorCodeO", "Int16"]
+- ["5Franz14KafkaErrorCodeO", "RawValue"]
+- ["5Franz14KafkaErrorCodeO", "String"]
+- ["5Franz14KafkaErrorCodeO", ""]
+- ["5Franz14KafkaErrorCodeO", "_Default_RawValue"]
+- ["5Franz14KafkaErrorCodeO", "_rawHashValue"]
+- ["5Franz14KafkaErrorCodeO", "brokerNotAvailable"]
+- ["5Franz14KafkaErrorCodeO", "clusterAuthorizationFailedCode"]
+- ["5Franz14KafkaErrorCodeO", "code"]
+- ["5Franz14KafkaErrorCodeO", "description"]
+- ["5Franz14KafkaErrorCodeO", "groupAuthorizationFailedCode"]
+- ["5Franz14KafkaErrorCodeO", "groupCoordinatorNotAvailableCode"]
+- ["5Franz14KafkaErrorCodeO", "groupLoadInProgressCode"]
+- ["5Franz14KafkaErrorCodeO", "hash"]
+- ["5Franz14KafkaErrorCodeO", "hashValue"]
+- ["5Franz14KafkaErrorCodeO", "illegalGenerationCode"]
+- ["5Franz14KafkaErrorCodeO", "inconsistentGroupProtocolCode"]
+- ["5Franz14KafkaErrorCodeO", "init"]
+- ["5Franz14KafkaErrorCodeO", "invalidCommitOffsetSizeCode"]
+- ["5Franz14KafkaErrorCodeO", "invalidGroupIdCode"]
+- ["5Franz14KafkaErrorCodeO", "invalidMessage"]
+- ["5Franz14KafkaErrorCodeO", "invalidMessageSize"]
+- ["5Franz14KafkaErrorCodeO", "invalidRequiredAcksCode"]
+- ["5Franz14KafkaErrorCodeO", "invalidSessionTimeoutCode"]
+- ["5Franz14KafkaErrorCodeO", "invalidTopicCode"]
+- ["5Franz14KafkaErrorCodeO", "leaderNotAvailable"]
+- ["5Franz14KafkaErrorCodeO", "messageSizeTooLarge"]
+- ["5Franz14KafkaErrorCodeO", "noError"]
+- ["5Franz14KafkaErrorCodeO", "notCoordinatorForGroupCode"]
+- ["5Franz14KafkaErrorCodeO", "notEnoughReplicasAfterAppendCode"]
+- ["5Franz14KafkaErrorCodeO", "notEnoughReplicasCode"]
+- ["5Franz14KafkaErrorCodeO", "notLeaderForPartition"]
+- ["5Franz14KafkaErrorCodeO", "offsetMetadataTooLargeCode"]
+- ["5Franz14KafkaErrorCodeO", "offsetOutOfRange"]
+- ["5Franz14KafkaErrorCodeO", "rawValue"]
+- ["5Franz14KafkaErrorCodeO", "rebalanceInProgressCode"]
+- ["5Franz14KafkaErrorCodeO", "recordListTooLargeCode"]
+- ["5Franz14KafkaErrorCodeO", "replicaNotAvailable"]
+- ["5Franz14KafkaErrorCodeO", "requestTimedOut"]
+- ["5Franz14KafkaErrorCodeO", "retriable"]
+- ["5Franz14KafkaErrorCodeO", "staleControllerEpochCode"]
+- ["5Franz14KafkaErrorCodeO", "topicAuthorizationFailedCode"]
+- ["5Franz14KafkaErrorCodeO", "unknown"]
+- ["5Franz14KafkaErrorCodeO", "unknownMemberIdCode"]
+- ["5Franz14KafkaErrorCodeO", "unknownTopicOrPartition"]
+- ["5Franz8MinBytesO", "Int32"]
+- ["5Franz8MinBytesO", "many"]
+- ["5Franz8MinBytesO", "none"]
+- ["5Franz8MinBytesO", "one"]
+- ["5Franz8MinBytesO", "value"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "brokerNotAvailable"]
+- ["SY", "clusterAuthorizationFailedCode"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "groupAuthorizationFailedCode"]
+- ["SY", "groupCoordinatorNotAvailableCode"]
+- ["SY", "groupLoadInProgressCode"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "illegalGenerationCode"]
+- ["SY", "inconsistentGroupProtocolCode"]
+- ["SY", "init"]
+- ["SY", "invalidCommitOffsetSizeCode"]
+- ["SY", "invalidGroupIdCode"]
+- ["SY", "invalidMessage"]
+- ["SY", "invalidMessageSize"]
+- ["SY", "invalidRequiredAcksCode"]
+- ["SY", "invalidSessionTimeoutCode"]
+- ["SY", "invalidTopicCode"]
+- ["SY", "leaderNotAvailable"]
+- ["SY", "messageSizeTooLarge"]
+- ["SY", "noError"]
+- ["SY", "notCoordinatorForGroupCode"]
+- ["SY", "notEnoughReplicasAfterAppendCode"]
+- ["SY", "notEnoughReplicasCode"]
+- ["SY", "notLeaderForPartition"]
+- ["SY", "offsetMetadataTooLargeCode"]
+- ["SY", "offsetOutOfRange"]
+- ["SY", "rawValue"]
+- ["SY", "rebalanceInProgressCode"]
+- ["SY", "recordListTooLargeCode"]
+- ["SY", "replicaNotAvailable"]
+- ["SY", "requestTimedOut"]
+- ["SY", "staleControllerEpochCode"]
+- ["SY", "topicAuthorizationFailedCode"]
+- ["SY", "unknown"]
+- ["SY", "unknownMemberIdCode"]
+- ["SY", "unknownTopicOrPartition"]
+- !private ["SY", "v0"]
+- ["5Franz9ReplicaIdO", "Int32"]
+- ["5Franz9ReplicaIdO", "debug"]
+- ["5Franz9ReplicaIdO", "node"]
+- ["5Franz9ReplicaIdO", "none"]
+- ["5Franz9ReplicaIdO", "value"]
+- ["5Franz22RequestAcknowledgementO", "Int16"]
+- ["5Franz22RequestAcknowledgementO", "block"]
+- ["5Franz22RequestAcknowledgementO", "blockUntil"]
+- ["5Franz22RequestAcknowledgementO", "noResponse"]
+- ["5Franz22RequestAcknowledgementO", "value"]
+- ["5Franz22RequestAcknowledgementO", "wait"]
+- ["5Franz10TimeOffsetO", "Int64"]
+- ["5Franz10TimeOffsetO", "earliest"]
+- ["5Franz10TimeOffsetO", "latest"]
+- ["5Franz10TimeOffsetO", "preceding"]
+- ["5Franz10TimeOffsetO", "value"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "5Franz6ApiKeyO"
+- "5Franz10ApiVersionO"
+- "5Franz18AssignmentStrategyO"
+- "5Franz16CompressionCodecO"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "5Franz13GroupProtocolO"
+- "5Franz10GroupStateO"
+- "SH"
+- "5Franz14KafkaErrorCodeO"
+- "5Franz8MinBytesO"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "SY"
+- "5Franz9ReplicaIdO"
+- "5Franz22RequestAcknowledgementO"
+- "5Franz10TimeOffsetO"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "310c613fdaef38068494e1335d44b99d"

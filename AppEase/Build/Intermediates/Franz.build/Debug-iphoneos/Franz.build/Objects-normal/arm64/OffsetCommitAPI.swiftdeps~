@@ -1,0 +1,613 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OffsetMetadata"
+- "OffsetCommitRequest"
+- "OffsetCommitRequestMessage"
+- "OffsetCommitTopic"
+- "OffsetCommitPartitionOffset"
+- "OffsetCommitResponse"
+- "OffsetCommitTopicResponse"
+- "OffsetCommitPartitionResponse"
+provides-nominal:
+- "5Franz19OffsetCommitRequestC"
+- "5Franz26OffsetCommitRequestMessageC"
+- "5Franz17OffsetCommitTopicC"
+- "5Franz021OffsetCommitPartitionB0C"
+- "5Franz20OffsetCommitResponseC"
+- "5Franz25OffsetCommitTopicResponseC"
+- "5Franz29OffsetCommitPartitionResponseC"
+provides-member:
+- ["5Franz19OffsetCommitRequestC", ""]
+- ["5Franz26OffsetCommitRequestMessageC", ""]
+- ["5Franz17OffsetCommitTopicC", ""]
+- ["5Franz021OffsetCommitPartitionB0C", ""]
+- ["5Franz20OffsetCommitResponseC", ""]
+- ["5Franz25OffsetCommitTopicResponseC", ""]
+- ["5Franz29OffsetCommitPartitionResponseC", ""]
+provides-dynamic-lookup:
+- "consumerGroupGenerationId"
+- "consumerGroupId"
+- "consumerId"
+- "data"
+- "dataLength"
+- "error"
+- "errorCode"
+- "metadata"
+- "offset"
+- "partition"
+- "partitions"
+- "retentionTime"
+- "topicName"
+- "topics"
+depends-top-level:
+- !private "+"
+- !private "+="
+- !private "ApiKey"
+- "AssignmentPrecedence"
+- "Data"
+- "FloatLiteralType"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "IntegerLiteralType"
+- "KafkaErrorCode"
+- "KafkaRequest"
+- "KafkaResponse"
+- "KafkaType"
+- "Offset"
+- "OffsetCommitPartitionOffset"
+- "OffsetCommitPartitionResponse"
+- "OffsetCommitRequest"
+- "OffsetCommitRequestMessage"
+- "OffsetCommitResponse"
+- "OffsetCommitTopic"
+- "OffsetCommitTopicResponse"
+- "OffsetMetadata"
+- "PartitionId"
+- "String"
+- "TopicName"
+- !private "consumerGroupGenerationId"
+- !private "consumerGroupId"
+- !private "consumerId"
+- !private "dataLength"
+- !private "errorCode"
+- !private "metadata"
+- !private "offset"
+- !private "partition"
+- !private "partitions"
+- !private "retentionTime"
+- !private "topicName"
+- !private "topics"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "data"]
+- !private ["s18AdditiveArithmeticP", "dataLength"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["5Franz6ApiKeyO", "offsetCommitRequest"]
+- !private ["5Franz10ApiVersionO", "v2"]
+- !private ["Sa", ""]
+- !private ["Sa", "data"]
+- !private ["Sa", "dataLength"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reduce"]
+- !private ["SK", ""]
+- !private ["SK", "data"]
+- !private ["SK", "dataLength"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "reduce"]
+- !private ["Sz", ""]
+- !private ["Sz", "data"]
+- !private ["Sz", "dataLength"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataLength"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["Sl", ""]
+- !private ["Sl", "data"]
+- !private ["Sl", "dataLength"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "reduce"]
+- !private ["SL", ""]
+- !private ["SL", "data"]
+- !private ["SL", "dataLength"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "data"]
+- !private ["10Foundation15ContiguousBytesP", "dataLength"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataLength"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "dataLength"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataLength"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["10Foundation4DataV", ""]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "data"]
+- !private ["10Foundation12DataProtocolP", "dataLength"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["Se", "data"]
+- !private ["Se", "dataLength"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "reduce"]
+- !private ["SD", "map"]
+- !private ["SE", "data"]
+- !private ["SE", "dataLength"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "reduce"]
+- !private ["SQ", ""]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataLength"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "offsetCommitRequest"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "v2"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "data"]
+- !private ["s25ExpressibleByArrayLiteralP", "dataLength"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dataLength"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "data"]
+- !private ["s27ExpressibleByIntegerLiteralP", "dataLength"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "data"]
+- !private ["s23ExpressibleByNilLiteralP", "dataLength"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "dataLength"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "dataLength"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dataLength"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "data"]
+- !private ["s17FixedWidthIntegerP", "dataLength"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "data"]
+- !private ["SH", "dataLength"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "offsetCommitRequest"]
+- !private ["SH", "reduce"]
+- !private ["SH", "v2"]
+- !private ["s5Int16V", ""]
+- !private ["s5Int16V", "data"]
+- !private ["s5Int16V", "dataLength"]
+- !private ["s5Int16V", "init"]
+- !private ["s5Int32V", ""]
+- !private ["s5Int32V", "data"]
+- !private ["s5Int32V", "dataLength"]
+- !private ["s5Int32V", "init"]
+- !private ["s5Int64V", ""]
+- !private ["s5Int64V", "data"]
+- !private ["s5Int64V", "dataLength"]
+- !private ["s5Int64V", "init"]
+- !private ["5Franz14KafkaErrorCodeO", ""]
+- !private ["5Franz14KafkaErrorCodeO", "init"]
+- !private ["5Franz12KafkaRequestC", "ApiKey"]
+- ["5Franz12KafkaRequestC", "Int32"]
+- ["5Franz12KafkaRequestC", "Int64"]
+- ["5Franz12KafkaRequestC", "Offset"]
+- ["5Franz12KafkaRequestC", "OffsetCommitRequestMessage"]
+- ["5Franz12KafkaRequestC", "OffsetMetadata"]
+- ["5Franz12KafkaRequestC", "PartitionId"]
+- ["5Franz12KafkaRequestC", "String"]
+- ["5Franz12KafkaRequestC", "TopicName"]
+- ["5Franz12KafkaRequestC", ""]
+- ["5Franz12KafkaRequestC", "init"]
+- !private ["5Franz13KafkaResponseP", "OffsetCommitTopicResponse"]
+- ["5Franz13KafkaResponseP", ""]
+- ["5Franz13KafkaResponseP", "init"]
+- !private ["5Franz13KafkaResponseP", "topics"]
+- !private ["5Franz9KafkaTypeP", "Data"]
+- !private ["5Franz9KafkaTypeP", "Int16"]
+- !private ["5Franz9KafkaTypeP", "Int32"]
+- !private ["5Franz9KafkaTypeP", "Int64"]
+- !private ["5Franz9KafkaTypeP", "KafkaErrorCode"]
+- !private ["5Franz9KafkaTypeP", "Offset"]
+- !private ["5Franz9KafkaTypeP", "OffsetCommitPartitionOffset"]
+- !private ["5Franz9KafkaTypeP", "OffsetCommitPartitionResponse"]
+- !private ["5Franz9KafkaTypeP", "OffsetCommitTopic"]
+- !private ["5Franz9KafkaTypeP", "PartitionId"]
+- !private ["5Franz9KafkaTypeP", "String"]
+- ["5Franz9KafkaTypeP", ""]
+- !private ["5Franz9KafkaTypeP", "consumerGroupGenerationId"]
+- !private ["5Franz9KafkaTypeP", "consumerGroupId"]
+- !private ["5Franz9KafkaTypeP", "consumerId"]
+- ["5Franz9KafkaTypeP", "data"]
+- ["5Franz9KafkaTypeP", "dataLength"]
+- !private ["5Franz9KafkaTypeP", "errorCode"]
+- ["5Franz9KafkaTypeP", "init"]
+- !private ["5Franz9KafkaTypeP", "map"]
+- !private ["5Franz9KafkaTypeP", "metadata"]
+- !private ["5Franz9KafkaTypeP", "offset"]
+- !private ["5Franz9KafkaTypeP", "partition"]
+- !private ["5Franz9KafkaTypeP", "partitions"]
+- !private ["5Franz9KafkaTypeP", "reduce"]
+- !private ["5Franz9KafkaTypeP", "retentionTime"]
+- !private ["5Franz9KafkaTypeP", "topicName"]
+- !private ["5Franz9KafkaTypeP", "topics"]
+- !private ["5Franz23KafkaVariableLengthTypeP", "data"]
+- !private ["5Franz23KafkaVariableLengthTypeP", "dataLength"]
+- !private ["5Franz23KafkaVariableLengthTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "dataLength"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "dataLength"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "data"]
+- !private ["SM", "dataLength"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["SM", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "data"]
+- !private ["10Foundation19MutableDataProtocolP", "dataLength"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "dataLength"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "dataLength"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderReadingP", "dataLength"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So21NSItemProviderWritingP", "dataLength"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So16NSMutableCopyingP", "dataLength"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataLength"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataLength"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "dataLength"]
+- !private ["So8NSStringC", "data"]
+- !private ["So8NSStringC", "dataLength"]
+- !private ["Sj", ""]
+- !private ["Sj", "data"]
+- !private ["Sj", "dataLength"]
+- !private ["Sj", "init"]
+- ["5Franz021OffsetCommitPartitionB0C", "Data"]
+- ["5Franz021OffsetCommitPartitionB0C", "Int"]
+- ["5Franz021OffsetCommitPartitionB0C", "Offset"]
+- ["5Franz021OffsetCommitPartitionB0C", "PartitionId"]
+- ["5Franz021OffsetCommitPartitionB0C", "String"]
+- ["5Franz021OffsetCommitPartitionB0C", ""]
+- ["5Franz021OffsetCommitPartitionB0C", "data"]
+- ["5Franz021OffsetCommitPartitionB0C", "dataLength"]
+- ["5Franz021OffsetCommitPartitionB0C", "deinit"]
+- ["5Franz021OffsetCommitPartitionB0C", "init"]
+- ["5Franz021OffsetCommitPartitionB0C", "metadata"]
+- ["5Franz021OffsetCommitPartitionB0C", "offset"]
+- ["5Franz021OffsetCommitPartitionB0C", "partition"]
+- ["5Franz29OffsetCommitPartitionResponseC", "Data"]
+- ["5Franz29OffsetCommitPartitionResponseC", "Int"]
+- ["5Franz29OffsetCommitPartitionResponseC", "Int16"]
+- ["5Franz29OffsetCommitPartitionResponseC", "Int32"]
+- ["5Franz29OffsetCommitPartitionResponseC", "KafkaErrorCode"]
+- ["5Franz29OffsetCommitPartitionResponseC", ""]
+- ["5Franz29OffsetCommitPartitionResponseC", "data"]
+- ["5Franz29OffsetCommitPartitionResponseC", "dataLength"]
+- ["5Franz29OffsetCommitPartitionResponseC", "deinit"]
+- ["5Franz29OffsetCommitPartitionResponseC", "error"]
+- !private ["5Franz29OffsetCommitPartitionResponseC", "errorCode"]
+- ["5Franz29OffsetCommitPartitionResponseC", "init"]
+- ["5Franz29OffsetCommitPartitionResponseC", "partition"]
+- !private ["5Franz19OffsetCommitRequestC", "ApiKey"]
+- ["5Franz19OffsetCommitRequestC", "Int32"]
+- ["5Franz19OffsetCommitRequestC", "Int64"]
+- ["5Franz19OffsetCommitRequestC", "Offset"]
+- ["5Franz19OffsetCommitRequestC", "OffsetCommitRequestMessage"]
+- ["5Franz19OffsetCommitRequestC", "OffsetMetadata"]
+- ["5Franz19OffsetCommitRequestC", "PartitionId"]
+- ["5Franz19OffsetCommitRequestC", "String"]
+- ["5Franz19OffsetCommitRequestC", "TopicName"]
+- ["5Franz19OffsetCommitRequestC", "deinit"]
+- ["5Franz19OffsetCommitRequestC", "init"]
+- ["5Franz26OffsetCommitRequestMessageC", "Data"]
+- ["5Franz26OffsetCommitRequestMessageC", "Int"]
+- ["5Franz26OffsetCommitRequestMessageC", "Int32"]
+- ["5Franz26OffsetCommitRequestMessageC", "Int64"]
+- !private ["5Franz26OffsetCommitRequestMessageC", "KafkaType"]
+- ["5Franz26OffsetCommitRequestMessageC", "Offset"]
+- ["5Franz26OffsetCommitRequestMessageC", "OffsetCommitTopic"]
+- ["5Franz26OffsetCommitRequestMessageC", "OffsetMetadata"]
+- ["5Franz26OffsetCommitRequestMessageC", "PartitionId"]
+- ["5Franz26OffsetCommitRequestMessageC", "String"]
+- ["5Franz26OffsetCommitRequestMessageC", "TopicName"]
+- ["5Franz26OffsetCommitRequestMessageC", ""]
+- ["5Franz26OffsetCommitRequestMessageC", "consumerGroupGenerationId"]
+- ["5Franz26OffsetCommitRequestMessageC", "consumerGroupId"]
+- ["5Franz26OffsetCommitRequestMessageC", "consumerId"]
+- ["5Franz26OffsetCommitRequestMessageC", "data"]
+- ["5Franz26OffsetCommitRequestMessageC", "dataLength"]
+- ["5Franz26OffsetCommitRequestMessageC", "deinit"]
+- ["5Franz26OffsetCommitRequestMessageC", "init"]
+- ["5Franz26OffsetCommitRequestMessageC", "retentionTime"]
+- ["5Franz26OffsetCommitRequestMessageC", "topics"]
+- ["5Franz20OffsetCommitResponseC", "Data"]
+- ["5Franz20OffsetCommitResponseC", "Int"]
+- ["5Franz20OffsetCommitResponseC", "OffsetCommitTopicResponse"]
+- ["5Franz20OffsetCommitResponseC", "data"]
+- ["5Franz20OffsetCommitResponseC", "dataLength"]
+- ["5Franz20OffsetCommitResponseC", "deinit"]
+- ["5Franz20OffsetCommitResponseC", "init"]
+- ["5Franz20OffsetCommitResponseC", "topics"]
+- ["5Franz17OffsetCommitTopicC", "Data"]
+- ["5Franz17OffsetCommitTopicC", "Int"]
+- ["5Franz17OffsetCommitTopicC", "Offset"]
+- ["5Franz17OffsetCommitTopicC", "OffsetCommitPartitionOffset"]
+- ["5Franz17OffsetCommitTopicC", "OffsetMetadata"]
+- ["5Franz17OffsetCommitTopicC", "PartitionId"]
+- !private ["5Franz17OffsetCommitTopicC", "String"]
+- ["5Franz17OffsetCommitTopicC", "TopicName"]
+- ["5Franz17OffsetCommitTopicC", ""]
+- ["5Franz17OffsetCommitTopicC", "data"]
+- ["5Franz17OffsetCommitTopicC", "dataLength"]
+- ["5Franz17OffsetCommitTopicC", "deinit"]
+- ["5Franz17OffsetCommitTopicC", "init"]
+- ["5Franz17OffsetCommitTopicC", "partitions"]
+- ["5Franz17OffsetCommitTopicC", "topicName"]
+- ["5Franz25OffsetCommitTopicResponseC", "Data"]
+- ["5Franz25OffsetCommitTopicResponseC", "Int"]
+- ["5Franz25OffsetCommitTopicResponseC", "OffsetCommitPartitionResponse"]
+- ["5Franz25OffsetCommitTopicResponseC", "String"]
+- ["5Franz25OffsetCommitTopicResponseC", ""]
+- ["5Franz25OffsetCommitTopicResponseC", "data"]
+- ["5Franz25OffsetCommitTopicResponseC", "dataLength"]
+- ["5Franz25OffsetCommitTopicResponseC", "deinit"]
+- ["5Franz25OffsetCommitTopicResponseC", "init"]
+- ["5Franz25OffsetCommitTopicResponseC", "partitions"]
+- ["5Franz25OffsetCommitTopicResponseC", "topicName"]
+- !private ["Sq", "data"]
+- !private ["Sq", "dataLength"]
+- !private ["Sk", ""]
+- !private ["Sk", "data"]
+- !private ["Sk", "dataLength"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sk", "reduce"]
+- !private ["Sm", ""]
+- !private ["Sm", "data"]
+- !private ["Sm", "dataLength"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["Sm", "reduce"]
+- !private ["SY", "init"]
+- !private ["SY", "offsetCommitRequest"]
+- !private ["SY", "v2"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "data"]
+- !private ["s10SIMDScalarP", "dataLength"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "data"]
+- !private ["ST", "dataLength"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "reduce"]
+- !private ["SZ", "data"]
+- !private ["SZ", "dataLength"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "data"]
+- !private ["s13SignedNumericP", "dataLength"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "data"]
+- !private ["Sx", "dataLength"]
+- !private ["Sx", "init"]
+- !private ["SS", ""]
+- !private ["SS", "data"]
+- !private ["SS", "dataLength"]
+- !private ["SS", "init"]
+- !private ["Sy", "data"]
+- !private ["Sy", "dataLength"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "dataLength"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "dataLength"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "data"]
+- !private ["s14_ArrayProtocolP", "dataLength"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s15_CVarArgAlignedP", "data"]
+- !private ["s15_CVarArgAlignedP", "dataLength"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "dataLength"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "data"]
+- !private ["s24_DestructorSafeContainerP", "dataLength"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "dataLength"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "data"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "dataLength"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "dataLength"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "dataLength"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "dataLength"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "dataLength"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataLength"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataLength"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "dataLength"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "5Franz6ApiKeyO"
+- !private "5Franz10ApiVersionO"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "s5Int16V"
+- !private "s5Int32V"
+- !private "s5Int64V"
+- !private "5Franz14KafkaErrorCodeO"
+- "5Franz12KafkaRequestC"
+- "5Franz13KafkaResponseP"
+- "5Franz9KafkaTypeP"
+- !private "5Franz23KafkaVariableLengthTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- "5Franz021OffsetCommitPartitionB0C"
+- "5Franz29OffsetCommitPartitionResponseC"
+- "5Franz19OffsetCommitRequestC"
+- "5Franz26OffsetCommitRequestMessageC"
+- "5Franz20OffsetCommitResponseC"
+- "5Franz17OffsetCommitTopicC"
+- "5Franz25OffsetCommitTopicResponseC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "724345212ce84b6a986be6cc3bb37bf2"

@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.27.6 clang-1300.0.27.2)"
+options: "f3546c685789853fc596fb8ae810bd68eb65c12a6e7c9752f40e64800e1a5b85"
+build_start_time: [1628920629, 978097915]
+build_end_time: [1628920632, 162054061]
+inputs:
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/AppDelegate.swift": [1625444497, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/ContentView.swift": [1628832623, 517931699]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/HealthKitSimulator.swift": [1628794269, 640780687]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/KafkaManager.swift": [1628829689, 564869642]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/LoginManager.swift": [1628804033, 844397544]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/LoginView.swift": [1628804004, 580733299]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/SceneDelegate.swift": [1625441868, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/SensorDataSimulator/CoreMotion/ActivityManager.swift": [1625441868, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/SensorDataSimulator/CoreMotion/PedometerManager.swift": [1628808054, 727865934]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/SensorDataSimulator/Health/GenerateMockHeartRateData.swift": [1628833010, 880123615]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/SensorDataSimulator/Health/GetHealthStaticInformation.swift": [1625441868, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/SensorDataSimulator/Health/HealthObjectToString.swift": [1625441868, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/SensorDataSimulator/Health/HealthStore.swift": [1628833193, 132148742]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/Shared/FileIOManager.swift": [1628831077, 817811727]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/Shared/UserStateManager.swift": [1625441868, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/Shared/WatchConnectivityManager.swift": [1627844351, 496547937]

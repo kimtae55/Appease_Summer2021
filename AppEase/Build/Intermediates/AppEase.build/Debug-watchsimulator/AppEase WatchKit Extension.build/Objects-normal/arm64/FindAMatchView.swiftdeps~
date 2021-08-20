@@ -1,0 +1,510 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FindAMatchView"
+- "FindAMatchView_Previews"
+provides-nominal:
+- "26AppEase_WatchKit_Extension14FindAMatchViewV"
+- "26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV"
+provides-member:
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", ""]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- !private "-="
+- !private "=="
+- "??"
+- !private "Array"
+- "BooleanLiteralType"
+- "Button"
+- "Date"
+- "Dictionary"
+- "FileIOManager"
+- "FindAMatch"
+- "FindAMatchView"
+- "FindAMatchView_Previews"
+- "FloatLiteralType"
+- "ForEach"
+- "HStack"
+- "ISO8601DateFormatter"
+- "IntegerLiteralType"
+- "List"
+- "NSTemporaryDirectory"
+- !private "NavigationView"
+- "ObservedObject"
+- "PreviewProvider"
+- "Spacer"
+- "State"
+- "String"
+- "StringLiteralType"
+- "Text"
+- "URL"
+- "UserDefaults"
+- "VStack"
+- "View"
+- "emojiGuessing"
+- "score"
+depends-member:
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["s10ArraySliceV", "uppercased"]
+- !private ["SK", ""]
+- !private ["SK", "subscript"]
+- !private ["SK", "uppercased"]
+- !private ["7SwiftUI6ButtonV", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "uppercased"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "uppercased"]
+- !private ["Sl", ""]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "uppercased"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["SL", "uppercased"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "uppercased"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uppercased"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uppercased"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uppercased"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "uppercased"]
+- !private ["10Foundation4DateV", "init"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "uppercased"]
+- !private ["SD", "subscript"]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["7SwiftUI15DynamicPropertyP", "wrappedValue"]
+- !private ["7SwiftUI18DynamicViewContentP", "init"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "uppercased"]
+- ["SQ", ""]
+- !private ["SQ", "fixedSize"]
+- ["SQ", "init"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "uppercased"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "uppercased"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "uppercased"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "uppercased"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "uppercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "uppercased"]
+- ["26AppEase_WatchKit_Extension13FileIOManagerC", "init"]
+- !private ["26AppEase_WatchKit_Extension13FileIOManagerC", "writeToFile"]
+- ["26AppEase_WatchKit_Extension10FindAMatchC", ""]
+- !private ["26AppEase_WatchKit_Extension10FindAMatchC", "correctAnswer"]
+- !private ["26AppEase_WatchKit_Extension10FindAMatchC", "emojiNameDict"]
+- !private ["26AppEase_WatchKit_Extension10FindAMatchC", "gameOptions"]
+- !private ["26AppEase_WatchKit_Extension10FindAMatchC", "generateNewQuestion"]
+- ["26AppEase_WatchKit_Extension10FindAMatchC", "init"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "$emojiGuessing"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "$score"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "Body"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "Button"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "Date"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "Default_Body"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "Dictionary"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "FileIOManager"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "FindAMatch"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "ForEach"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "HStack"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "ISO8601DateFormatter"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "List"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "NSTemporaryDirectory"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "NavigationView"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "ObservedObject"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "Spacer"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "State"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "String"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "Text"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "URL"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "UserDefaults"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "VStack"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "View"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", ""]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "_Default_Body"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "_emojiGuessing"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "_makeView"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "_makeViewList"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "_score"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "_viewListCount"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "animalTapped"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "body"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "emojiGuessing"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "fileHandler"]
+- ["26AppEase_WatchKit_Extension14FindAMatchViewV", "init"]
+- !private ["26AppEase_WatchKit_Extension14FindAMatchViewV", "score"]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", "Default_Previews"]
+- !private ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", "FindAMatchView"]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", "Previews"]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", "View"]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", ""]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", "_Default_Previews"]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", "_platform"]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", "_previews"]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", "init"]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", "platform"]
+- ["26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV", "previews"]
+- !private ["7SwiftUI7ForEachV", "init"]
+- ["So11NSFormatterC", ""]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "stringFromDate"]
+- !private ["7SwiftUI6HStackV", "init"]
+- ["SH", ""]
+- ["SH", "init"]
+- !private ["SH", "standard"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- !private ["SH", "uppercased"]
+- !private ["So22NSISO8601DateFormatterC", "init"]
+- !private ["So22NSISO8601DateFormatterC", "string"]
+- ["s7KeyPathC", ""]
+- !private ["7SwiftUI4ListV", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "uppercased"]
+- !private ["s10MirrorPathP", "uppercased"]
+- !private ["SM", "subscript"]
+- !private ["SM", "uppercased"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "stringFromDate"]
+- !private ["So8NSCodingP", "uppercased"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "stringFromDate"]
+- !private ["So9NSCopyingP", "uppercased"]
+- !private ["So21NSItemProviderReadingP", "uppercased"]
+- !private ["So21NSItemProviderWritingP", "uppercased"]
+- !private ["So16NSMutableCopyingP", "uppercased"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "stringForKey"]
+- !private ["So8NSObjectC", "stringForObjectValue"]
+- !private ["So8NSObjectC", "stringFromDate"]
+- !private ["So8NSObjectC", "uppercaseStringWithLocale"]
+- !private ["So8NSObjectC", "uppercased"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "stringForKey"]
+- !private ["So8NSObjectP", "stringForObjectValue"]
+- !private ["So8NSObjectP", "stringFromDate"]
+- !private ["So8NSObjectP", "uppercaseStringWithLocale"]
+- !private ["So8NSObjectP", "uppercased"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "string"]
+- !private ["So14NSSecureCodingP", "uppercased"]
+- !private ["So8NSStringC", "uppercased"]
+- !private ["7SwiftUI14NavigationViewV", "init"]
+- !private ["7SwiftUI14NavigationViewV", "onAppear"]
+- !private ["7Combine16ObservableObjectP", "correctAnswer"]
+- !private ["7Combine16ObservableObjectP", "emojiNameDict"]
+- !private ["7Combine16ObservableObjectP", "gameOptions"]
+- !private ["7Combine16ObservableObjectP", "generateNewQuestion"]
+- ["7Combine16ObservableObjectP", "init"]
+- ["7SwiftUI14ObservedObjectV", "init"]
+- ["7SwiftUI14ObservedObjectV", "projectedValue"]
+- ["7SwiftUI14ObservedObjectV", "subscript"]
+- ["7SwiftUI14ObservedObjectV", "wrappedValue"]
+- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
+- !private ["7SwiftUI15PreviewProviderP", "FindAMatchView"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["Sk", ""]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "uppercased"]
+- !private ["Sm", ""]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "uppercased"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "subscript"]
+- !private ["ST", "uppercased"]
+- !private ["7SwiftUI6SpacerV", "init"]
+- ["7SwiftUI5StateV", "init"]
+- ["7SwiftUI5StateV", "projectedValue"]
+- ["7SwiftUI5StateV", "subscript"]
+- ["7SwiftUI5StateV", "wrappedValue"]
+- !private ["SS", "uppercased"]
+- !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendInterpolation"]
+- !private ["7SwiftUI18LocalizedStringKeyV0D13InterpolationV", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "uppercased"]
+- !private ["7SwiftUI4TextV", "fixedSize"]
+- !private ["7SwiftUI4TextV", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "uppercased"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "uppercased"]
+- ["10Foundation3URLV", "init"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["So14NSUserDefaultsC", "string"]
+- !private ["7SwiftUI6VStackV", "init"]
+- !private ["7SwiftUI6VStackV", "navigationBarBackButtonHidden"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "Button"]
+- !private ["7SwiftUI4ViewP", "Date"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- ["7SwiftUI4ViewP", "FileIOManager"]
+- ["7SwiftUI4ViewP", "FindAMatch"]
+- !private ["7SwiftUI4ViewP", "ForEach"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "ISO8601DateFormatter"]
+- !private ["7SwiftUI4ViewP", "List"]
+- ["7SwiftUI4ViewP", "NSTemporaryDirectory"]
+- !private ["7SwiftUI4ViewP", "NavigationView"]
+- ["7SwiftUI4ViewP", "ObservedObject"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
+- ["7SwiftUI4ViewP", "State"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- ["7SwiftUI4ViewP", "URL"]
+- !private ["7SwiftUI4ViewP", "UserDefaults"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- !private ["7SwiftUI4ViewP", "animalTapped"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "emojiGuessing"]
+- !private ["7SwiftUI4ViewP", "fileHandler"]
+- !private ["7SwiftUI4ViewP", "fixedSize"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "navigationBarBackButtonHidden"]
+- !private ["7SwiftUI4ViewP", "onAppear"]
+- !private ["7SwiftUI4ViewP", "onDisappear"]
+- !private ["7SwiftUI4ViewP", "score"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "uppercased"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "uppercased"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "uppercased"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "uppercased"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "uppercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "uppercased"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "uppercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uppercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uppercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "uppercased"]
+- ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "uppercased"]
+- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
+- !private ["7SwiftUI16_PreviewProviderP", "FindAMatchView"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+- !private ["So13CKRecordValueP", "uppercased"]
+depends-nominal:
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "7SwiftUI6ButtonV"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- "Se"
+- !private "SD"
+- "7SwiftUI15DynamicPropertyP"
+- !private "7SwiftUI18DynamicViewContentP"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "26AppEase_WatchKit_Extension13FileIOManagerC"
+- "26AppEase_WatchKit_Extension10FindAMatchC"
+- "26AppEase_WatchKit_Extension14FindAMatchViewV"
+- "26AppEase_WatchKit_Extension23FindAMatchView_PreviewsV"
+- !private "7SwiftUI7ForEachV"
+- "So11NSFormatterC"
+- !private "7SwiftUI6HStackV"
+- "SH"
+- !private "So22NSISO8601DateFormatterC"
+- "s7KeyPathC"
+- !private "7SwiftUI4ListV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "7SwiftUI14NavigationViewV"
+- "7Combine16ObservableObjectP"
+- "7SwiftUI14ObservedObjectV"
+- "7SwiftUI15PreviewProviderP"
+- !private "Sk"
+- !private "Sm"
+- "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "7SwiftUI6SpacerV"
+- "7SwiftUI5StateV"
+- !private "SS"
+- !private "7SwiftUI18LocalizedStringKeyV0D13InterpolationV"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "7SwiftUI4TextV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "10Foundation3URLV"
+- !private "So14NSUserDefaultsC"
+- !private "7SwiftUI6VStackV"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+- !private "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/_WatchKit_SwiftUI.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/os.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/HomeKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/SceneKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/WatchKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/HealthKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/ClockKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/MapKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/HomeKit.framework/Headers/HomeKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "6dbe11281c22dd3aafa5f0184cd2cb3c"

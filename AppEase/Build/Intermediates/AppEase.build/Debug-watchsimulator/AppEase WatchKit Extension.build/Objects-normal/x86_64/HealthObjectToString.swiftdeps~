@@ -1,0 +1,179 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So17HKBloodTypeObjectC", ""]
+- ["So21HKBiologicalSexObjectC", ""]
+- ["So17HKBloodTypeObjectC", "string"]
+- ["So21HKBiologicalSexObjectC", "string"]
+provides-dynamic-lookup:
+- "string"
+depends-top-level:
+- !private "FloatLiteralType"
+- "HKBiologicalSexObject"
+- "HKBloodTypeObject"
+- !private "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- !private "~="
+depends-member:
+- !private ["s7CVarArgP", "biologicalSex"]
+- !private ["s7CVarArgP", "bloodType"]
+- !private ["s28CustomDebugStringConvertibleP", "biologicalSex"]
+- !private ["s28CustomDebugStringConvertibleP", "bloodType"]
+- !private ["s23CustomStringConvertibleP", "biologicalSex"]
+- !private ["s23CustomStringConvertibleP", "bloodType"]
+- !private ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "aNegative"]
+- ["SQ", "aPositive"]
+- ["SQ", "abNegative"]
+- ["SQ", "abPositive"]
+- ["SQ", "bNegative"]
+- ["SQ", "bPositive"]
+- !private ["SQ", "biologicalSex"]
+- !private ["SQ", "bloodType"]
+- ["SQ", "oNegative"]
+- ["SQ", "oPositive"]
+- !private ["SQ", "rawValue"]
+- !private ["So15HKBiologicalSexV", "RawValue"]
+- !private ["So15HKBiologicalSexV", "rawValue"]
+- ["So21HKBiologicalSexObjectC", "String"]
+- ["So21HKBiologicalSexObjectC", ""]
+- !private ["So21HKBiologicalSexObjectC", "biologicalSex"]
+- ["So21HKBiologicalSexObjectC", "string"]
+- ["So11HKBloodTypeV", "aNegative"]
+- ["So11HKBloodTypeV", "aPositive"]
+- ["So11HKBloodTypeV", "abNegative"]
+- ["So11HKBloodTypeV", "abPositive"]
+- ["So11HKBloodTypeV", "bNegative"]
+- ["So11HKBloodTypeV", "bPositive"]
+- ["So11HKBloodTypeV", "oNegative"]
+- ["So11HKBloodTypeV", "oPositive"]
+- ["So17HKBloodTypeObjectC", "String"]
+- ["So17HKBloodTypeObjectC", ""]
+- !private ["So17HKBloodTypeObjectC", "bloodType"]
+- ["So17HKBloodTypeObjectC", "string"]
+- !private ["SH", "RawValue"]
+- ["SH", "aNegative"]
+- ["SH", "aPositive"]
+- ["SH", "abNegative"]
+- ["SH", "abPositive"]
+- ["SH", "bNegative"]
+- ["SH", "bPositive"]
+- !private ["SH", "biologicalSex"]
+- !private ["SH", "bloodType"]
+- ["SH", "oNegative"]
+- ["SH", "oPositive"]
+- !private ["SH", "rawValue"]
+- ["So8NSCodingP", "String"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "biologicalSex"]
+- !private ["So8NSCodingP", "bloodType"]
+- ["So8NSCodingP", "string"]
+- ["So9NSCopyingP", "String"]
+- !private ["So9NSCopyingP", "biologicalSex"]
+- !private ["So9NSCopyingP", "bloodType"]
+- ["So9NSCopyingP", "string"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "biologicalSex"]
+- !private ["So8NSObjectC", "bloodType"]
+- ["So8NSObjectC", "string"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "biologicalSex"]
+- !private ["So8NSObjectP", "bloodType"]
+- ["So8NSObjectP", "string"]
+- ["So14NSSecureCodingP", "String"]
+- !private ["So14NSSecureCodingP", "biologicalSex"]
+- !private ["So14NSSecureCodingP", "bloodType"]
+- ["So14NSSecureCodingP", "string"]
+- !private ["SY", "RawValue"]
+- ["SY", "aNegative"]
+- ["SY", "aPositive"]
+- ["SY", "abNegative"]
+- ["SY", "abPositive"]
+- ["SY", "bNegative"]
+- ["SY", "bPositive"]
+- ["SY", "oNegative"]
+- ["SY", "oPositive"]
+- !private ["SY", "rawValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "biologicalSex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bloodType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "biologicalSex"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bloodType"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "SQ"
+- !private "So15HKBiologicalSexV"
+- "So21HKBiologicalSexObjectC"
+- "So11HKBloodTypeV"
+- "So17HKBloodTypeObjectC"
+- "SH"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "SY"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/_WatchKit_SwiftUI.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/HomeKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/WatchKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/HealthKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/ClockKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/HomeKit.framework/Headers/HomeKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "d56150f05c76076ec9f5ca6ab021b245"

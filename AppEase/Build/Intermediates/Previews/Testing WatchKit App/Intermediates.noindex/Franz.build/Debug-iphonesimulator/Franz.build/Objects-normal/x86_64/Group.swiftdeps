@@ -1,0 +1,282 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Group"
+- "ConsumerGroup"
+- "GroupMembership"
+provides-nominal:
+- "5Franz5GroupC"
+- "5Franz13ConsumerGroupC"
+- "5Franz15GroupMembershipC"
+provides-member:
+- ["5Franz5GroupC", ""]
+- ["5Franz13ConsumerGroupC", ""]
+- ["5Franz15GroupMembershipC", ""]
+provides-dynamic-lookup:
+- "_broker"
+- "_clientId"
+- "_generationId"
+- "_group"
+- "_groupId"
+- "_groupProtocol"
+- "_memberId"
+- "_state"
+- "_version"
+- "assignedPartitions"
+- "generationId"
+- "getState"
+- "group"
+- "groupProtocol"
+- "heartbeat"
+- "id"
+- "leave"
+- "memberId"
+- "members"
+- "sync"
+- "topics"
+depends-top-level:
+- "ApiVersion"
+- "AssignmentPrecedence"
+- "Broker"
+- "ConsumerGroup"
+- "Data"
+- "Group"
+- "GroupMembership"
+- "GroupProtocol"
+- "GroupState"
+- "Int32"
+- "Member"
+- "PartitionId"
+- "Set"
+- "String"
+- "TopicName"
+- !private "_broker"
+- !private "_clientId"
+- !private "_generationId"
+- !private "_group"
+- !private "_groupId"
+- !private "_groupProtocol"
+- !private "_memberId"
+- !private "group"
+- !private "memberId"
+depends-member:
+- ["5Franz10ApiVersionO", "defaultVersion"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["5Franz6BrokerC", "describeGroups"]
+- !private ["5Franz6BrokerC", "heartbeatRequest"]
+- !private ["5Franz6BrokerC", "leaveGroup"]
+- !private ["5Franz6BrokerC", "syncGroup"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", ""]
+- ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- ["5Franz13ConsumerGroupC", "Broker"]
+- !private ["5Franz13ConsumerGroupC", "GroupProtocol"]
+- ["5Franz13ConsumerGroupC", "Int32"]
+- ["5Franz13ConsumerGroupC", "String"]
+- ["5Franz13ConsumerGroupC", "deinit"]
+- ["5Franz13ConsumerGroupC", "init"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["10Foundation4DataV", ""]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- ["SQ", "defaultVersion"]
+- ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["5Franz5GroupC", "ApiVersion"]
+- ["5Franz5GroupC", "Broker"]
+- ["5Franz5GroupC", "GroupProtocol"]
+- ["5Franz5GroupC", "GroupState"]
+- ["5Franz5GroupC", "Int32"]
+- ["5Franz5GroupC", "PartitionId"]
+- ["5Franz5GroupC", "Set"]
+- ["5Franz5GroupC", "String"]
+- ["5Franz5GroupC", "TopicName"]
+- ["5Franz5GroupC", ""]
+- !private ["5Franz5GroupC", "_broker"]
+- !private ["5Franz5GroupC", "_clientId"]
+- !private ["5Franz5GroupC", "_generationId"]
+- !private ["5Franz5GroupC", "_groupId"]
+- !private ["5Franz5GroupC", "_groupProtocol"]
+- !private ["5Franz5GroupC", "_state"]
+- !private ["5Franz5GroupC", "_version"]
+- ["5Franz5GroupC", "assignedPartitions"]
+- !private ["5Franz5GroupC", "broker"]
+- !private ["5Franz5GroupC", "clientId"]
+- ["5Franz5GroupC", "deinit"]
+- ["5Franz5GroupC", "generationId"]
+- ["5Franz5GroupC", "getState"]
+- !private ["5Franz5GroupC", "groupId"]
+- ["5Franz5GroupC", "groupProtocol"]
+- ["5Franz5GroupC", "id"]
+- ["5Franz5GroupC", "init"]
+- !private ["5Franz5GroupC", "state"]
+- ["5Franz5GroupC", "topics"]
+- !private ["5Franz5GroupC", "version"]
+- !private ["5Franz21GroupMemberAssignmentC", "partitionAssignment"]
+- ["5Franz15GroupMembershipC", "Data"]
+- ["5Franz15GroupMembershipC", "Group"]
+- ["5Franz15GroupMembershipC", "Member"]
+- ["5Franz15GroupMembershipC", "PartitionId"]
+- !private ["5Franz15GroupMembershipC", "Set"]
+- ["5Franz15GroupMembershipC", "String"]
+- ["5Franz15GroupMembershipC", "TopicName"]
+- ["5Franz15GroupMembershipC", "_group"]
+- ["5Franz15GroupMembershipC", "_memberId"]
+- ["5Franz15GroupMembershipC", "deinit"]
+- ["5Franz15GroupMembershipC", "group"]
+- ["5Franz15GroupMembershipC", "heartbeat"]
+- ["5Franz15GroupMembershipC", "init"]
+- ["5Franz15GroupMembershipC", "leave"]
+- ["5Franz15GroupMembershipC", "memberId"]
+- ["5Franz15GroupMembershipC", "members"]
+- ["5Franz15GroupMembershipC", "sync"]
+- !private ["5Franz13GroupProtocolO", "consumer"]
+- !private ["5Franz13GroupProtocolO", "value"]
+- !private ["SH", ""]
+- ["SH", "defaultVersion"]
+- ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "subscript"]
+- !private ["5Franz13KafkaMetadataP", "partitionAssignment"]
+- ["5Franz9KafkaTypeP", ""]
+- !private ["5Franz9KafkaTypeP", "describeGroups"]
+- !private ["5Franz9KafkaTypeP", "heartbeatRequest"]
+- !private ["5Franz9KafkaTypeP", "init"]
+- !private ["5Franz9KafkaTypeP", "leaveGroup"]
+- !private ["5Franz9KafkaTypeP", "map"]
+- !private ["5Franz9KafkaTypeP", "partitionAssignment"]
+- !private ["5Franz9KafkaTypeP", "partitions"]
+- !private ["5Franz9KafkaTypeP", "syncGroup"]
+- !private ["5Franz9KafkaTypeP", "topic"]
+- !private ["5Franz23KafkaVariableLengthTypeP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["5Franz19PartitionAssignmentC", "partitions"]
+- !private ["5Franz19PartitionAssignmentC", "topic"]
+- !private ["Sk", ""]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- ["SY", "defaultVersion"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- ["Sh", "init"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "5Franz10ApiVersionO"
+- !private "Sa"
+- !private "SK"
+- !private "5Franz6BrokerC"
+- "s7CVarArgP"
+- "Sl"
+- "5Franz13ConsumerGroupC"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "SD"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "5Franz5GroupC"
+- !private "5Franz21GroupMemberAssignmentC"
+- "5Franz15GroupMembershipC"
+- !private "5Franz13GroupProtocolO"
+- "SH"
+- !private "5Franz13KafkaMetadataP"
+- "5Franz9KafkaTypeP"
+- !private "5Franz23KafkaVariableLengthTypeP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "5Franz19PartitionAssignmentC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0e26520874e29e55086f0f2e3603ca67"

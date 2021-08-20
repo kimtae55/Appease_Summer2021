@@ -1,0 +1,336 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MusicManager"
+provides-nominal:
+- "26AppEase_WatchKit_Extension12MusicManagerC"
+provides-member:
+- ["26AppEase_WatchKit_Extension12MusicManagerC", ""]
+provides-dynamic-lookup:
+- "activateAudioSession"
+- "player"
+- "session"
+- "setupAudioPlayer"
+- "setupAudioSession"
+- "stopPlayingAudio"
+depends-top-level:
+- "=="
+- "AVAudioPlayer"
+- "AVAudioSession"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "Bundle"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MusicManager"
+- "String"
+- !private "StringLiteralType"
+- !private "URL"
+- !private "fatalError"
+- !private "player"
+- "print"
+- !private "session"
+- !private "setupAudioSession"
+depends-member:
+- ["So13AVAudioPlayerC", "init"]
+- !private ["So13AVAudioPlayerC", "pause"]
+- !private ["So13AVAudioPlayerC", "play"]
+- !private ["So14AVAudioSessionC", "Category"]
+- !private ["So14AVAudioSessionC", "activate"]
+- !private ["So14AVAudioSessionC", "setCategory"]
+- ["So14AVAudioSessionC", "sharedInstance"]
+- !private ["So31AVAudioSessionActivationOptionsV", "ArrayLiteralElement"]
+- !private ["So31AVAudioSessionActivationOptionsV", "Element"]
+- !private ["So31AVAudioSessionActivationOptionsV", "init"]
+- ["SK", ""]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "path"]
+- !private ["s7CVarArgP", "Category"]
+- !private ["s7CVarArgP", "activate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "pause"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "setCategory"]
+- ["s7CVarArgP", "sharedInstance"]
+- !private ["So22AVAudioSessionCategorya", "playback"]
+- !private ["So29AVAudioSessionCategoryOptionsV", "ArrayLiteralElement"]
+- !private ["So29AVAudioSessionCategoryOptionsV", "Element"]
+- !private ["So29AVAudioSessionCategoryOptionsV", "init"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "Category"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "activate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "pause"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "setCategory"]
+- ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "Category"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "activate"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "pause"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "setCategory"]
+- ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- !private ["SQ", "ArrayLiteralElement"]
+- !private ["SQ", "Category"]
+- !private ["SQ", "Element"]
+- ["SQ", ""]
+- !private ["SQ", "activate"]
+- !private ["SQ", "default"]
+- ["SQ", "init"]
+- !private ["SQ", "longFormAudio"]
+- !private ["SQ", "main"]
+- !private ["SQ", "path"]
+- !private ["SQ", "pause"]
+- !private ["SQ", "play"]
+- !private ["SQ", "playback"]
+- !private ["SQ", "setCategory"]
+- ["SQ", "sharedInstance"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Element"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", "Category"]
+- ["SH", ""]
+- !private ["SH", "activate"]
+- !private ["SH", "default"]
+- ["SH", "init"]
+- !private ["SH", "longFormAudio"]
+- !private ["SH", "main"]
+- !private ["SH", "path"]
+- !private ["SH", "pause"]
+- !private ["SH", "play"]
+- !private ["SH", "playback"]
+- !private ["SH", "setCategory"]
+- ["SH", "sharedInstance"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["So18AVAudioSessionModea", "default"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "AVAudioPlayer"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "AVAudioSession"]
+- !private ["26AppEase_WatchKit_Extension12MusicManagerC", "Bundle"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "String"]
+- !private ["26AppEase_WatchKit_Extension12MusicManagerC", "URL"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "activateAudioSession"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "deinit"]
+- !private ["26AppEase_WatchKit_Extension12MusicManagerC", "fatalError"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "init"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "player"]
+- !private ["26AppEase_WatchKit_Extension12MusicManagerC", "print"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "session"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "setupAudioPlayer"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "setupAudioSession"]
+- ["26AppEase_WatchKit_Extension12MusicManagerC", "stopPlayingAudio"]
+- !private ["So8NSObjectC", "Category"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "activateWithOptions"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "pathForAuxiliaryExecutable"]
+- !private ["So8NSObjectC", "pathForResource"]
+- !private ["So8NSObjectC", "pause"]
+- !private ["So8NSObjectC", "play"]
+- !private ["So8NSObjectC", "playAtTime"]
+- !private ["So8NSObjectC", "setCategory"]
+- ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectP", "Category"]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "activateWithOptions"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "pathForAuxiliaryExecutable"]
+- !private ["So8NSObjectP", "pathForResource"]
+- !private ["So8NSObjectP", "pause"]
+- !private ["So8NSObjectP", "play"]
+- !private ["So8NSObjectP", "playAtTime"]
+- !private ["So8NSObjectP", "setCategory"]
+- ["So8NSObjectP", "sharedInstance"]
+- !private ["s9OptionSetP", "ArrayLiteralElement"]
+- !private ["s9OptionSetP", "Element"]
+- !private ["s9OptionSetP", "init"]
+- !private ["SY", "ArrayLiteralElement"]
+- !private ["SY", "Element"]
+- !private ["SY", ""]
+- !private ["SY", "default"]
+- !private ["SY", "init"]
+- !private ["SY", "longFormAudio"]
+- !private ["SY", "playback"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So32AVAudioSessionRouteSharingPolicyV", "longFormAudio"]
+- ["ST", ""]
+- !private ["s10SetAlgebraP", "ArrayLiteralElement"]
+- !private ["s10SetAlgebraP", "Element"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "default"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "playback"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Category"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pause"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setCategory"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Category"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "path"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pause"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "play"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setCategory"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "default"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "playback"]
+- !private ["s20_SwiftNewtypeWrapperP", "default"]
+- !private ["s20_SwiftNewtypeWrapperP", "playback"]
+depends-nominal:
+- "So13AVAudioPlayerC"
+- "So14AVAudioSessionC"
+- !private "So31AVAudioSessionActivationOptionsV"
+- "SK"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- !private "So22AVAudioSessionCategorya"
+- !private "So29AVAudioSessionCategoryOptionsV"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- !private "So18AVAudioSessionModea"
+- "26AppEase_WatchKit_Extension12MusicManagerC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So32AVAudioSessionRouteSharingPolicyV"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/ObjectiveC.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/SwiftUI.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/_WatchKit_SwiftUI.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/CoreMedia.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/CoreData.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/simd.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/Combine.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/Dispatch.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/Darwin.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/CoreLocation.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/Foundation.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/AVFoundation.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/CoreFoundation.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/CoreAudio.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/CoreGraphics.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/os.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/Swift.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/UIKit.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/CloudKit.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/HomeKit.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/SceneKit.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/WatchKit.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/HealthKit.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/ClockKit.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/MapKit.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/prebuilt-modules/DeveloperToolsSupport.swiftmodule/armv7k-apple-watchos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/HomeKit.framework/Headers/HomeKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "1efc5bade26bee2d0dda23f80b8fbf10"

@@ -1,0 +1,1446 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HealthStore"
+provides-nominal:
+- "26AppEase_WatchKit_Extension11HealthStoreC"
+provides-member:
+- ["26AppEase_WatchKit_Extension11HealthStoreC", ""]
+provides-dynamic-lookup:
+- "$age"
+- "$automotiveLabel"
+- "$bloodType"
+- "$cyclingLabel"
+- "$distance"
+- "$heartRate"
+- "$runningLabel"
+- "$sex"
+- "$stationaryLabel"
+- "$stepCount"
+- "$steps"
+- "$unknownLabel"
+- "$walkingLabel"
+- "_age"
+- "_automotiveLabel"
+- "_bloodType"
+- "_cyclingLabel"
+- "_distance"
+- "_heartRate"
+- "_runningLabel"
+- "_sex"
+- "_stationaryLabel"
+- "_stepCount"
+- "_steps"
+- "_unknownLabel"
+- "_walkingLabel"
+- "activityManager"
+- "age"
+- "automotiveLabel"
+- "bloodType"
+- "checkIfNotificationInstance"
+- "cyclingLabel"
+- "distance"
+- "fileHandler"
+- "fileMetaData"
+- "getPedometerData"
+- "healthKitStore"
+- "heartRate"
+- "heartRateQuantity"
+- "isPedometerAvailable"
+- "latitude"
+- "longitude"
+- "pedometer"
+- "previousHeartRateQueryTime"
+- "process"
+- "query"
+- "requestAuthorization"
+- "retrieveAnchor"
+- "runningLabel"
+- "sendFile"
+- "sex"
+- "startHeartRateQuery"
+- "startUpdatingActivity"
+- "stationaryLabel"
+- "stepCount"
+- "steps"
+- "storeAnchor"
+- "timer"
+- "timerInvoke"
+- "unknownLabel"
+- "walkingLabel"
+- "writeDataToFile"
+depends-top-level:
+- !private "&&"
+- "+="
+- "=="
+- !private ">"
+- "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CMMotionActivityManager"
+- "CMPedometer"
+- !private "Calendar"
+- "CastingPrecedence"
+- "Date"
+- "Dictionary"
+- "DispatchQueue"
+- "Double"
+- "Error"
+- "FileIOManager"
+- "FloatLiteralType"
+- "HKAnchoredObjectQuery"
+- !private "HKCharacteristicTypeIdentifier"
+- "HKDeletedObject"
+- "HKHealthStore"
+- !private "HKObjectQueryNoLimit"
+- "HKObjectType"
+- "HKQuantitySample"
+- !private "HKQuantityType"
+- "HKQuantityTypeIdentifier"
+- "HKQueryAnchor"
+- "HKSample"
+- "HKSampleType"
+- "HKStatisticsCollectionQuery"
+- "HKUnit"
+- "HealthStore"
+- "ISO8601DateFormatter"
+- "Int"
+- "IntegerLiteralType"
+- "Measurement"
+- !private "NSKeyedArchiver"
+- !private "NSKeyedUnarchiver"
+- "NSTemporaryDirectory"
+- "ObservableObject"
+- "Published"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "Timer"
+- !private "UNMutableNotificationContent"
+- !private "UNNotificationRequest"
+- !private "UNNotificationSound"
+- !private "UNTimeIntervalNotificationTrigger"
+- !private "UNUserNotificationCenter"
+- "URL"
+- !private "UUID"
+- "UnitLength"
+- "UserDefaults"
+- "Void"
+- !private "WatchConnectivityManager"
+- !private "activityManager"
+- !private "fileHandler"
+- !private "fileMetaData"
+- !private "getAge"
+- !private "getBiologicalSex"
+- !private "getBloodType"
+- !private "isPedometerAvailable"
+- !private "pedometer"
+- !private "previousHeartRateQueryTime"
+- "print"
+- !private "retrieveAnchor"
+- !private "sendFile"
+- !private "startHeartRateQuery"
+- !private "timer"
+- !private "timerInvoke"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "forEach"]
+- ["SK", ""]
+- !private ["SK", "forEach"]
+- !private ["SK", "init"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "doubleValue"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "forEach"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "intValue"]
+- ["So9CMLogItemC", ""]
+- !private ["So9CMLogItemC", "automotive"]
+- !private ["So9CMLogItemC", "cycling"]
+- !private ["So9CMLogItemC", "running"]
+- !private ["So9CMLogItemC", "stationary"]
+- !private ["So9CMLogItemC", "unknown"]
+- !private ["So9CMLogItemC", "walking"]
+- !private ["So16CMMotionActivityC", "automotive"]
+- !private ["So16CMMotionActivityC", "cycling"]
+- !private ["So16CMMotionActivityC", "running"]
+- !private ["So16CMMotionActivityC", "stationary"]
+- !private ["So16CMMotionActivityC", "unknown"]
+- !private ["So16CMMotionActivityC", "walking"]
+- ["So23CMMotionActivityManagerC", "init"]
+- !private ["So23CMMotionActivityManagerC", "isActivityAvailable"]
+- !private ["So23CMMotionActivityManagerC", "queryActivityStarting"]
+- ["So11CMPedometerC", "init"]
+- !private ["So11CMPedometerC", "isDistanceAvailable"]
+- !private ["So11CMPedometerC", "isPedometerEventTrackingAvailable"]
+- !private ["So11CMPedometerC", "isStepCountingAvailable"]
+- !private ["So11CMPedometerC", "queryPedometerData"]
+- !private ["So15CMPedometerDataC", "distance"]
+- !private ["So15CMPedometerDataC", "numberOfSteps"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "archivedData"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "automotive"]
+- !private ["s7CVarArgP", "characteristicType"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "cycling"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "distance"]
+- !private ["s7CVarArgP", "doubleValue"]
+- !private ["s7CVarArgP", "execute"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "isActivityAvailable"]
+- !private ["s7CVarArgP", "isDistanceAvailable"]
+- !private ["s7CVarArgP", "isPedometerEventTrackingAvailable"]
+- !private ["s7CVarArgP", "isStepCountingAvailable"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "meters"]
+- !private ["s7CVarArgP", "miles"]
+- !private ["s7CVarArgP", "numberOfSteps"]
+- !private ["s7CVarArgP", "quantity"]
+- !private ["s7CVarArgP", "quantityType"]
+- !private ["s7CVarArgP", "queryActivityStarting"]
+- !private ["s7CVarArgP", "queryPedometerData"]
+- !private ["s7CVarArgP", "requestAuthorization"]
+- !private ["s7CVarArgP", "running"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s7CVarArgP", "set"]
+- !private ["s7CVarArgP", "sharedManager"]
+- !private ["s7CVarArgP", "sound"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "startDate"]
+- !private ["s7CVarArgP", "stationary"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subtitle"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "transferFile"]
+- !private ["s7CVarArgP", "unarchivedObject"]
+- !private ["s7CVarArgP", "unknown"]
+- !private ["s7CVarArgP", "updateHandler"]
+- !private ["s7CVarArgP", "walking"]
+- !private ["10Foundation8CalendarV", "current"]
+- !private ["10Foundation8CalendarV", "date"]
+- ["Sl", ""]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
+- ["SL", ""]
+- !private ["SL", "converted"]
+- !private ["SL", "init"]
+- !private ["SL", "value"]
+- !private ["10Foundation8CalendarV9ComponentO", "minute"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "archivedData"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "automotive"]
+- !private ["s28CustomDebugStringConvertibleP", "characteristicType"]
+- !private ["s28CustomDebugStringConvertibleP", "converted"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "cycling"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- !private ["s28CustomDebugStringConvertibleP", "execute"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isActivityAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "isDistanceAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "isPedometerEventTrackingAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "isStepCountingAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "meters"]
+- !private ["s28CustomDebugStringConvertibleP", "miles"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfSteps"]
+- !private ["s28CustomDebugStringConvertibleP", "quantity"]
+- !private ["s28CustomDebugStringConvertibleP", "quantityType"]
+- !private ["s28CustomDebugStringConvertibleP", "queryActivityStarting"]
+- !private ["s28CustomDebugStringConvertibleP", "queryPedometerData"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "running"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "set"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedManager"]
+- !private ["s28CustomDebugStringConvertibleP", "sound"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "startDate"]
+- !private ["s28CustomDebugStringConvertibleP", "stationary"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subtitle"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "transferFile"]
+- !private ["s28CustomDebugStringConvertibleP", "unarchivedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "unknown"]
+- !private ["s28CustomDebugStringConvertibleP", "updateHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "walking"]
+- !private ["s17CustomReflectableP", "converted"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "date"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s17CustomReflectableP", "value"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "archivedData"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "automotive"]
+- !private ["s23CustomStringConvertibleP", "characteristicType"]
+- !private ["s23CustomStringConvertibleP", "converted"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "cycling"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "distance"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- !private ["s23CustomStringConvertibleP", "execute"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isActivityAvailable"]
+- !private ["s23CustomStringConvertibleP", "isDistanceAvailable"]
+- !private ["s23CustomStringConvertibleP", "isPedometerEventTrackingAvailable"]
+- !private ["s23CustomStringConvertibleP", "isStepCountingAvailable"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "meters"]
+- !private ["s23CustomStringConvertibleP", "miles"]
+- !private ["s23CustomStringConvertibleP", "numberOfSteps"]
+- !private ["s23CustomStringConvertibleP", "quantity"]
+- !private ["s23CustomStringConvertibleP", "quantityType"]
+- !private ["s23CustomStringConvertibleP", "queryActivityStarting"]
+- !private ["s23CustomStringConvertibleP", "queryPedometerData"]
+- !private ["s23CustomStringConvertibleP", "requestAuthorization"]
+- !private ["s23CustomStringConvertibleP", "running"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s23CustomStringConvertibleP", "sharedManager"]
+- !private ["s23CustomStringConvertibleP", "sound"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "startDate"]
+- !private ["s23CustomStringConvertibleP", "stationary"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subtitle"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "transferFile"]
+- !private ["s23CustomStringConvertibleP", "unarchivedObject"]
+- !private ["s23CustomStringConvertibleP", "unknown"]
+- !private ["s23CustomStringConvertibleP", "updateHandler"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "walking"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["Se", "converted"]
+- !private ["Se", "current"]
+- !private ["Se", "date"]
+- !private ["Se", "forEach"]
+- ["Se", "init"]
+- !private ["Se", "uuidString"]
+- !private ["Se", "value"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["So11NSDimensionC", ""]
+- !private ["So11NSDimensionC", "meters"]
+- !private ["So11NSDimensionC", "miles"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "converted"]
+- !private ["SE", "current"]
+- !private ["SE", "date"]
+- !private ["SE", "forEach"]
+- ["SE", "init"]
+- !private ["SE", "uuidString"]
+- !private ["SE", "value"]
+- !private ["SQ", "=="]
+- !private ["SQ", "RawValue"]
+- ["SQ", ""]
+- !private ["SQ", "add"]
+- !private ["SQ", "archivedData"]
+- !private ["SQ", "async"]
+- !private ["SQ", "automotive"]
+- !private ["SQ", "biologicalSex"]
+- !private ["SQ", "bloodType"]
+- !private ["SQ", "characteristicType"]
+- !private ["SQ", "converted"]
+- !private ["SQ", "current"]
+- !private ["SQ", "cycling"]
+- !private ["SQ", "data"]
+- !private ["SQ", "date"]
+- !private ["SQ", "dateOfBirth"]
+- !private ["SQ", "default"]
+- !private ["SQ", "distance"]
+- !private ["SQ", "distanceWalkingRunning"]
+- !private ["SQ", "doubleValue"]
+- !private ["SQ", "execute"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "heartRate"]
+- ["SQ", "init"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "isActivityAvailable"]
+- !private ["SQ", "isDistanceAvailable"]
+- !private ["SQ", "isPedometerEventTrackingAvailable"]
+- !private ["SQ", "isStepCountingAvailable"]
+- !private ["SQ", "main"]
+- !private ["SQ", "meters"]
+- !private ["SQ", "miles"]
+- !private ["SQ", "minute"]
+- !private ["SQ", "numberOfSteps"]
+- !private ["SQ", "quantity"]
+- !private ["SQ", "quantityType"]
+- !private ["SQ", "queryActivityStarting"]
+- !private ["SQ", "queryPedometerData"]
+- !private ["SQ", "requestAuthorization"]
+- !private ["SQ", "running"]
+- !private ["SQ", "scheduledTimer"]
+- !private ["SQ", "set"]
+- !private ["SQ", "sharedManager"]
+- !private ["SQ", "sound"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "startDate"]
+- !private ["SQ", "stationary"]
+- !private ["SQ", "stepCount"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subtitle"]
+- !private ["SQ", "title"]
+- !private ["SQ", "transferFile"]
+- !private ["SQ", "unarchivedObject"]
+- !private ["SQ", "unknown"]
+- !private ["SQ", "updateHandler"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "value"]
+- !private ["SQ", "walking"]
+- !private ["SQ", "wheelchairUse"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["26AppEase_WatchKit_Extension13FileIOManagerC", "fullURL"]
+- ["26AppEase_WatchKit_Extension13FileIOManagerC", "init"]
+- !private ["26AppEase_WatchKit_Extension13FileIOManagerC", "writeToFile"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["So11NSFormatterC", ""]
+- !private ["So11NSFormatterC", "init"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["So11NSFormatterC", "stringFromDate"]
+- !private ["So21HKAnchoredObjectQueryC", "init"]
+- !private ["So21HKAnchoredObjectQueryC", "updateHandler"]
+- !private ["So30HKCharacteristicTypeIdentifiera", "biologicalSex"]
+- !private ["So30HKCharacteristicTypeIdentifiera", "bloodType"]
+- !private ["So30HKCharacteristicTypeIdentifiera", "dateOfBirth"]
+- !private ["So30HKCharacteristicTypeIdentifiera", "wheelchairUse"]
+- !private ["So13HKHealthStoreC", "execute"]
+- ["So13HKHealthStoreC", "init"]
+- !private ["So13HKHealthStoreC", "requestAuthorization"]
+- ["So8HKObjectC", ""]
+- !private ["So8HKObjectC", "quantity"]
+- !private ["So8HKObjectC", "startDate"]
+- ["So12HKObjectTypeC", ""]
+- !private ["So12HKObjectTypeC", "characteristicType"]
+- !private ["So12HKObjectTypeC", "quantityType"]
+- !private ["So10HKQuantityC", "doubleValue"]
+- !private ["So16HKQuantitySampleC", "quantity"]
+- !private ["So16HKQuantitySampleC", "startDate"]
+- !private ["So14HKQuantityTypeC", "quantityType"]
+- !private ["So24HKQuantityTypeIdentifiera", "=="]
+- !private ["So24HKQuantityTypeIdentifiera", "RawValue"]
+- !private ["So24HKQuantityTypeIdentifiera", "distanceWalkingRunning"]
+- !private ["So24HKQuantityTypeIdentifiera", "heartRate"]
+- !private ["So24HKQuantityTypeIdentifiera", "stepCount"]
+- ["So7HKQueryC", ""]
+- !private ["So7HKQueryC", "init"]
+- !private ["So7HKQueryC", "updateHandler"]
+- ["So8HKSampleC", ""]
+- !private ["So8HKSampleC", "quantity"]
+- !private ["So8HKSampleC", "startDate"]
+- ["So12HKSampleTypeC", ""]
+- !private ["So12HKSampleTypeC", "quantityType"]
+- ["So6HKUnitC", "init"]
+- !private ["SH", "=="]
+- !private ["SH", "RawValue"]
+- ["SH", ""]
+- !private ["SH", "add"]
+- !private ["SH", "archivedData"]
+- !private ["SH", "async"]
+- !private ["SH", "automotive"]
+- !private ["SH", "biologicalSex"]
+- !private ["SH", "bloodType"]
+- !private ["SH", "characteristicType"]
+- !private ["SH", "converted"]
+- !private ["SH", "current"]
+- !private ["SH", "cycling"]
+- !private ["SH", "data"]
+- !private ["SH", "date"]
+- !private ["SH", "dateOfBirth"]
+- !private ["SH", "default"]
+- !private ["SH", "distance"]
+- !private ["SH", "distanceWalkingRunning"]
+- !private ["SH", "doubleValue"]
+- !private ["SH", "execute"]
+- !private ["SH", "forEach"]
+- !private ["SH", "heartRate"]
+- ["SH", "init"]
+- !private ["SH", "intValue"]
+- !private ["SH", "isActivityAvailable"]
+- !private ["SH", "isDistanceAvailable"]
+- !private ["SH", "isPedometerEventTrackingAvailable"]
+- !private ["SH", "isStepCountingAvailable"]
+- !private ["SH", "main"]
+- !private ["SH", "meters"]
+- !private ["SH", "miles"]
+- !private ["SH", "minute"]
+- !private ["SH", "numberOfSteps"]
+- !private ["SH", "quantity"]
+- !private ["SH", "quantityType"]
+- !private ["SH", "queryActivityStarting"]
+- !private ["SH", "queryPedometerData"]
+- !private ["SH", "requestAuthorization"]
+- !private ["SH", "running"]
+- !private ["SH", "scheduledTimer"]
+- !private ["SH", "set"]
+- !private ["SH", "sharedManager"]
+- !private ["SH", "sound"]
+- !private ["SH", "standard"]
+- !private ["SH", "startDate"]
+- !private ["SH", "stationary"]
+- !private ["SH", "stepCount"]
+- !private ["SH", "string"]
+- !private ["SH", "subtitle"]
+- !private ["SH", "title"]
+- !private ["SH", "transferFile"]
+- !private ["SH", "unarchivedObject"]
+- !private ["SH", "unknown"]
+- !private ["SH", "updateHandler"]
+- !private ["SH", "uuidString"]
+- !private ["SH", "value"]
+- !private ["SH", "walking"]
+- !private ["SH", "wheelchairUse"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$age"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$automotiveLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$bloodType"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$cyclingLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$distance"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$heartRate"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$runningLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$sex"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$stationaryLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$stepCount"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$steps"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$unknownLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "$walkingLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "Bool"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "CMMotionActivityManager"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "CMPedometer"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "Calendar"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "Date"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "Default_ObjectWillChangePublisher"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "Dictionary"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "DispatchQueue"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "Double"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "Error"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "FileIOManager"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "HKAnchoredObjectQuery"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "HKCharacteristicTypeIdentifier"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "HKDeletedObject"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "HKHealthStore"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "HKObjectQueryNoLimit"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "HKObjectType"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "HKQuantitySample"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "HKQuantityType"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "HKQuantityTypeIdentifier"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "HKQueryAnchor"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "HKSample"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "HKSampleType"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "HKStatisticsCollectionQuery"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "HKUnit"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "ISO8601DateFormatter"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "Int"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "Measurement"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "NSKeyedArchiver"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "NSKeyedUnarchiver"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "NSTemporaryDirectory"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "ObjectWillChangePublisher"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "Published"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "Set"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "String"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "Timer"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "UNMutableNotificationContent"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "UNNotificationRequest"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "UNNotificationSound"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "UNTimeIntervalNotificationTrigger"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "UNUserNotificationCenter"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "URL"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "UUID"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "UnitLength"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "UserDefaults"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "Void"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "WatchConnectivityManager"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", ""]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "_Default_ObjectWillChangePublisher"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_age"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_automotiveLabel"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_bloodType"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_cyclingLabel"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_distance"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_heartRate"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_runningLabel"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_sex"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_stationaryLabel"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_stepCount"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_steps"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_unknownLabel"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "_walkingLabel"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "activityManager"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "age"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "automotiveLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "bloodType"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "checkIfNotificationInstance"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "cyclingLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "deinit"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "distance"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "fileHandler"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "fileMetaData"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "getAge"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "getBiologicalSex"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "getBloodType"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "getPedometerData"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "healthKitStore"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "heartRate"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "heartRateQuantity"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "init"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "isPedometerAvailable"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "latitude"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "longitude"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "objectWillChange"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "pedometer"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "previousHeartRateQueryTime"]
+- !private ["26AppEase_WatchKit_Extension11HealthStoreC", "print"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "process"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "query"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "requestAuthorization"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "retrieveAnchor"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "runningLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "sendFile"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "sex"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "startHeartRateQuery"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "startUpdatingActivity"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "stationaryLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "stepCount"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "steps"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "storeAnchor"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "timer"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "timerInvoke"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "unknownLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "walkingLabel"]
+- ["26AppEase_WatchKit_Extension11HealthStoreC", "writeDataToFile"]
+- !private ["So22NSISO8601DateFormatterC", "init"]
+- !private ["So22NSISO8601DateFormatterC", "string"]
+- !private ["Si", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["10Foundation11MeasurementV", "converted"]
+- !private ["10Foundation11MeasurementV", "init"]
+- !private ["10Foundation11MeasurementV", "value"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- ["So7NSCoderC", ""]
+- !private ["So7NSCoderC", "archivedData"]
+- !private ["So7NSCoderC", "archivedDataWithRootObject"]
+- !private ["So7NSCoderC", "unarchivedObject"]
+- !private ["So7NSCoderC", "unarchivedObjectOfClasses"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "automotive"]
+- !private ["So8NSCodingP", "characteristicType"]
+- !private ["So8NSCodingP", "cycling"]
+- !private ["So8NSCodingP", "default"]
+- !private ["So8NSCodingP", "distance"]
+- !private ["So8NSCodingP", "doubleValue"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So8NSCodingP", "meters"]
+- !private ["So8NSCodingP", "miles"]
+- !private ["So8NSCodingP", "numberOfSteps"]
+- !private ["So8NSCodingP", "quantity"]
+- !private ["So8NSCodingP", "quantityType"]
+- !private ["So8NSCodingP", "running"]
+- !private ["So8NSCodingP", "sound"]
+- !private ["So8NSCodingP", "startDate"]
+- !private ["So8NSCodingP", "stationary"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "stringFromDate"]
+- !private ["So8NSCodingP", "subtitle"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "triggerWithTimeInterval"]
+- !private ["So8NSCodingP", "unknown"]
+- !private ["So8NSCodingP", "walking"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "automotive"]
+- !private ["So9NSCopyingP", "characteristicType"]
+- !private ["So9NSCopyingP", "cycling"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "distance"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So9NSCopyingP", "meters"]
+- !private ["So9NSCopyingP", "miles"]
+- !private ["So9NSCopyingP", "numberOfSteps"]
+- !private ["So9NSCopyingP", "quantityType"]
+- !private ["So9NSCopyingP", "running"]
+- !private ["So9NSCopyingP", "sound"]
+- !private ["So9NSCopyingP", "stationary"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "stringFromDate"]
+- !private ["So9NSCopyingP", "subtitle"]
+- !private ["So9NSCopyingP", "title"]
+- !private ["So9NSCopyingP", "triggerWithTimeInterval"]
+- !private ["So9NSCopyingP", "unknown"]
+- !private ["So9NSCopyingP", "walking"]
+- !private ["So20NSFetchRequestResultP", "doubleValue"]
+- !private ["So20NSFetchRequestResultP", "intValue"]
+- !private ["So15NSKeyedArchiverC", "archivedData"]
+- !private ["So17NSKeyedUnarchiverC", "unarchivedObject"]
+- !private ["So16NSMutableCopyingP", ""]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "sound"]
+- !private ["So16NSMutableCopyingP", "subtitle"]
+- !private ["So16NSMutableCopyingP", "title"]
+- !private ["So8NSNumberC", "doubleValue"]
+- !private ["So8NSNumberC", "intValue"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "addNotificationRequest"]
+- !private ["So8NSObjectC", "archivedData"]
+- !private ["So8NSObjectC", "archivedDataWithRootObject"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "automotive"]
+- !private ["So8NSObjectC", "cgAffineTransform"]
+- !private ["So8NSObjectC", "cgPoint"]
+- !private ["So8NSObjectC", "cgRect"]
+- !private ["So8NSObjectC", "cgSize"]
+- !private ["So8NSObjectC", "cgVector"]
+- !private ["So8NSObjectC", "characteristicType"]
+- !private ["So8NSObjectC", "characteristicTypeForIdentifier"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "currentNotificationCenter"]
+- !private ["So8NSObjectC", "cycling"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dataForKey"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "distance"]
+- !private ["So8NSObjectC", "doubleValue"]
+- !private ["So8NSObjectC", "doubleValueForUnit"]
+- !private ["So8NSObjectC", "execute"]
+- !private ["So8NSObjectC", "executeQuery"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "intValue"]
+- !private ["So8NSObjectC", "isActivityAvailable"]
+- !private ["So8NSObjectC", "isDistanceAvailable"]
+- !private ["So8NSObjectC", "isPedometerEventTrackingAvailable"]
+- !private ["So8NSObjectC", "isStepCountingAvailable"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "meters"]
+- !private ["So8NSObjectC", "miles"]
+- !private ["So8NSObjectC", "nsDirectionalEdgeInsets"]
+- !private ["So8NSObjectC", "numberOfSteps"]
+- !private ["So8NSObjectC", "quantity"]
+- !private ["So8NSObjectC", "quantityType"]
+- !private ["So8NSObjectC", "quantityTypeForIdentifier"]
+- !private ["So8NSObjectC", "queryActivityStarting"]
+- !private ["So8NSObjectC", "queryActivityStartingFromDate"]
+- !private ["So8NSObjectC", "queryPedometerData"]
+- !private ["So8NSObjectC", "queryPedometerDataFromDate"]
+- !private ["So8NSObjectC", "requestAuthorization"]
+- !private ["So8NSObjectC", "requestAuthorizationToShareTypes"]
+- !private ["So8NSObjectC", "requestWithIdentifier"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "running"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- !private ["So8NSObjectC", "scheduledTimerWithTimeInterval"]
+- !private ["So8NSObjectC", "set"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "sharedManager"]
+- !private ["So8NSObjectC", "sound"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "startDate"]
+- !private ["So8NSObjectC", "stationary"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "stringForKey"]
+- !private ["So8NSObjectC", "stringForObjectValue"]
+- !private ["So8NSObjectC", "stringFromDate"]
+- !private ["So8NSObjectC", "subtitle"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "transferFile"]
+- !private ["So8NSObjectC", "triggerWithTimeInterval"]
+- !private ["So8NSObjectC", "uiEdgeInsets"]
+- !private ["So8NSObjectC", "uiOffset"]
+- !private ["So8NSObjectC", "unarchivedObject"]
+- !private ["So8NSObjectC", "unarchivedObjectOfClasses"]
+- ["So8NSObjectC", "unitFromEnergyFormatterUnit"]
+- ["So8NSObjectC", "unitFromLengthFormatterUnit"]
+- ["So8NSObjectC", "unitFromMassFormatterUnit"]
+- ["So8NSObjectC", "unitFromString"]
+- !private ["So8NSObjectC", "unknown"]
+- !private ["So8NSObjectC", "updateHandler"]
+- !private ["So8NSObjectC", "walking"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "addNotificationRequest"]
+- !private ["So8NSObjectP", "archivedData"]
+- !private ["So8NSObjectP", "archivedDataWithRootObject"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "automotive"]
+- !private ["So8NSObjectP", "cgAffineTransform"]
+- !private ["So8NSObjectP", "cgPoint"]
+- !private ["So8NSObjectP", "cgRect"]
+- !private ["So8NSObjectP", "cgSize"]
+- !private ["So8NSObjectP", "cgVector"]
+- !private ["So8NSObjectP", "characteristicType"]
+- !private ["So8NSObjectP", "characteristicTypeForIdentifier"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "currentNotificationCenter"]
+- !private ["So8NSObjectP", "cycling"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataForKey"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "distance"]
+- !private ["So8NSObjectP", "doubleValue"]
+- !private ["So8NSObjectP", "doubleValueForUnit"]
+- !private ["So8NSObjectP", "execute"]
+- !private ["So8NSObjectP", "executeQuery"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intValue"]
+- !private ["So8NSObjectP", "isActivityAvailable"]
+- !private ["So8NSObjectP", "isDistanceAvailable"]
+- !private ["So8NSObjectP", "isPedometerEventTrackingAvailable"]
+- !private ["So8NSObjectP", "isStepCountingAvailable"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "meters"]
+- !private ["So8NSObjectP", "miles"]
+- !private ["So8NSObjectP", "nsDirectionalEdgeInsets"]
+- !private ["So8NSObjectP", "numberOfSteps"]
+- !private ["So8NSObjectP", "quantity"]
+- !private ["So8NSObjectP", "quantityType"]
+- !private ["So8NSObjectP", "quantityTypeForIdentifier"]
+- !private ["So8NSObjectP", "queryActivityStarting"]
+- !private ["So8NSObjectP", "queryActivityStartingFromDate"]
+- !private ["So8NSObjectP", "queryPedometerData"]
+- !private ["So8NSObjectP", "queryPedometerDataFromDate"]
+- !private ["So8NSObjectP", "requestAuthorization"]
+- !private ["So8NSObjectP", "requestAuthorizationToShareTypes"]
+- !private ["So8NSObjectP", "requestWithIdentifier"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "running"]
+- !private ["So8NSObjectP", "scheduledTimer"]
+- !private ["So8NSObjectP", "scheduledTimerWithTimeInterval"]
+- !private ["So8NSObjectP", "set"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "sharedManager"]
+- !private ["So8NSObjectP", "sound"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "startDate"]
+- !private ["So8NSObjectP", "stationary"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "stringForKey"]
+- !private ["So8NSObjectP", "stringForObjectValue"]
+- !private ["So8NSObjectP", "stringFromDate"]
+- !private ["So8NSObjectP", "subtitle"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "title"]
+- ["So8NSObjectP", "transferFile"]
+- !private ["So8NSObjectP", "triggerWithTimeInterval"]
+- !private ["So8NSObjectP", "uiEdgeInsets"]
+- !private ["So8NSObjectP", "uiOffset"]
+- !private ["So8NSObjectP", "unarchivedObject"]
+- !private ["So8NSObjectP", "unarchivedObjectOfClasses"]
+- ["So8NSObjectP", "unitFromEnergyFormatterUnit"]
+- ["So8NSObjectP", "unitFromLengthFormatterUnit"]
+- ["So8NSObjectP", "unitFromMassFormatterUnit"]
+- ["So8NSObjectP", "unitFromString"]
+- !private ["So8NSObjectP", "unknown"]
+- !private ["So8NSObjectP", "updateHandler"]
+- !private ["So8NSObjectP", "walking"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "automotive"]
+- !private ["So14NSSecureCodingP", "characteristicType"]
+- !private ["So14NSSecureCodingP", "cycling"]
+- !private ["So14NSSecureCodingP", "default"]
+- !private ["So14NSSecureCodingP", "distance"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So14NSSecureCodingP", "meters"]
+- !private ["So14NSSecureCodingP", "miles"]
+- !private ["So14NSSecureCodingP", "numberOfSteps"]
+- !private ["So14NSSecureCodingP", "quantity"]
+- !private ["So14NSSecureCodingP", "quantityType"]
+- !private ["So14NSSecureCodingP", "running"]
+- !private ["So14NSSecureCodingP", "sound"]
+- !private ["So14NSSecureCodingP", "startDate"]
+- !private ["So14NSSecureCodingP", "stationary"]
+- !private ["So14NSSecureCodingP", "string"]
+- !private ["So14NSSecureCodingP", "subtitle"]
+- !private ["So14NSSecureCodingP", "title"]
+- !private ["So14NSSecureCodingP", "triggerWithTimeInterval"]
+- !private ["So14NSSecureCodingP", "unknown"]
+- !private ["So14NSSecureCodingP", "walking"]
+- ["So7NSValueC", ""]
+- !private ["So7NSValueC", "doubleValue"]
+- !private ["So7NSValueC", "intValue"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- ["7Combine16ObservableObjectP", "CMMotionActivityManager"]
+- ["7Combine16ObservableObjectP", "CMPedometer"]
+- !private ["7Combine16ObservableObjectP", "Calendar"]
+- !private ["7Combine16ObservableObjectP", "Date"]
+- ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "DispatchQueue"]
+- ["7Combine16ObservableObjectP", "FileIOManager"]
+- !private ["7Combine16ObservableObjectP", "HKAnchoredObjectQuery"]
+- !private ["7Combine16ObservableObjectP", "HKCharacteristicTypeIdentifier"]
+- ["7Combine16ObservableObjectP", "HKHealthStore"]
+- !private ["7Combine16ObservableObjectP", "HKObjectQueryNoLimit"]
+- !private ["7Combine16ObservableObjectP", "HKObjectType"]
+- !private ["7Combine16ObservableObjectP", "HKQuantityType"]
+- !private ["7Combine16ObservableObjectP", "HKQueryAnchor"]
+- ["7Combine16ObservableObjectP", "HKUnit"]
+- !private ["7Combine16ObservableObjectP", "ISO8601DateFormatter"]
+- !private ["7Combine16ObservableObjectP", "Int"]
+- !private ["7Combine16ObservableObjectP", "Measurement"]
+- !private ["7Combine16ObservableObjectP", "NSKeyedArchiver"]
+- !private ["7Combine16ObservableObjectP", "NSKeyedUnarchiver"]
+- ["7Combine16ObservableObjectP", "NSTemporaryDirectory"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Published"]
+- !private ["7Combine16ObservableObjectP", "String"]
+- !private ["7Combine16ObservableObjectP", "Timer"]
+- !private ["7Combine16ObservableObjectP", "UNMutableNotificationContent"]
+- !private ["7Combine16ObservableObjectP", "UNNotificationRequest"]
+- !private ["7Combine16ObservableObjectP", "UNNotificationSound"]
+- !private ["7Combine16ObservableObjectP", "UNTimeIntervalNotificationTrigger"]
+- !private ["7Combine16ObservableObjectP", "UNUserNotificationCenter"]
+- ["7Combine16ObservableObjectP", "URL"]
+- !private ["7Combine16ObservableObjectP", "UUID"]
+- !private ["7Combine16ObservableObjectP", "UnitLength"]
+- !private ["7Combine16ObservableObjectP", "UserDefaults"]
+- !private ["7Combine16ObservableObjectP", "WatchConnectivityManager"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_age"]
+- !private ["7Combine16ObservableObjectP", "_automotiveLabel"]
+- !private ["7Combine16ObservableObjectP", "_bloodType"]
+- !private ["7Combine16ObservableObjectP", "_cyclingLabel"]
+- !private ["7Combine16ObservableObjectP", "_distance"]
+- !private ["7Combine16ObservableObjectP", "_heartRate"]
+- !private ["7Combine16ObservableObjectP", "_runningLabel"]
+- !private ["7Combine16ObservableObjectP", "_sex"]
+- !private ["7Combine16ObservableObjectP", "_stationaryLabel"]
+- !private ["7Combine16ObservableObjectP", "_stepCount"]
+- !private ["7Combine16ObservableObjectP", "_steps"]
+- !private ["7Combine16ObservableObjectP", "_unknownLabel"]
+- !private ["7Combine16ObservableObjectP", "_walkingLabel"]
+- !private ["7Combine16ObservableObjectP", "activityManager"]
+- !private ["7Combine16ObservableObjectP", "age"]
+- !private ["7Combine16ObservableObjectP", "automotiveLabel"]
+- !private ["7Combine16ObservableObjectP", "bloodType"]
+- !private ["7Combine16ObservableObjectP", "checkIfNotificationInstance"]
+- !private ["7Combine16ObservableObjectP", "cyclingLabel"]
+- !private ["7Combine16ObservableObjectP", "distance"]
+- !private ["7Combine16ObservableObjectP", "fileHandler"]
+- !private ["7Combine16ObservableObjectP", "fileMetaData"]
+- !private ["7Combine16ObservableObjectP", "getAge"]
+- !private ["7Combine16ObservableObjectP", "getBiologicalSex"]
+- !private ["7Combine16ObservableObjectP", "getBloodType"]
+- !private ["7Combine16ObservableObjectP", "getPedometerData"]
+- !private ["7Combine16ObservableObjectP", "healthKitStore"]
+- !private ["7Combine16ObservableObjectP", "heartRate"]
+- !private ["7Combine16ObservableObjectP", "heartRateQuantity"]
+- !private ["7Combine16ObservableObjectP", "isPedometerAvailable"]
+- !private ["7Combine16ObservableObjectP", "latitude"]
+- !private ["7Combine16ObservableObjectP", "longitude"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "pedometer"]
+- !private ["7Combine16ObservableObjectP", "previousHeartRateQueryTime"]
+- !private ["7Combine16ObservableObjectP", "print"]
+- !private ["7Combine16ObservableObjectP", "process"]
+- !private ["7Combine16ObservableObjectP", "requestAuthorization"]
+- !private ["7Combine16ObservableObjectP", "retrieveAnchor"]
+- !private ["7Combine16ObservableObjectP", "runningLabel"]
+- !private ["7Combine16ObservableObjectP", "sendFile"]
+- !private ["7Combine16ObservableObjectP", "sex"]
+- !private ["7Combine16ObservableObjectP", "startHeartRateQuery"]
+- !private ["7Combine16ObservableObjectP", "startUpdatingActivity"]
+- !private ["7Combine16ObservableObjectP", "stationaryLabel"]
+- !private ["7Combine16ObservableObjectP", "stepCount"]
+- !private ["7Combine16ObservableObjectP", "steps"]
+- !private ["7Combine16ObservableObjectP", "storeAnchor"]
+- !private ["7Combine16ObservableObjectP", "timer"]
+- !private ["7Combine16ObservableObjectP", "timerInvoke"]
+- !private ["7Combine16ObservableObjectP", "unknownLabel"]
+- !private ["7Combine16ObservableObjectP", "walkingLabel"]
+- !private ["7Combine16ObservableObjectP", "writeDataToFile"]
+- !private ["So16NSOperationQueueC", "main"]
+- !private ["So19NSProgressReportingP", "main"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- !private ["Sk", ""]
+- !private ["Sk", "forEach"]
+- !private ["Sm", ""]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "init"]
+- !private ["SY", "=="]
+- !private ["SY", "RawValue"]
+- !private ["SY", ""]
+- !private ["SY", "biologicalSex"]
+- !private ["SY", "bloodType"]
+- !private ["SY", "dateOfBirth"]
+- !private ["SY", "distanceWalkingRunning"]
+- !private ["SY", "heartRate"]
+- !private ["SY", "stepCount"]
+- !private ["SY", "wheelchairUse"]
+- !private ["10Foundation20ReferenceConvertibleP", "converted"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["10Foundation20ReferenceConvertibleP", "date"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["10Foundation20ReferenceConvertibleP", "value"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So7NSTimerC", "scheduledTimer"]
+- !private ["So28UNMutableNotificationContentC", "init"]
+- !private ["So28UNMutableNotificationContentC", "sound"]
+- !private ["So28UNMutableNotificationContentC", "subtitle"]
+- !private ["So28UNMutableNotificationContentC", "title"]
+- ["So21UNNotificationContentC", ""]
+- !private ["So21UNNotificationContentC", "init"]
+- !private ["So21UNNotificationContentC", "sound"]
+- !private ["So21UNNotificationContentC", "subtitle"]
+- !private ["So21UNNotificationContentC", "title"]
+- !private ["So21UNNotificationRequestC", "init"]
+- !private ["So19UNNotificationSoundC", "default"]
+- ["So21UNNotificationTriggerC", ""]
+- !private ["So21UNNotificationTriggerC", "init"]
+- !private ["So21UNNotificationTriggerC", "triggerWithTimeInterval"]
+- !private ["So33UNTimeIntervalNotificationTriggerC", "init"]
+- !private ["So24UNUserNotificationCenterC", "add"]
+- !private ["So24UNUserNotificationCenterC", "current"]
+- ["10Foundation3URLV", "init"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- ["So6NSUnitC", ""]
+- !private ["So6NSUnitC", "meters"]
+- !private ["So6NSUnitC", "miles"]
+- !private ["So12NSUnitLengthC", "meters"]
+- !private ["So12NSUnitLengthC", "miles"]
+- !private ["So14NSUserDefaultsC", "data"]
+- !private ["So14NSUserDefaultsC", "set"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["So14NSUserDefaultsC", "string"]
+- !private ["So17WCSessionDelegateP", "sharedManager"]
+- ["So17WCSessionDelegateP", "transferFile"]
+- !private ["26AppEase_WatchKit_Extension0C19ConnectivityManagerC", "sharedManager"]
+- !private ["26AppEase_WatchKit_Extension0C19ConnectivityManagerC", "transferFile"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "init"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "=="]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "RawValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "biologicalSex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bloodType"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "dateOfBirth"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "distanceWalkingRunning"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "heartRate"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "stepCount"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "wheelchairUse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "archivedData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "automotive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characteristicType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cycling"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "execute"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isActivityAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isDistanceAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isPedometerEventTrackingAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isStepCountingAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "meters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "miles"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfSteps"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "quantity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "quantityType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queryActivityStarting"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queryPedometerData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "running"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sound"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stationary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subtitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transferFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unarchivedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unknown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "walking"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "archivedData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "automotive"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "characteristicType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "current"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cycling"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "distance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "doubleValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "execute"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "intValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isActivityAvailable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isDistanceAvailable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isPedometerEventTrackingAvailable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isStepCountingAvailable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "meters"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "miles"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfSteps"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "quantity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "quantityType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "queryActivityStarting"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "queryPedometerData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestAuthorization"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "running"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scheduledTimer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "set"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sound"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stationary"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subtitle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "transferFile"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unarchivedObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unknown"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "walking"]
+- !private ["s21_ObjectiveCBridgeableP", "=="]
+- !private ["s21_ObjectiveCBridgeableP", "RawValue"]
+- ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "biologicalSex"]
+- !private ["s21_ObjectiveCBridgeableP", "bloodType"]
+- !private ["s21_ObjectiveCBridgeableP", "converted"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "date"]
+- !private ["s21_ObjectiveCBridgeableP", "dateOfBirth"]
+- !private ["s21_ObjectiveCBridgeableP", "distanceWalkingRunning"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "heartRate"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "stepCount"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["s21_ObjectiveCBridgeableP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "wheelchairUse"]
+- !private ["s20_SwiftNewtypeWrapperP", "=="]
+- !private ["s20_SwiftNewtypeWrapperP", "RawValue"]
+- !private ["s20_SwiftNewtypeWrapperP", "biologicalSex"]
+- !private ["s20_SwiftNewtypeWrapperP", "bloodType"]
+- !private ["s20_SwiftNewtypeWrapperP", "dateOfBirth"]
+- !private ["s20_SwiftNewtypeWrapperP", "distanceWalkingRunning"]
+- !private ["s20_SwiftNewtypeWrapperP", "heartRate"]
+- !private ["s20_SwiftNewtypeWrapperP", "stepCount"]
+- !private ["s20_SwiftNewtypeWrapperP", "wheelchairUse"]
+- !private ["So13CKRecordValueP", "doubleValue"]
+- !private ["So13CKRecordValueP", "intValue"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- "SK"
+- !private "Sz"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "So9CMLogItemC"
+- !private "So16CMMotionActivityC"
+- "So23CMMotionActivityManagerC"
+- "So11CMPedometerC"
+- !private "So15CMPedometerDataC"
+- "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- "Sl"
+- "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "So11NSDimensionC"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "26AppEase_WatchKit_Extension13FileIOManagerC"
+- !private "s17FixedWidthIntegerP"
+- "So11NSFormatterC"
+- !private "So21HKAnchoredObjectQueryC"
+- !private "So30HKCharacteristicTypeIdentifiera"
+- "So13HKHealthStoreC"
+- "So8HKObjectC"
+- "So12HKObjectTypeC"
+- !private "So10HKQuantityC"
+- !private "So16HKQuantitySampleC"
+- !private "So14HKQuantityTypeC"
+- !private "So24HKQuantityTypeIdentifiera"
+- "So7HKQueryC"
+- "So8HKSampleC"
+- "So12HKSampleTypeC"
+- "So6HKUnitC"
+- "SH"
+- "26AppEase_WatchKit_Extension11HealthStoreC"
+- !private "So22NSISO8601DateFormatterC"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- !private "10Foundation11MeasurementV"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So7NSCoderC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So15NSKeyedArchiverC"
+- !private "So17NSKeyedUnarchiverC"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So7NSValueC"
+- !private "Sj"
+- "So9OS_objectC"
+- "7Combine16ObservableObjectP"
+- !private "So16NSOperationQueueC"
+- !private "So19NSProgressReportingP"
+- "7Combine9PublishedV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "7Combine9SchedulerP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So7NSTimerC"
+- !private "So28UNMutableNotificationContentC"
+- "So21UNNotificationContentC"
+- !private "So21UNNotificationRequestC"
+- !private "So19UNNotificationSoundC"
+- "So21UNNotificationTriggerC"
+- !private "So33UNTimeIntervalNotificationTriggerC"
+- !private "So24UNUserNotificationCenterC"
+- "10Foundation3URLV"
+- !private "10Foundation4UUIDV"
+- "So6NSUnitC"
+- !private "So12NSUnitLengthC"
+- !private "So14NSUserDefaultsC"
+- "So17WCSessionDelegateP"
+- !private "26AppEase_WatchKit_Extension0C19ConnectivityManagerC"
+- !private "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/_WatchKit_SwiftUI.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/os.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/HomeKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/SceneKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/WatchKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/HealthKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/ClockKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/MapKit.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/HomeKit.framework/Headers/HomeKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "31521351646a5fbaf6caee6ce25a2649"

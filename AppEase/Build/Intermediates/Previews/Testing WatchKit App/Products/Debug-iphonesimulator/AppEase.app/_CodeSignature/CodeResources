@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		TR28wJ8XW9K20HfVQYXFO/Jy7Y0=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		6CbcDb9VdUi0e17yX2gZeBvLFU8=
+		</data>
+		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<data>
+		KM4cdS47oQYu+uh17P4FFL/goZA=
+		</data>
+		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
+		<data>
+		n2t8gsDpfE6XkhG31p7IQJRxTxU=
+		</data>
+		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<data>
+		AfEULjxK+GhKI/VskW1wGKWoM6k=
+		</data>
+		<key>Info.plist</key>
+		<data>
+		r3icmV+PPY+d4moouy3FmQ1z7eM=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Watch/AppEase WatchKit App.app/AppEase WatchKit App</key>
+		<data>
+		BVtueyrjq6d+DXOpi/0urEVnqXU=
+		</data>
+		<key>Watch/AppEase WatchKit App.app/Assets.car</key>
+		<data>
+		S8Y/DU1UWlsAaq4jyfDadsz6UlI=
+		</data>
+		<key>Watch/AppEase WatchKit App.app/Base.lproj/Interface-notification.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZDbqGFhQC8M5u3qKp1jmuKXyNyQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/Base.lproj/Interface.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u2KdcZrO+RKTF09Wpdyu2jJUXa0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/Info.plist</key>
+		<data>
+		czfGwfndEQMbzzEsOZVAeGu48oU=
+		</data>
+		<key>Watch/AppEase WatchKit App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Watch/AppEase WatchKit App.app/PlugIns/AppEase WatchKit Extension.appex/AppEase WatchKit Extension</key>
+		<data>
+		M+Ghpd7DVcPmdUooCg+yp7hnEPk=
+		</data>
+		<key>Watch/AppEase WatchKit App.app/PlugIns/AppEase WatchKit Extension.appex/Info.plist</key>
+		<data>
+		TXNaP13zmZlUBoRqL7hxsTJft/g=
+		</data>
+		<key>Watch/AppEase WatchKit App.app/PlugIns/AppEase WatchKit Extension.appex/_CodeSignature/CodeResources</key>
+		<data>
+		SdhSMZ4ASydV/ugt1pH74tMlY8E=
+		</data>
+		<key>Watch/AppEase WatchKit App.app/PlugIns/AppEase WatchKit Extension.appex/example.mp3</key>
+		<data>
+		Nokafwyc3chOYvOryvAWsLEyXSo=
+		</data>
+		<key>Watch/AppEase WatchKit App.app/_CodeSignature/CodeResources</key>
+		<data>
+		e/ZRkxGhhO/qQvVux2Ryrz3SS/Y=
+		</data>
+		<key>Watch/AppEase WatchKit App.app/_WatchKitStub/WK</key>
+		<data>
+		Pv7S4Tdf86TCeC7l0S346HYNhQc=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			by0dI6NWslVaUl6R73QJHrEoVNQKfLZITIikSqIrjUI=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uDIWGNHmQq0sZSPl83GJH5qucjlX7PFeSHg/LoJ6gv0=
+			</data>
+		</dict>
+		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			44iQYZ9m6faAOaYo5aA1KVs4kqwPCZ52cgNmfv3nck8=
+			</data>
+		</dict>
+		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
+			</data>
+		</dict>
+		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lwN+7hxUCxRJ/l3IFFD8mMF9nYpb/KhZ9CrT7pjIpQM=
+			</data>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/AppEase WatchKit App</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gd+CHe7mFRKrVHGclZA0cbtzNlgkRX9XoJQ505obSUM=
+			</data>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mzvQM7BEd6JmquWYlCIrqX+yhtzCabl0dxHlZyn8j7I=
+			</data>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/Base.lproj/Interface-notification.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KN73YxKbjOHRnUudq8ZPba9MJVYxWvy6B72ULB7ozr4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/Base.lproj/Interface.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xPcTkbEBe41KrGpP2pvwO84LcP9FLjDxW11oc8SjZnE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H6hxa/fQoYRsObZUizjzT5rcemqRyDTR5GWGGM3/qME=
+			</data>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/PkgInfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			glAhkclISwTWhTdPmHmgBmBpxJuKyuegSwHTjQfo7KA=
+			</data>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/PlugIns/AppEase WatchKit Extension.appex/AppEase WatchKit Extension</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xuoiWLMCDLlFyaDn7cjSKkx1UOaIxjrujM/uvm0srJ0=
+			</data>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/PlugIns/AppEase WatchKit Extension.appex/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JZsSlCZLCZO33mUQePZINYQKJAuItGjoz5rmeJ3FCGc=
+			</data>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/PlugIns/AppEase WatchKit Extension.appex/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/d1IEvI/2f+ItMCNYHyHE7xiBA3QWGtE8s7xkuY9pPY=
+			</data>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/PlugIns/AppEase WatchKit Extension.appex/example.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			S2rU1kjPyDgFit+tFvF8HuvN91eqxyLSSPsXwPxZnWk=
+			</data>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			up0tYKM3rXLk7kDY7GPDa/H7eY0E6d5R+wJKVb+mAxs=
+			</data>
+		</dict>
+		<key>Watch/AppEase WatchKit App.app/_WatchKitStub/WK</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YY4RqHzng85RDYsTGXzcHEiXH5twVagRwkrbLWFjV1o=
+			</data>
+		</dict>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

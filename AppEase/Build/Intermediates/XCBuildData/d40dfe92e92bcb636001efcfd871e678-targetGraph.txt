@@ -1,0 +1,10 @@
+Target dependency graph (5 targets)
+AppEase WatchKit Extension in AppEase, no dependencies
+AppEase WatchKit App in AppEase, depends on:
+AppEase WatchKit Extension in AppEase (explicit)
+Franz in Franz, no dependencies
+Franz in Franz, depends on:
+Franz in Franz (explicit)
+AppEase in AppEase, depends on:
+AppEase WatchKit App in AppEase (explicit)
+Franz in Franz (explicit)

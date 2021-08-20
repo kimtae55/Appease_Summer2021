@@ -1,0 +1,55 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.27.6 clang-1300.0.27.2)"
+options: "57650fc3ab5eb27221a0ef0afe8b4a95b96b87290b9d496300078dca86734879"
+build_start_time: [1628920629, 615012168]
+build_end_time: [1628920629, 793730020]
+inputs:
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/AdminAPI.swift"
+  : [1626081354, 242131233]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Assignment.swift"
+  : [1626081354, 242595195]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Broker.swift"
+  : [1626081354, 242936134]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Cluster.swift"
+  : [1626081354, 243236064]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Connection.swift"
+  : [1626081354, 243470907]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Consumer.swift"
+  : [1626081354, 243657588]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Crypt/CRC32.swift"
+  : [1626081354, 244039058]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Enumerations.swift"
+  : [1626081354, 244526624]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/FetchAPI.swift"
+  : [1626081354, 245091915]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Group.swift"
+  : [1626081354, 245304584]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/GroupCoordinatorAPI.swift"
+  : [1626081354, 245517730]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/GroupMembershipAPI.swift"
+  : [1626081354, 245742559]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/KafkaProtocol.swift"
+  : [1626081354, 245980501]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/KafkaRequest.swift"
+  : [1626081354, 246214866]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/KafkaResponse.swift"
+  : [1626081354, 246658802]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/MessageSet.swift"
+  : [1626081354, 246947288]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/MetadataAPI.swift"
+  : [1626081354, 247155666]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/OffsetAPI.swift"
+  : [1626081354, 247372150]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/OffsetCommitAPI.swift"
+  : [1626081354, 247616767]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/OffsetFetchAPI.swift"
+  : [1626081354, 247881412]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/OldConsumers.swift"
+  : [1626081354, 248105049]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Partition.swift"
+  : [1626081354, 248306512]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/ProduceAPI.swift"
+  : [1626081354, 248595952]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Topic.swift"
+  : [1626081354, 248896598]
+  ? "/Users/taehyo/Library/Developer/Xcode/DerivedData/AppEase-dlxccsdcrkwmxucgvmkyvssojxtw/SourcePackages/checkouts/franz/Sources/Franz/Variables.swift"
+  : [1626081354, 249207496]

@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "28dce9323ef830b581f2286c70af1c4b"
+build_time: [1628022029, 10425000]
+inputs:
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/LoginManager.swift": [1628021304, 221563148]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/Shared/FileIOManager.swift": [1625441868, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/LoginView.swift": [1625441868, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/Shared/UserStateManager.swift": [1625441868, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/AppDelegate.swift": [1625444497, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/SceneDelegate.swift": [1625441868, 0]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/KafkaManager.swift": [1628021299, 528186881]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/Shared/WatchConnectivityManager.swift": [1627844351, 496547953]
+  "/Users/taehyo/Documents/GitHub/AppEase/AppEase/AppEase/ContentView.swift": [1627842199, 452699994]

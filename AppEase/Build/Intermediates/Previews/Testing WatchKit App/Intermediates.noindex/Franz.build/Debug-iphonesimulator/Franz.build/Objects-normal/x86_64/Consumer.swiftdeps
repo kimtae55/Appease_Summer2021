@@ -1,0 +1,375 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Consumer"
+provides-nominal:
+- "5Franz8ConsumerC"
+provides-member:
+- ["5Franz8ConsumerC", ""]
+provides-dynamic-lookup:
+- "broker"
+- "cancelToken"
+- "cluster"
+- "commitGroupoffsets"
+- "joinedGroupSemaphore"
+- "listen"
+- "listenQueue"
+- "listening"
+- "membership"
+- "offsetsToCommit"
+- "sendHeartbeat"
+- "stop"
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Broker"
+- "Cluster"
+- "Consumer"
+- !private "Dictionary"
+- "DispatchQueue"
+- "DispatchSemaphore"
+- "FloatLiteralType"
+- "GroupMembership"
+- "IntegerLiteralType"
+- "Message"
+- "Offset"
+- "OffsetMetadata"
+- "PartitionId"
+- "ReplicaId"
+- "String"
+- "StringLiteralType"
+- !private "Timer"
+- "TopicName"
+- "Void"
+- !private "cancelToken"
+- !private "cluster"
+- !private "commitGroupoffsets"
+- !private "fatalError"
+- !private "listenQueue"
+- !private "listening"
+- !private "offsetsToCommit"
+- "print"
+- !private "sendHeartbeat"
+depends-member:
+- !private ["Sa", ""]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- ["So17OS_dispatch_queueC8DispatchE10AttributesV", "concurrent"]
+- !private ["SK", ""]
+- !private ["SK", "forEach"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- ["5Franz6BrokerC", "CancelToken"]
+- !private ["5Franz6BrokerC", "commitGroupOffset"]
+- !private ["5Franz6BrokerC", "heartbeatRequest"]
+- !private ["5Franz6BrokerC", "poll"]
+- !private ["5Franz11BrokerErrorO", ""]
+- !private ["5Franz11BrokerErrorO", "localizedDescription"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["5Franz6BrokerC11CancelTokenC", "cancel"]
+- !private ["5Franz7ClusterC", "clientId"]
+- !private ["5Franz7ClusterC", "getParitions"]
+- !private ["Sl", ""]
+- !private ["Sl", "forEach"]
+- ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "subscript"]
+- !private ["5Franz8ConsumerC", "Array"]
+- ["5Franz8ConsumerC", "Bool"]
+- ["5Franz8ConsumerC", "Broker"]
+- ["5Franz8ConsumerC", "Cluster"]
+- ["5Franz8ConsumerC", "DispatchQueue"]
+- ["5Franz8ConsumerC", "DispatchSemaphore"]
+- ["5Franz8ConsumerC", "GroupMembership"]
+- ["5Franz8ConsumerC", "Message"]
+- ["5Franz8ConsumerC", "Offset"]
+- ["5Franz8ConsumerC", "OffsetMetadata"]
+- ["5Franz8ConsumerC", "PartitionId"]
+- !private ["5Franz8ConsumerC", "ReplicaId"]
+- ["5Franz8ConsumerC", "String"]
+- !private ["5Franz8ConsumerC", "Timer"]
+- ["5Franz8ConsumerC", "TopicName"]
+- ["5Franz8ConsumerC", "Void"]
+- ["5Franz8ConsumerC", "broker"]
+- !private ["5Franz8ConsumerC", "cancelToken"]
+- !private ["5Franz8ConsumerC", "cluster"]
+- !private ["5Franz8ConsumerC", "commitGroupoffsets"]
+- ["5Franz8ConsumerC", "deinit"]
+- !private ["5Franz8ConsumerC", "fatalError"]
+- ["5Franz8ConsumerC", "init"]
+- ["5Franz8ConsumerC", "joinedGroupSemaphore"]
+- ["5Franz8ConsumerC", "listen"]
+- !private ["5Franz8ConsumerC", "listenQueue"]
+- !private ["5Franz8ConsumerC", "listening"]
+- ["5Franz8ConsumerC", "membership"]
+- ["5Franz8ConsumerC", "offsetsToCommit"]
+- !private ["5Franz8ConsumerC", "print"]
+- !private ["5Franz8ConsumerC", "sendHeartbeat"]
+- ["5Franz8ConsumerC", "stop"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "forEach"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "reduce"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "init"]
+- !private ["SD", "reduce"]
+- !private ["SD", "subscript"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "wait"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "init"]
+- ["So21OS_dispatch_semaphoreC", "init"]
+- !private ["So21OS_dispatch_semaphoreC", "wait"]
+- !private ["SE", "forEach"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "reduce"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- !private ["SQ", "async"]
+- ["SQ", "concurrent"]
+- !private ["SQ", "forEach"]
+- ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "scheduledTimer"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "wait"]
+- !private ["s5ErrorP", "localizedDescription"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "concurrent"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "reduce"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["5Franz5GroupC", "generationId"]
+- !private ["5Franz5GroupC", "id"]
+- !private ["5Franz5GroupC", "topics"]
+- !private ["5Franz15GroupMembershipC", "group"]
+- !private ["5Franz15GroupMembershipC", "memberId"]
+- !private ["SH", "async"]
+- !private ["SH", "forEach"]
+- ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "reduce"]
+- !private ["SH", "scheduledTimer"]
+- !private ["SH", "subscript"]
+- !private ["SH", "wait"]
+- ["5Franz9KafkaTypeP", "CancelToken"]
+- !private ["5Franz9KafkaTypeP", "commitGroupOffset"]
+- !private ["5Franz9KafkaTypeP", "forEach"]
+- !private ["5Franz9KafkaTypeP", "heartbeatRequest"]
+- !private ["5Franz9KafkaTypeP", "id"]
+- !private ["5Franz9KafkaTypeP", "init"]
+- !private ["5Franz9KafkaTypeP", "map"]
+- !private ["5Franz9KafkaTypeP", "poll"]
+- !private ["SM", ""]
+- !private ["SM", "forEach"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- !private ["So8NSObjectC", "scheduledTimerWithTimeInterval"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So8NSObjectP", "async"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "scheduledTimer"]
+- !private ["So8NSObjectP", "scheduledTimerWithTimeInterval"]
+- !private ["So8NSObjectP", "wait"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "wait"]
+- ["s9OptionSetP", "concurrent"]
+- !private ["5Franz9PartitionC", "id"]
+- !private ["Sk", ""]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- ["SY", ""]
+- ["SY", "concurrent"]
+- !private ["5Franz9ReplicaIdO", "none"]
+- !private ["7Combine9SchedulerP", "async"]
+- ["7Combine9SchedulerP", "init"]
+- ["ST", ""]
+- !private ["ST", "forEach"]
+- ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "reduce"]
+- !private ["ST", "subscript"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "concurrent"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So7NSTimerC", "scheduledTimer"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scheduledTimer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- "So17OS_dispatch_queueC8DispatchE10AttributesV"
+- !private "SK"
+- "5Franz6BrokerC"
+- !private "5Franz11BrokerErrorO"
+- "s7CVarArgP"
+- !private "5Franz6BrokerC11CancelTokenC"
+- !private "5Franz7ClusterC"
+- "Sl"
+- "5Franz8ConsumerC"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "So21OS_dispatch_semaphoreC"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "5Franz5GroupC"
+- !private "5Franz15GroupMembershipC"
+- "SH"
+- "5Franz9KafkaTypeP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- "s9OptionSetP"
+- !private "5Franz9PartitionC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "5Franz9ReplicaIdO"
+- "7Combine9SchedulerP"
+- "ST"
+- "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So7NSTimerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "747d2b725f04366e0e6a8b75290819d8"

@@ -1,0 +1,483 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MemoryGame"
+provides-nominal:
+- "26AppEase_WatchKit_Extension10MemoryGameV"
+- "26AppEase_WatchKit_Extension10MemoryGameV4CardV"
+provides-member:
+- ["26AppEase_WatchKit_Extension10MemoryGameV", ""]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "-="
+- !private "..<"
+- !private "/"
+- !private "=="
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Card"
+- "CardContent"
+- "Date"
+- "Double"
+- "Equatable"
+- "FloatLiteralType"
+- "Identifiable"
+- "Int"
+- "IntegerLiteralType"
+- "MemoryGame"
+- "TernaryPrecedence"
+- "TimeInterval"
+- !private "bonusTimeLimit"
+- !private "bonusTimeRemaining"
+- "cards"
+- !private "cardsLeft"
+- !private "faceUpTime"
+- !private "indexOfTheOneAndOnlyFaceUpCard"
+- !private "isConsumingBonusTime"
+- !private "isFaceUp"
+- !private "isMatched"
+- !private "lastFaceUpDate"
+- !private "max"
+- !private "newGameStart"
+- !private "pastFaceUpTime"
+- !private "startUsingBonusTime"
+- !private "stopUsingBonusTime"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "firstIndex"]
+- !private ["Sa", "indices"]
+- !private ["Sa", "init"]
+- !private ["Sa", "only"]
+- !private ["Sa", "shuffle"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "content"]
+- !private ["s10ArraySliceV", "isFaceUp"]
+- !private ["s10ArraySliceV", "isMatched"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "content"]
+- !private ["SK", "filter"]
+- !private ["SK", "firstIndex"]
+- !private ["SK", "indices"]
+- !private ["SK", "init"]
+- !private ["SK", "isFaceUp"]
+- !private ["SK", "isMatched"]
+- !private ["SK", "only"]
+- !private ["SK", "shuffle"]
+- !private ["SK", "subscript"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "firstIndex"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "indices"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "only"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "shuffle"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "timeIntervalSince"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "firstIndex"]
+- !private ["s7CVarArgP", "indices"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "only"]
+- !private ["s7CVarArgP", "shuffle"]
+- !private ["s7CVarArgP", "subscript"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "Bool"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "CardContent"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "Date"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "Default_ID"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "Double"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "ID"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "Int"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "TimeInterval"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", ""]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "_Default_ID"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "bonusRemaining"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "bonusTimeLimit"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "bonusTimeRemaining"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "content"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "faceUpTime"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "hasEarnedBonus"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "id"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "init"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "isConsumingBonusTime"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "isFaceUp"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "isMatched"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "lastFaceUpDate"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "max"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "pastFaceUpTime"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "startUsingBonusTime"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV4CardV", "stopUsingBonusTime"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "content"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "firstIndex"]
+- !private ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isFaceUp"]
+- !private ["Sl", "isMatched"]
+- !private ["Sl", "only"]
+- !private ["Sl", "shuffle"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["SL", "timeIntervalSince"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "content"]
+- !private ["10Foundation15ContiguousBytesP", "firstIndex"]
+- !private ["10Foundation15ContiguousBytesP", "indices"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isFaceUp"]
+- !private ["10Foundation15ContiguousBytesP", "isMatched"]
+- !private ["10Foundation15ContiguousBytesP", "only"]
+- !private ["10Foundation15ContiguousBytesP", "shuffle"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "content"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "firstIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "indices"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isFaceUp"]
+- !private ["s28CustomDebugStringConvertibleP", "isMatched"]
+- !private ["s28CustomDebugStringConvertibleP", "only"]
+- !private ["s28CustomDebugStringConvertibleP", "shuffle"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "content"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "firstIndex"]
+- !private ["s17CustomReflectableP", "indices"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isFaceUp"]
+- !private ["s17CustomReflectableP", "isMatched"]
+- !private ["s17CustomReflectableP", "only"]
+- !private ["s17CustomReflectableP", "shuffle"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timeIntervalSince"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "content"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "firstIndex"]
+- !private ["s23CustomStringConvertibleP", "indices"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isFaceUp"]
+- !private ["s23CustomStringConvertibleP", "isMatched"]
+- !private ["s23CustomStringConvertibleP", "only"]
+- !private ["s23CustomStringConvertibleP", "shuffle"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "content"]
+- !private ["10Foundation12DataProtocolP", "firstIndex"]
+- !private ["10Foundation12DataProtocolP", "indices"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isFaceUp"]
+- !private ["10Foundation12DataProtocolP", "isMatched"]
+- !private ["10Foundation12DataProtocolP", "only"]
+- !private ["10Foundation12DataProtocolP", "shuffle"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince"]
+- !private ["Se", "append"]
+- !private ["Se", "filter"]
+- !private ["Se", "firstIndex"]
+- !private ["Se", "indices"]
+- !private ["Se", "init"]
+- !private ["Se", "only"]
+- !private ["Se", "shuffle"]
+- !private ["Se", "subscript"]
+- !private ["Se", "timeIntervalSince"]
+- !private ["SE", "append"]
+- !private ["SE", "filter"]
+- !private ["SE", "firstIndex"]
+- !private ["SE", "indices"]
+- !private ["SE", "init"]
+- !private ["SE", "only"]
+- !private ["SE", "shuffle"]
+- !private ["SE", "subscript"]
+- !private ["SE", "timeIntervalSince"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "content"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "firstIndex"]
+- !private ["SQ", "indices"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isFaceUp"]
+- !private ["SQ", "isMatched"]
+- !private ["SQ", "only"]
+- !private ["SQ", "shuffle"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "timeIntervalSince"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "content"]
+- !private ["s25ExpressibleByArrayLiteralP", "firstIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "indices"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isFaceUp"]
+- !private ["s25ExpressibleByArrayLiteralP", "isMatched"]
+- !private ["s25ExpressibleByArrayLiteralP", "only"]
+- !private ["s25ExpressibleByArrayLiteralP", "shuffle"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "content"]
+- !private ["SH", "filter"]
+- !private ["SH", "firstIndex"]
+- !private ["SH", "indices"]
+- !private ["SH", "init"]
+- !private ["SH", "isFaceUp"]
+- !private ["SH", "isMatched"]
+- !private ["SH", "only"]
+- !private ["SH", "shuffle"]
+- !private ["SH", "subscript"]
+- !private ["SH", "timeIntervalSince"]
+- !private ["s12IdentifiableP", "Date"]
+- ["s12IdentifiableP", "Default_ID"]
+- ["s12IdentifiableP", "ID"]
+- ["s12IdentifiableP", ""]
+- ["s12IdentifiableP", "_Default_ID"]
+- !private ["s12IdentifiableP", "bonusRemaining"]
+- !private ["s12IdentifiableP", "bonusTimeLimit"]
+- !private ["s12IdentifiableP", "bonusTimeRemaining"]
+- !private ["s12IdentifiableP", "content"]
+- !private ["s12IdentifiableP", "faceUpTime"]
+- !private ["s12IdentifiableP", "hasEarnedBonus"]
+- ["s12IdentifiableP", "id"]
+- !private ["s12IdentifiableP", "init"]
+- !private ["s12IdentifiableP", "isConsumingBonusTime"]
+- !private ["s12IdentifiableP", "isFaceUp"]
+- !private ["s12IdentifiableP", "isMatched"]
+- !private ["s12IdentifiableP", "lastFaceUpDate"]
+- !private ["s12IdentifiableP", "max"]
+- !private ["s12IdentifiableP", "pastFaceUpTime"]
+- !private ["s12IdentifiableP", "startUsingBonusTime"]
+- !private ["s12IdentifiableP", "stopUsingBonusTime"]
+- !private ["s20LazySequenceProtocolP", "isFaceUp"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "Array"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "Bool"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "Card"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "Date"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "Double"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "Identifiable"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "Int"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "TimeInterval"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "bonusTimeLimit"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "bonusTimeRemaining"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "cards"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "cardsLeft"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "choose"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "faceUpTime"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "indexOfTheOneAndOnlyFaceUpCard"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "init"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "isConsumingBonusTime"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "isFaceUp"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "isMatched"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "lastFaceUpDate"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "max"]
+- ["26AppEase_WatchKit_Extension10MemoryGameV", "newGameStart"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "pastFaceUpTime"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "startUsingBonusTime"]
+- !private ["26AppEase_WatchKit_Extension10MemoryGameV", "stopUsingBonusTime"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "content"]
+- !private ["SM", "firstIndex"]
+- !private ["SM", "indices"]
+- !private ["SM", "init"]
+- !private ["SM", "isFaceUp"]
+- !private ["SM", "isMatched"]
+- !private ["SM", "only"]
+- !private ["SM", "shuffle"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "firstIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "indices"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "only"]
+- !private ["10Foundation19MutableDataProtocolP", "shuffle"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSCodingP", ""]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "content"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "firstIndex"]
+- !private ["Sk", "indices"]
+- !private ["Sk", "init"]
+- !private ["Sk", "isFaceUp"]
+- !private ["Sk", "isMatched"]
+- !private ["Sk", "only"]
+- !private ["Sk", "shuffle"]
+- !private ["Sk", "subscript"]
+- !private ["Sn", "filter"]
+- !private ["SX", "filter"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "content"]
+- !private ["Sm", "firstIndex"]
+- !private ["Sm", "indices"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isFaceUp"]
+- !private ["Sm", "isMatched"]
+- !private ["Sm", "only"]
+- !private ["Sm", "shuffle"]
+- !private ["Sm", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "content"]
+- !private ["ST", "filter"]
+- !private ["ST", "firstIndex"]
+- !private ["ST", "indices"]
+- !private ["ST", "init"]
+- !private ["ST", "isFaceUp"]
+- !private ["ST", "isMatched"]
+- !private ["ST", "only"]
+- !private ["ST", "shuffle"]
+- !private ["ST", "subscript"]
+- !private ["s5SliceV", "isFaceUp"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "content"]
+- !private ["s14_ArrayProtocolP", "firstIndex"]
+- !private ["s14_ArrayProtocolP", "indices"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isFaceUp"]
+- !private ["s14_ArrayProtocolP", "isMatched"]
+- !private ["s14_ArrayProtocolP", "only"]
+- !private ["s14_ArrayProtocolP", "shuffle"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "content"]
+- !private ["s24_DestructorSafeContainerP", "firstIndex"]
+- !private ["s24_DestructorSafeContainerP", "indices"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isFaceUp"]
+- !private ["s24_DestructorSafeContainerP", "isMatched"]
+- !private ["s24_DestructorSafeContainerP", "only"]
+- !private ["s24_DestructorSafeContainerP", "shuffle"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "firstIndex"]
+- !private ["s19_HasContiguousBytesP", "indices"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "only"]
+- !private ["s19_HasContiguousBytesP", "shuffle"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "firstIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "indices"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "only"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "shuffle"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "firstIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "indices"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "only"]
+- !private ["s21_ObjectiveCBridgeableP", "shuffle"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince"]
+depends-nominal:
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- "26AppEase_WatchKit_Extension10MemoryGameV4CardV"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- "s12IdentifiableP"
+- !private "s20LazySequenceProtocolP"
+- "26AppEase_WatchKit_Extension10MemoryGameV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s5SliceV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/HomeKit.framework/Headers/HomeKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WatchKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator7.2.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "f46cb535fa53dbb22d35dd79c8635310"

@@ -1,0 +1,477 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConsumerDelegate"
+- "HighLevelConsumerDelegate"
+- "OldConsumer"
+- "SimpleConsumer"
+- "HighLevelConsumer"
+provides-nominal:
+- "5Franz16ConsumerDelegateP"
+- "5Franz25HighLevelConsumerDelegateP"
+- "5Franz11OldConsumerC"
+- "5Franz14SimpleConsumerC"
+- "5Franz17HighLevelConsumerC"
+provides-member:
+- ["5Franz16ConsumerDelegateP", ""]
+- ["5Franz25HighLevelConsumerDelegateP", ""]
+- ["5Franz11OldConsumerC", ""]
+- ["5Franz14SimpleConsumerC", ""]
+- ["5Franz17HighLevelConsumerC", ""]
+provides-dynamic-lookup:
+- "_clientId"
+- "_partition"
+- "_topic"
+- "broker"
+- "consumerDidReturnMessage"
+- "consumerIsReady"
+- "delegate"
+- "fetchDidFail"
+- "membership"
+- "offsetCommitDidFail"
+- "offsetDidCommit"
+- "poll"
+- "shouldAttachOffsetMetadata"
+- "shouldCommitOffset"
+- "shouldRetryFailedFetch"
+- "shouldRetryFailedOffsetCommit"
+- "topicPartitionLeaderNotFound"
+depends-top-level:
+- "!="
+- "&&"
+- "+"
+- "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Broker"
+- "ConsumerDelegate"
+- !private "Dictionary"
+- "GroupMembership"
+- "HighLevelConsumer"
+- "HighLevelConsumerDelegate"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Message"
+- "NSObject"
+- "OldConsumer"
+- "SimpleConsumer"
+- "String"
+- "StringLiteralType"
+- !private "_clientId"
+- !private "_partition"
+- !private "_topic"
+- !private "broker"
+- !private "membership"
+- "print"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "forEach"]
+- !private ["SK", ""]
+- !private ["SK", "enumerated"]
+- !private ["SK", "forEach"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["5Franz6BrokerC", "commitGroupOffset"]
+- !private ["5Franz6BrokerC", "poll"]
+- !private ["5Franz11BrokerErrorO", "fetchFailed"]
+- !private ["5Franz11BrokerErrorO", "kafkaError"]
+- !private ["5Franz11BrokerErrorO", "noConnection"]
+- !private ["5Franz11BrokerErrorO", "noGroupMembershipForBroker"]
+- !private ["s7CVarArgP", "Int64"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_clientId"]
+- !private ["s7CVarArgP", "_partition"]
+- !private ["s7CVarArgP", "_topic"]
+- !private ["s7CVarArgP", "broker"]
+- !private ["s7CVarArgP", "clientId"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "membership"]
+- !private ["s7CVarArgP", "partition"]
+- !private ["s7CVarArgP", "poll"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "topic"]
+- !private ["Sl", ""]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "forEach"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- ["5Franz16ConsumerDelegateP", "Bool"]
+- ["5Franz16ConsumerDelegateP", "Int16"]
+- ["5Franz16ConsumerDelegateP", "Int32"]
+- ["5Franz16ConsumerDelegateP", "Int64"]
+- ["5Franz16ConsumerDelegateP", "Message"]
+- ["5Franz16ConsumerDelegateP", "OldConsumer"]
+- ["5Franz16ConsumerDelegateP", "String"]
+- ["5Franz16ConsumerDelegateP", ""]
+- ["5Franz16ConsumerDelegateP", "consumerDidReturnMessage"]
+- ["5Franz16ConsumerDelegateP", "consumerIsReady"]
+- ["5Franz16ConsumerDelegateP", "fetchDidFail"]
+- ["5Franz16ConsumerDelegateP", "offsetCommitDidFail"]
+- ["5Franz16ConsumerDelegateP", "offsetDidCommit"]
+- ["5Franz16ConsumerDelegateP", "shouldAttachOffsetMetadata"]
+- ["5Franz16ConsumerDelegateP", "shouldCommitOffset"]
+- ["5Franz16ConsumerDelegateP", "shouldRetryFailedFetch"]
+- ["5Franz16ConsumerDelegateP", "shouldRetryFailedOffsetCommit"]
+- ["5Franz16ConsumerDelegateP", "topicPartitionLeaderNotFound"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_clientId"]
+- !private ["s28CustomDebugStringConvertibleP", "_partition"]
+- !private ["s28CustomDebugStringConvertibleP", "_topic"]
+- !private ["s28CustomDebugStringConvertibleP", "broker"]
+- !private ["s28CustomDebugStringConvertibleP", "clientId"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "membership"]
+- !private ["s28CustomDebugStringConvertibleP", "partition"]
+- !private ["s28CustomDebugStringConvertibleP", "poll"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "topic"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_clientId"]
+- !private ["s23CustomStringConvertibleP", "_partition"]
+- !private ["s23CustomStringConvertibleP", "_topic"]
+- !private ["s23CustomStringConvertibleP", "broker"]
+- !private ["s23CustomStringConvertibleP", "clientId"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "membership"]
+- !private ["s23CustomStringConvertibleP", "partition"]
+- !private ["s23CustomStringConvertibleP", "poll"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "topic"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SQ", "Int64"]
+- ["SQ", ""]
+- !private ["SQ", "_clientId"]
+- !private ["SQ", "_partition"]
+- !private ["SQ", "_topic"]
+- !private ["SQ", "broker"]
+- !private ["SQ", "clientId"]
+- !private ["SQ", "code"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "description"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "init"]
+- !private ["SQ", "membership"]
+- !private ["SQ", "partition"]
+- !private ["SQ", "poll"]
+- !private ["SQ", "print"]
+- !private ["SQ", "retriable"]
+- !private ["SQ", "topic"]
+- !private ["s5ErrorP", "fetchFailed"]
+- !private ["s5ErrorP", "kafkaError"]
+- !private ["s5ErrorP", "noConnection"]
+- !private ["s5ErrorP", "noGroupMembershipForBroker"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["5Franz5GroupC", "id"]
+- !private ["5Franz15GroupMembershipC", "group"]
+- !private ["SH", "Int64"]
+- ["SH", ""]
+- !private ["SH", "_clientId"]
+- !private ["SH", "_partition"]
+- !private ["SH", "_topic"]
+- !private ["SH", "broker"]
+- !private ["SH", "clientId"]
+- !private ["SH", "code"]
+- !private ["SH", "delegate"]
+- !private ["SH", "description"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "forEach"]
+- !private ["SH", "init"]
+- !private ["SH", "membership"]
+- !private ["SH", "partition"]
+- !private ["SH", "poll"]
+- !private ["SH", "print"]
+- !private ["SH", "retriable"]
+- !private ["SH", "topic"]
+- ["5Franz17HighLevelConsumerC", "GroupMembership"]
+- ["5Franz17HighLevelConsumerC", "HighLevelConsumerDelegate"]
+- ["5Franz17HighLevelConsumerC", "Int32"]
+- !private ["5Franz17HighLevelConsumerC", "Int64"]
+- ["5Franz17HighLevelConsumerC", "String"]
+- ["5Franz17HighLevelConsumerC", ""]
+- !private ["5Franz17HighLevelConsumerC", "_clientId"]
+- !private ["5Franz17HighLevelConsumerC", "_partition"]
+- !private ["5Franz17HighLevelConsumerC", "_topic"]
+- !private ["5Franz17HighLevelConsumerC", "broker"]
+- !private ["5Franz17HighLevelConsumerC", "clientId"]
+- ["5Franz17HighLevelConsumerC", "deinit"]
+- ["5Franz17HighLevelConsumerC", "delegate"]
+- ["5Franz17HighLevelConsumerC", "init"]
+- ["5Franz17HighLevelConsumerC", "membership"]
+- !private ["5Franz17HighLevelConsumerC", "partition"]
+- ["5Franz17HighLevelConsumerC", "poll"]
+- !private ["5Franz17HighLevelConsumerC", "print"]
+- !private ["5Franz17HighLevelConsumerC", "topic"]
+- ["5Franz25HighLevelConsumerDelegateP", "Bool"]
+- ["5Franz25HighLevelConsumerDelegateP", "Int16"]
+- ["5Franz25HighLevelConsumerDelegateP", "Int32"]
+- ["5Franz25HighLevelConsumerDelegateP", "Int64"]
+- ["5Franz25HighLevelConsumerDelegateP", "String"]
+- !private ["5Franz25HighLevelConsumerDelegateP", "consumerDidReturnMessage"]
+- !private ["5Franz25HighLevelConsumerDelegateP", "fetchDidFail"]
+- ["5Franz25HighLevelConsumerDelegateP", "offsetCommitDidFail"]
+- ["5Franz25HighLevelConsumerDelegateP", "offsetDidCommit"]
+- ["5Franz25HighLevelConsumerDelegateP", "shouldAttachOffsetMetadata"]
+- ["5Franz25HighLevelConsumerDelegateP", "shouldCommitOffset"]
+- !private ["5Franz25HighLevelConsumerDelegateP", "shouldRetryFailedFetch"]
+- ["5Franz25HighLevelConsumerDelegateP", "shouldRetryFailedOffsetCommit"]
+- !private ["s5Int64V", ""]
+- !private ["s5Int64V", "init"]
+- !private ["5Franz14KafkaErrorCodeO", "code"]
+- !private ["5Franz14KafkaErrorCodeO", "description"]
+- !private ["5Franz14KafkaErrorCodeO", "retriable"]
+- !private ["5Franz9KafkaTypeP", "commitGroupOffset"]
+- !private ["5Franz9KafkaTypeP", "enumerated"]
+- !private ["5Franz9KafkaTypeP", "forEach"]
+- !private ["5Franz9KafkaTypeP", "init"]
+- !private ["5Franz9KafkaTypeP", "poll"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "enumerated"]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- ["So8NSObjectC", "Broker"]
+- ["So8NSObjectC", "ConsumerDelegate"]
+- ["So8NSObjectC", "GroupMembership"]
+- ["So8NSObjectC", "HighLevelConsumerDelegate"]
+- ["So8NSObjectC", "Int32"]
+- ["So8NSObjectC", "Int64"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_clientId"]
+- ["So8NSObjectC", "_partition"]
+- ["So8NSObjectC", "_topic"]
+- ["So8NSObjectC", "broker"]
+- ["So8NSObjectC", "clientId"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "membership"]
+- ["So8NSObjectC", "partition"]
+- ["So8NSObjectC", "poll"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "topic"]
+- ["So8NSObjectP", "Broker"]
+- ["So8NSObjectP", "ConsumerDelegate"]
+- ["So8NSObjectP", "GroupMembership"]
+- ["So8NSObjectP", "HighLevelConsumerDelegate"]
+- ["So8NSObjectP", "Int32"]
+- ["So8NSObjectP", "Int64"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "_clientId"]
+- ["So8NSObjectP", "_partition"]
+- ["So8NSObjectP", "_topic"]
+- ["So8NSObjectP", "broker"]
+- ["So8NSObjectP", "clientId"]
+- ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "membership"]
+- ["So8NSObjectP", "partition"]
+- ["So8NSObjectP", "poll"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "topic"]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- ["5Franz11OldConsumerC", "Broker"]
+- ["5Franz11OldConsumerC", "ConsumerDelegate"]
+- ["5Franz11OldConsumerC", "GroupMembership"]
+- ["5Franz11OldConsumerC", "HighLevelConsumerDelegate"]
+- ["5Franz11OldConsumerC", "Int32"]
+- ["5Franz11OldConsumerC", "Int64"]
+- ["5Franz11OldConsumerC", "String"]
+- ["5Franz11OldConsumerC", ""]
+- !private ["5Franz11OldConsumerC", "_clientId"]
+- !private ["5Franz11OldConsumerC", "_partition"]
+- !private ["5Franz11OldConsumerC", "_topic"]
+- ["5Franz11OldConsumerC", "broker"]
+- !private ["5Franz11OldConsumerC", "clientId"]
+- ["5Franz11OldConsumerC", "deinit"]
+- ["5Franz11OldConsumerC", "delegate"]
+- ["5Franz11OldConsumerC", "init"]
+- ["5Franz11OldConsumerC", "membership"]
+- !private ["5Franz11OldConsumerC", "partition"]
+- ["5Franz11OldConsumerC", "poll"]
+- !private ["5Franz11OldConsumerC", "print"]
+- !private ["5Franz11OldConsumerC", "topic"]
+- !private ["Sk", ""]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "forEach"]
+- !private ["Sm", ""]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "forEach"]
+- !private ["SY", "code"]
+- !private ["SY", "description"]
+- !private ["SY", "retriable"]
+- !private ["5Franz9ReplicaIdO", "none"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "enumerated"]
+- !private ["ST", "forEach"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- ["5Franz14SimpleConsumerC", "ConsumerDelegate"]
+- ["5Franz14SimpleConsumerC", "Int32"]
+- ["5Franz14SimpleConsumerC", "Int64"]
+- ["5Franz14SimpleConsumerC", "String"]
+- ["5Franz14SimpleConsumerC", ""]
+- !private ["5Franz14SimpleConsumerC", "_clientId"]
+- !private ["5Franz14SimpleConsumerC", "_partition"]
+- !private ["5Franz14SimpleConsumerC", "_topic"]
+- !private ["5Franz14SimpleConsumerC", "broker"]
+- !private ["5Franz14SimpleConsumerC", "clientId"]
+- ["5Franz14SimpleConsumerC", "deinit"]
+- ["5Franz14SimpleConsumerC", "delegate"]
+- ["5Franz14SimpleConsumerC", "init"]
+- !private ["5Franz14SimpleConsumerC", "partition"]
+- ["5Franz14SimpleConsumerC", "poll"]
+- !private ["5Franz14SimpleConsumerC", "print"]
+- !private ["5Franz14SimpleConsumerC", "topic"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int64"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_clientId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_partition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_topic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "broker"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clientId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "membership"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "partition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "poll"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topic"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "5Franz6BrokerC"
+- !private "5Franz11BrokerErrorO"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "5Franz16ConsumerDelegateP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "5Franz5GroupC"
+- !private "5Franz15GroupMembershipC"
+- "SH"
+- "5Franz17HighLevelConsumerC"
+- "5Franz25HighLevelConsumerDelegateP"
+- !private "s5Int64V"
+- !private "5Franz14KafkaErrorCodeO"
+- !private "5Franz9KafkaTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- "5Franz11OldConsumerC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "5Franz9ReplicaIdO"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "5Franz14SimpleConsumerC"
+- !private "Sx"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/armv7-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "eb9faa077598b8585c534b5004cd2e48"

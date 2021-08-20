@@ -1,0 +1,264 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KafkaManager"
+provides-nominal:
+- "7AppEase12KafkaManagerC"
+provides-member:
+- ["7AppEase12KafkaManagerC", ""]
+provides-dynamic-lookup:
+- "cluster"
+- "healthDataFileDirectory"
+- "sendFile"
+- "sendFilesInDirectory"
+- "sendMessage"
+- "timer"
+- "timerInvoke"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Cluster"
+- !private "FileIOManager"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "KafkaManager"
+- "NSSearchPathForDirectoriesInDomains"
+- "String"
+- "StringLiteralType"
+- "Timer"
+- "URL"
+- !private "cluster"
+- !private "healthDataFileDirectory"
+- !private "print"
+- !private "sendFile"
+- !private "sendFilesInDirectory"
+- !private "timer"
+- !private "timerInvoke"
+depends-member:
+- ["Sa", "subscript"]
+- ["SK", ""]
+- ["SK", "subscript"]
+- ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- ["s7CVarArgP", "subscript"]
+- !private ["5Franz7ClusterC", "init"]
+- !private ["5Franz7ClusterC", "sendMessage"]
+- ["Sl", ""]
+- ["Sl", "subscript"]
+- ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["10Foundation12DataProtocolP", ""]
+- ["10Foundation12DataProtocolP", "subscript"]
+- ["Se", "appendingPathComponent"]
+- ["Se", "init"]
+- ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "appendingPathComponent"]
+- ["SE", "init"]
+- ["SE", "subscript"]
+- ["SQ", ""]
+- ["SQ", "appendingPathComponent"]
+- ["SQ", "documentDirectory"]
+- ["SQ", "init"]
+- !private ["SQ", "scheduledTimer"]
+- ["SQ", "subscript"]
+- ["SQ", "userDomainMask"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["7AppEase13FileIOManagerC", "deleteFile"]
+- !private ["7AppEase13FileIOManagerC", "findAllFilesInFolder"]
+- !private ["7AppEase13FileIOManagerC", "init"]
+- !private ["7AppEase13FileIOManagerC", "readData"]
+- ["SH", ""]
+- ["SH", "appendingPathComponent"]
+- ["SH", "documentDirectory"]
+- ["SH", "init"]
+- !private ["SH", "scheduledTimer"]
+- ["SH", "subscript"]
+- ["7AppEase12KafkaManagerC", "Cluster"]
+- !private ["7AppEase12KafkaManagerC", "FileIOManager"]
+- ["7AppEase12KafkaManagerC", "NSSearchPathForDirectoriesInDomains"]
+- ["7AppEase12KafkaManagerC", "String"]
+- ["7AppEase12KafkaManagerC", "Timer"]
+- ["7AppEase12KafkaManagerC", "URL"]
+- ["7AppEase12KafkaManagerC", "cluster"]
+- ["7AppEase12KafkaManagerC", "deinit"]
+- ["7AppEase12KafkaManagerC", "healthDataFileDirectory"]
+- ["7AppEase12KafkaManagerC", "init"]
+- !private ["7AppEase12KafkaManagerC", "print"]
+- ["7AppEase12KafkaManagerC", "sendFile"]
+- ["7AppEase12KafkaManagerC", "sendFilesInDirectory"]
+- ["7AppEase12KafkaManagerC", "sendMessage"]
+- ["7AppEase12KafkaManagerC", "timer"]
+- ["7AppEase12KafkaManagerC", "timerInvoke"]
+- ["5Franz9KafkaTypeP", "subscript"]
+- ["SM", ""]
+- ["SM", "subscript"]
+- ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- !private ["So8NSObjectC", "scheduledTimerWithTimeInterval"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "scheduledTimer"]
+- !private ["So8NSObjectP", "scheduledTimerWithTimeInterval"]
+- ["s9OptionSetP", "userDomainMask"]
+- ["Sk", ""]
+- ["Sk", "subscript"]
+- ["Sm", ""]
+- ["Sm", "subscript"]
+- ["SY", ""]
+- ["SY", "documentDirectory"]
+- ["SY", "userDomainMask"]
+- ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "makeIterator"]
+- ["ST", "subscript"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So7NSTimerC", "scheduledTimer"]
+- ["10Foundation3URLV", "appendingPathComponent"]
+- ["10Foundation3URLV", "init"]
+- ["s14_ArrayProtocolP", "subscript"]
+- ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s24_DestructorSafeContainerP", "subscript"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s19_HasContiguousBytesP", "subscript"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scheduledTimer"]
+- ["s21_ObjectiveCBridgeableP", ""]
+- ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "Sa"
+- "SK"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "5Franz7ClusterC"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "7AppEase13FileIOManagerC"
+- "SH"
+- "7AppEase12KafkaManagerC"
+- "5Franz9KafkaTypeP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "s9OptionSetP"
+- "Sk"
+- "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "So21NSSearchPathDirectoryV"
+- "So22NSSearchPathDomainMaskV"
+- "ST"
+- "s10SetAlgebraP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So7NSTimerC"
+- "10Foundation3URLV"
+- "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/HealthKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/taehyo/Documents/GitHub/AppEase/AppEase/Build/Intermediates/Previews/Testing WatchKit App/Products/Debug-iphonesimulator/Franz.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers/WatchConnectivity.apinotes"
+interface-hash: "b40a7f4da175cf995cd2750a304ba71d"
