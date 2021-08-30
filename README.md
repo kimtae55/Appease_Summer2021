@@ -26,6 +26,9 @@ Following files need change in IP address: kafka/config/zookeeper.properties, ka
     3. Next, open the Info.plist file of the WatchKit app target, and change the value of WKCompanionAppBundleIdentifier key to <Your iOS app bundle ID>.
     4. Open the Info.plist file of the WatchKit Extension target, change the value of the NSExtension > NSExtensionAttributes > WKAppBundleIdentifier key to <Your iOS app bundle ID>.watchkitapp.
     5. Run the watch app first and then the phone app
+7. Simulate P2P nodes
+    3. In a new terminal, with the current working directoy set to btpeer_p2p_framework/project_impl, execute ``python3 model.py 5001 5 0.0.0.0:5002 ../../demo_data/model2``
+    4. In a new terminal, with the current working directory set to btpeer_p2p_framework/project_impl, execute ``python3 model.py 5000 5 0.0.0.0:5001 ../../demo_data/model1``
 
 # Implementation
 
