@@ -8,7 +8,7 @@ import Header from './components/header'
 import Home from './components/home'
 import Model from './components/model'
 import Query from './components/query'
-
+import Visualize from './components/visualize'
 function App() {
 
   return (
@@ -21,8 +21,9 @@ function App() {
               <Route exact path="/" component={Login} />
               <Route path="/home" component={Home} />
               <Route path="/model" component={Model} />
-              <Route path="/query" component={Query} />
+              <Route path="/visualize" component={Visualize} />
               <Route path="/monitor" component={Monitor} />
+              <Route path="/query" component={Query} />
             </Switch>
           </div>
         </div>

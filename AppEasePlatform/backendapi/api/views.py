@@ -7,6 +7,11 @@ from rest_framework.response import Response
 from django.http import HttpResponseNotFound, JsonResponse, FileResponse
 from rest_framework.decorators import api_view
 from .analytics import Analytics
+from django.conf import settings
+import sys
+import tempfile
+sys.path.insert(1, '../btpeer_p2p_framework/project_impl')
+from user import AppEasePeer
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
@@ -31,7 +36,8 @@ def healthDynamicView(request,userToken):
         return HttpResponseNotFound("not a valid token")
     serializer = HealthDynamicSerializer(healthDynamicData, many = True)
     return Response(serializer.data)
- 
+'''
+below uses sqlite data (from kafka)
 @api_view(['GET'])
 def model(request, userToken, intercept, start, end):
     analytics = Analytics()
@@ -51,3 +57,43 @@ def query(request, userToken, param, start, end):
 @api_view(['GET'])
 def visualize(request, game, feature):
     return
+'''
+
+@api_view(['GET'])
+def model(request, intercept, start, end):
+	app = AppEasePeer(firstpeer=settings.PEER, maxpeers=settings.MAX_PEERS, serverport=settings.P2P_PORT)
+	result = app.find_model(intercept)
+
+	data = {
+		'message': result
+	}
+	return JsonResponse(data)
+
+@api_view(['GET'])
+def query(request, param, start, end):
+	start = start.replace("_", "-")
+	end = end.replace("_", "-")
+	query_param = ','.join([param, start, end])
+	app = AppEasePeer(firstpeer=settings.PEER, maxpeers=settings.MAX_PEERS, serverport=settings.P2P_PORT)
+	result = app.query_data(query_param)
+
+	data = {
+		'message': result
+	}
+	return JsonResponse(data)
+
+@api_view(['GET'])
+def visualize(request, game, feature):
+	print('hello')
+	app = AppEasePeer(firstpeer=settings.PEER, maxpeers=settings.MAX_PEERS, serverport=settings.P2P_PORT)
+
+	param = ','.join([game, feature])
+	visual_bytes = app.visualize(param)
+	visual_bytes = bytes.fromhex(visual_bytes)
+
+	fd, path = tempfile.mkstemp()
+	with open(path, 'wb') as file:
+		file.write(visual_bytes)
+
+	image = open(path, 'rb')
+	return FileResponse(image)

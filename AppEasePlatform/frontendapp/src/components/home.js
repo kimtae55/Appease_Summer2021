@@ -19,7 +19,7 @@ const Description = styled.span`
 
 // Home page descriptions of the model and query pages.
 const modelDescription = 'Click the "Model" button to build a model based on the effects of game-playing on patients\n\n'
-const queryDescription = 'Click the "Query" button to query patient data and access descriptive statistics\n\n'
+const queryDescription = 'Click the "Visualize" button to query patient data and access descriptive statistics\n\n'
 const dashBoardDescription = 'Click the "Monitor" button to monitor patient health data over time'
 
 /**

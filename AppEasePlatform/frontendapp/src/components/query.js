@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import Select from 'react-select';
 import ModelButton from './model-page-button'
 import DatePicker from './date-picker'
-import { getToken, getUser } from '../utils/common';
 
 // Stying for div encompassing all other elements of the page.
 const OuterDiv = styled.div`
@@ -40,27 +39,19 @@ const RowDiv = styled.div`
 
 // Options for the query parameter selection dropdown.
 const options = [
-  { value: 'heartrate', label: 'Heart Rate' },
-  { value: 'stepcount', label: 'Step Count' },
-  { value: 'distance', label: 'Distance Travelled' },
-  { value: 'all', label: 'All' },
-];
-
-const game_options = [
-  { value: 'Angry-Birds', label: 'Angry Birds' },
-  { value: 'Clash-of-Clans', label: 'Clash of Clans' },
-  { value: 'Brawl-Stars', label: 'Brawl Stars' },
-  { value: 'Injustice-2', label: 'Injustice 2' },
-  { value: 'Catan', label: 'Catan' },
+  { value: 'mean', label: 'Mean' },
+  { value: 'median', label: 'Median' },
+  { value: 'mode', label: 'Mode' },
+  { value: 'variance', label: 'Variance'},
+  { value: 'stdev', label: 'Standard Deviation'},
 ];
 
 // Endpoint for Django app used for sending requests for data querying.
 const BACKEND_QUERY = 'http://192.168.1.66:8000/api/query/'
+
 /**
  * Component for the query page of the application.
  */
-
-
 function Query(){
   // Stores/updates the query parameter selected by the user.
   const [selectedOption, setSelectedOption] = useState(null);
@@ -74,27 +65,23 @@ function Query(){
   // Stores/updates the results for the most recent query request.
   const [results, setResults] = useState(null);
 
+  /**
+   * Sends a request to the Django app to query the available patient data using
+   * the specified parameter.
+   */
   function request(){
     var start = startDate.toLocaleDateString().replaceAll("/", "-");
     var end = endDate.toLocaleDateString().replaceAll("/", "-");
-    const token = getToken();
-    const name = getUser();
-
-    var url = BACKEND_QUERY + token + "/" + selectedOption + "/" + start + "/" + end + "/";
-
+    var url = BACKEND_QUERY + selectedOption + "/" + start + "/" + end + "/";
     setLoading(true);
     fetch(url, {
       method: 'GET',
     })
-      .then(response => response.blob())
-      .then(image => {
-          // Remove local image blob if a new visualization was created.
-          if (results){
-            URL.revokeObjectURL(results);
-          }
-          var imageURL = URL.createObjectURL(image);
-          setResults(imageURL);
-        }
+      .then(response => response.json())
+      .then(data => {
+        setResults(data.message)
+        setLoading(false);
+      }
       );
   }
 
@@ -119,19 +106,24 @@ function Query(){
           label={"Query Data"}/>
       </RowDiv>
 
-      <div style={{marginTop: "20px"}}>
-        <h2 style={{textAlign: "left", marginBottom: "5px"}}>Visualization Results</h2>
-        {results?
-          <img src={results} alt="Visual" width="360px" />
-          :
+      {/*section for query results*/}
+      <div style={{marginTop: "40px"}}>
+        <h2 style={{textAlign: "left", marginBottom: "5px"}}>Query Results</h2>
+        <ResultDiv>
           <ResultText>
-            <i> Requested visualization will show here. </i>
+            {
+              (results && !loading)?
+              results :
+                (loading ?
+                  <i> Fetching query results. </i> :
+                  <i> Query result will show here. </i>
+                )
+            }
           </ResultText>
-        }
+        </ResultDiv>
       </div>
     </OuterDiv>
   );
 }
-
 
 export default Query;

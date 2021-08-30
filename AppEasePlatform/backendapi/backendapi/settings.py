@@ -162,3 +162,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+PEER = "0.0.0.0:5000"
+P2P_PORT = "5002"
+MAX_PEERS = 5

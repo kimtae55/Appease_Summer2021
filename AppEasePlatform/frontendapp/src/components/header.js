@@ -37,6 +37,7 @@ function Header(){
     <Banner>
       <Title onClick={navigate}> AppEase </Title>
       <HeaderButton label="Model" route="model"/>
+      <HeaderButton label="Visualize" route="visualize"/>
       <HeaderButton label="Query" route="query"/>
       <HeaderButton label="Monitor" route="monitor"/>
     </Banner>

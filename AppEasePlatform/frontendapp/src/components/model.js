@@ -99,7 +99,7 @@ function Model(){
     const token = getToken();
     const name = getUser();
 
-    var url = BACKEND_MODEL + token + "/" + selectedOption + "/" + start + "/" + end + "/";
+    var url = BACKEND_MODEL + selectedOption + "/" + start + "/" + end + "/";
     setLoading(true);
     fetch(url, {
       method: 'GET',

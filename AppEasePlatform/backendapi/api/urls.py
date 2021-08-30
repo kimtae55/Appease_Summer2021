@@ -14,8 +14,9 @@ urlpatterns = [
     path('',include(router.urls)),
     path('healthStatic/<userToken>/',views.healthStaticView,name = 'static-api'),
     path('healthDynamic/<userToken>/',views.healthDynamicView,name = 'dynamic-api'),
-	path('model/<userToken>/<str:intercept>/<str:start>/<str:end>/', views.model, name='model'),
-	path('query/<userToken>/<str:param>/<str:start>/<str:end>/', views.query, name='query'),
+	path('model/<str:intercept>/<str:start>/<str:end>/', views.model, name='model'),
+	path('query/<str:param>/<str:start>/<str:end>/', views.query, name='query'),
+	path('visualize/<str:game>/<str:feature>/', views.visualize, name='visualize')
 #     path('child/',
 #          views.ChildList.as_view(),
 #          name='child-list'),
