@@ -17,6 +17,8 @@ NOTE: At least 63 rows of data are required for Azure Machine Learning analytics
 
 This script uploads a file as an Azure Storage Blob to a Container through an IoT Hub Device. This script requires an Azure IoT Hub that has been associated with a publicly-accessible Azure Storage Account Container and contains at least one IoT Device. This script should be run by calling "python3 AppEaseIoT.py [device_conn_str] [file]" where [device_conn_str] is the connection string of the IoT device created in the Azure IoT Hub and [file] is the name of the file in the local directory to be uploaded (i.e., 'simulated_health_data.json').
 
+(Tao Part):
+
 3. 'AppEaseML.ipynb'
 
 This notebook uses automated machine learning in Azure Machine Learning to create a classification model for predicting the above-created simulated labels (i.e., 'random_labels.json') from given data (i.e., 'simulated_health_data.json') and then outputs the best model ('best_model.pkl') and the data and labels used to train the best model (i.e., 'train_data.csv' and 'train_labels.csv'). The 'ML Analysis for Best Model' Folder contains examples of these output files. This notebook requires an Azure subscription. 
