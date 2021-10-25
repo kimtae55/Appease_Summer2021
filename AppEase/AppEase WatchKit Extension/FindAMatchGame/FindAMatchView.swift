@@ -47,7 +47,7 @@ struct FindAMatchView: View {
                 "gameStatus": "Activated",
                 "gameName": "FindAMatch",
             ]
-            self.fileHandler.writeToFile(dataToWrite: &data)
+            self.fileHandler.writeToFile(dataToWrite: data)
         })
         .onDisappear(perform: {
             let dateFormat = ISO8601DateFormatter()
@@ -57,7 +57,7 @@ struct FindAMatchView: View {
                 "gameStatus": "Deactivated",
                 "gameName": "FindAMatch",
             ]
-            self.fileHandler.writeToFile(dataToWrite: &data)
+            self.fileHandler.writeToFile(dataToWrite: data)
         })
     }
     

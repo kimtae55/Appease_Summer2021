@@ -15,9 +15,37 @@ struct LoginView: View {
     @State var isLinkActive = false
     @State private var showIncorrectCredentialsAlert = false
     
+	var model = TestWC()
+	@State var reachable = "No"
+	@State var messageText = ""
+
     var body: some View {
         NavigationView {
             VStack {
+				Text("Reachable \(reachable)")
+				
+				Button(action: {
+					if self.model.session.isReachable{
+						self.reachable = "Yes"
+					}
+					else{
+						self.reachable = "No"
+					}
+					
+				}) {
+					Text("Update")
+				}
+				
+				TextField("Input your message", text: $messageText)
+				Button(action: {
+					//self.model.session.sendMessage(["message" : self.messageText], replyHandler: nil) { (error) in
+					//	print(error.localizedDescription)
+					//}
+					WatchConnectivityManager.sharedManager.sendMessage(message: ["message" : self.messageText], replyHandler: nil)
+				}) {
+				Text("Send Message")
+				}
+				
                 Text("AppEase")
                     .font(.largeTitle).foregroundColor(Color.white)
                     .padding([.top, .bottom], 40)
@@ -50,12 +78,13 @@ struct LoginView: View {
                 NavigationLink(destination: DetailView(loginManager: loginManager), isActive: $isLinkActive) {
                     Button(action: {
                         self.loginManager.checkDetails(username: self.mail, password: self.pass)
-                        
+						
                         print("Authenticated? \(self.loginManager.authenticated)")
                         
                         if self.loginManager.authenticated {
                             self.isLinkActive = true
                             self.showIncorrectCredentialsAlert = false
+							self.messageText = "True"
                         }
                         
                         if !self.loginManager.authenticated {

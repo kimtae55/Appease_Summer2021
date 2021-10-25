@@ -17,7 +17,7 @@ class KafkaManager {
 
     
     init() {
-        cluster = Cluster(brokers: [("192.168.1.66", 9092)], clientId: "AppEase")
+        cluster = Cluster(brokers: [("192.168.0.152", 9092)], clientId: "AppEase")
         timerInvoke()
     }
     
@@ -52,5 +52,4 @@ class KafkaManager {
             FileIOManager.deleteFile(at: item)
         }
     }
-    
 }

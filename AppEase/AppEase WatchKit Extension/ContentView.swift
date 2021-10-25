@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var userStateManager: UserStateManager
+	@StateObject var userStateManager = UserStateManager()
     
     var body: some View {
         ZStack {
@@ -24,16 +24,38 @@ struct ContentView: View {
 
 struct TempView: View {
     @EnvironmentObject var userStateManager: UserStateManager
+	
+	@ObservedObject var model = TestWCWatch()
+	@State var selection: String? = "False"
+	
     var body: some View {
         VStack {
+			Text(self.model.messageText)
             Text("Welcome! Please sign in using the app on your iPhone").padding()
-            Button(action: {
-                if UserDefaults.standard.bool(forKey: "ISUSERLOGGEDIN") {
-                    userStateManager.userLoggedIn()
-                }
-            }, label: {
-                Text("Signed in on the phone")
-            })
+//			NavigationLink(
+//				destination: GameList(),
+//				label: {Text("Signed in")}
+//			).disabled(!userStateManager.isUserLoggedIn)
+//
+//            Button(action: {
+//				if self.model.messageText == "True" {
+//                    userStateManager.userLoggedIn()
+//                }
+//            }, label: {
+//                Text("Signed in on the phone")
+//            })
+			
+			NavigationLink(destination: GameList(), tag: "True", selection: $selection) {
+				Button(action: {
+					print(self.model.messageText)
+
+					if self.model.messageText == "True" {
+						self.selection = "True"
+					}
+				}, label: {
+					Text("Signed in on the phone")
+				})
+			}
         }
     }
 }

@@ -38,23 +38,23 @@ struct MemoryGameView: View {
         }
         .onAppear(perform: {
             let dateFormat = ISO8601DateFormatter()
-            var data: Dictionary<String, String> = [
+            let data: Dictionary<String, String> = [
                 "timeStamp": dateFormat.string(from: Date()),
                 "userToken": UserDefaults.standard.string(forKey: "USERTOKEN") ?? "",
                 "gameStatus": "Activated",
                 "gameName": "MemoryGame",
             ]
-            self.fileHandler.writeToFile(dataToWrite: &data)
+            self.fileHandler.writeToFile(dataToWrite: data)
         })
         .onDisappear(perform: {
             let dateFormat = ISO8601DateFormatter()
-            var data: Dictionary<String, String> = [
+            let data: Dictionary<String, String> = [
                 "timeStamp": dateFormat.string(from: Date()),
                 "userToken": UserDefaults.standard.string(forKey: "USERTOKEN") ?? "",
                 "gameStatus": "Deactivated",
                 "gameName": "MemoryGame",
             ]
-            self.fileHandler.writeToFile(dataToWrite: &data)
+            self.fileHandler.writeToFile(dataToWrite: data)
         })
     }
 }

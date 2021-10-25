@@ -10,16 +10,20 @@ import Foundation
 import HealthKit
 import CoreMotion
 import UserNotifications
+import WatchConnectivity
 
 class HealthStore: ObservableObject {
-    
-    var healthKitStore: HKHealthStore = HKHealthStore()
+	//var wcTest = TestWCWatch()
+	
+	var healthKitStore: HKHealthStore = HKHealthStore()
+
     let heartRateQuantity = HKUnit(from: "count/min")
     var query: HKStatisticsCollectionQuery?
     var timer: Timer?
     var fileMetaData: [String: Any] {
         return ["file":"transferred" as Any]
     }
+	var healthMessage: Dictionary<String, String> = [String: String]()
     
     private let pedometer: CMPedometer = CMPedometer()
     var isPedometerAvailable: Bool {
@@ -33,7 +37,6 @@ class HealthStore: ObservableObject {
 //    var fileHandler = FileIOManager(directory: URL(fileURLWithPath: NSTemporaryDirectory(), isDirectory: true), fileName: ProcessInfo().globallyUniqueString)
     
     var fileHandler = FileIOManager(directory: URL(fileURLWithPath: NSTemporaryDirectory(), isDirectory: true), fileName: "0CA88BB4-995C-4BCD-AB26-5AE5925CEDA2-359-0000001D623B8BE")
-    
     
     @Published var heartRate = 0
     @Published var age = 0
@@ -55,11 +58,10 @@ class HealthStore: ObservableObject {
     
     init() {
         previousHeartRateQueryTime = Date()
-        getBloodType()
+		getBloodType()
         getAge()
         getBiologicalSex()
         startHeartRateQuery(quantityTypeIdentifier: .heartRate)
-//        startObserving()
         timerInvoke()
     }
     
@@ -166,9 +168,9 @@ class HealthStore: ObservableObject {
     func writeDataToFile(timeStamp: Date) {
         DispatchQueue.main.async {
             let dateFormat = ISO8601DateFormatter()
-            var data: Dictionary<String, String> = [
+            let data: Dictionary<String, String> = [
                 "timeStamp": dateFormat.string(from: timeStamp),
-                "userToken": UserDefaults.standard.string(forKey: "USERTOKEN") ?? "",
+                "userToken": WatchConnectivityManager.sharedManager.UserToken,
                 "heartRate": String(self.heartRate),
                 "age": String(self.age),
                 "sex": self.sex,
@@ -184,7 +186,8 @@ class HealthStore: ObservableObject {
                 "longitude": String(self.longitude),
                 "latitude": String(self.latitude),
             ]
-            self.fileHandler.writeToFile(dataToWrite: &data)
+			self.healthMessage = data
+            self.fileHandler.writeToFile(dataToWrite: data)
         }
     }
     
@@ -279,7 +282,13 @@ class HealthStore: ObservableObject {
     
     @objc func sendFile(){
         print("Timer Invoked: Sending file to iOS")
-        _ = WatchConnectivityManager.sharedManager.transferFile(file: fileHandler.fullURL, metadata: fileMetaData)
+	#if targetEnvironment(simulator)
+		print("Simulator: Send file using sendMessage()")
+		//wcTest.session.sendMessage(["msg" : self.healthMessage], replyHandler: nil)
+		WatchConnectivityManager.sharedManager.sendMessage(message:["msg" : self.healthMessage], replyHandler:nil)
+	#else
+		_ = WatchConnectivityManager.sharedManager.transferFile(file: fileHandler.fullURL, metadata: fileMetaData)
+	#endif
     }
     
     

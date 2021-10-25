@@ -9,13 +9,10 @@
 /* Begin PBXBuildFile section */
 		150E267F2578593F00D54C34 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E267E2578593F00D54C34 /* LoginManager.swift */; };
 		1D37757026C5A5120057E631 /* HealthKitSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37756F26C5A5110057E631 /* HealthKitSimulator.swift */; };
-		1D37758026C5CD240057E631 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37757C26C5CD240057E631 /* HealthStore.swift */; };
-		1D37758126C5CD240057E631 /* GetHealthStaticInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37757D26C5CD240057E631 /* GetHealthStaticInformation.swift */; };
-		1D37758226C5CD240057E631 /* GenerateMockHeartRateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37757E26C5CD240057E631 /* GenerateMockHeartRateData.swift */; };
-		1D37758326C5CD240057E631 /* HealthObjectToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37757F26C5CD240057E631 /* HealthObjectToString.swift */; };
-		1D37758726C5CD2F0057E631 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37758426C5CD2F0057E631 /* ActivityManager.swift */; };
-		1D37758926C5CD2F0057E631 /* PedometerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D37758626C5CD2F0057E631 /* PedometerManager.swift */; };
 		1D71657E269C3FA900B50C4B /* Franz in Frameworks */ = {isa = PBXBuildFile; productRef = 2F0D0E10256CCC7500E5A0D0 /* Franz */; };
+		1D8AA29B2706F0DC004BB2AA /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8AA29A2706F0DC004BB2AA /* WatchConnectivity.framework */; };
+		1D8AA29D270752FA004BB2AA /* TestWC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AA29C270752FA004BB2AA /* TestWC.swift */; };
+		1D8AA29F270754A4004BB2AA /* TestWCWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8AA29E270754A4004BB2AA /* TestWCWatch.swift */; };
 		2F09FA062572106900066EC4 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F09FA052572106900066EC4 /* ActivityManager.swift */; };
 		2F0C4F21257B87300043EF33 /* FileIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C4F20257B87300043EF33 /* FileIOManager.swift */; };
 		2F0C4F22257B87300043EF33 /* FileIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C4F20257B87300043EF33 /* FileIOManager.swift */; };
@@ -110,12 +107,9 @@
 /* Begin PBXFileReference section */
 		150E267E2578593F00D54C34 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		1D37756F26C5A5110057E631 /* HealthKitSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSimulator.swift; sourceTree = "<group>"; };
-		1D37757C26C5CD240057E631 /* HealthStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthStore.swift; path = AppEase/SensorDataSimulator/Health/HealthStore.swift; sourceTree = SOURCE_ROOT; };
-		1D37757D26C5CD240057E631 /* GetHealthStaticInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetHealthStaticInformation.swift; path = AppEase/SensorDataSimulator/Health/GetHealthStaticInformation.swift; sourceTree = SOURCE_ROOT; };
-		1D37757E26C5CD240057E631 /* GenerateMockHeartRateData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenerateMockHeartRateData.swift; path = AppEase/SensorDataSimulator/Health/GenerateMockHeartRateData.swift; sourceTree = SOURCE_ROOT; };
-		1D37757F26C5CD240057E631 /* HealthObjectToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthObjectToString.swift; path = AppEase/SensorDataSimulator/Health/HealthObjectToString.swift; sourceTree = SOURCE_ROOT; };
-		1D37758426C5CD2F0057E631 /* ActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityManager.swift; path = AppEase/SensorDataSimulator/CoreMotion/ActivityManager.swift; sourceTree = SOURCE_ROOT; };
-		1D37758626C5CD2F0057E631 /* PedometerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PedometerManager.swift; path = AppEase/SensorDataSimulator/CoreMotion/PedometerManager.swift; sourceTree = SOURCE_ROOT; };
+		1D8AA29A2706F0DC004BB2AA /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		1D8AA29C270752FA004BB2AA /* TestWC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWC.swift; sourceTree = "<group>"; };
+		1D8AA29E270754A4004BB2AA /* TestWCWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWCWatch.swift; sourceTree = "<group>"; };
 		2F09FA052572106900066EC4 /* ActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
 		2F0C4F20257B87300043EF33 /* FileIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIOManager.swift; sourceTree = "<group>"; };
 		2F0C4F2E257B98C20043EF33 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -174,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D71657E269C3FA900B50C4B /* Franz in Frameworks */,
+				1D8AA29B2706F0DC004BB2AA /* WatchConnectivity.framework in Frameworks */,
 				2F0D0E11256CCC7500E5A0D0 /* (null) in Frameworks */,
 				2FF5E7F62563AF1600BD1CE1 /* HealthKit.framework in Frameworks */,
 			);
@@ -190,36 +185,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D37757326C5CCD80057E631 /* SensorDataSimulator */ = {
-			isa = PBXGroup;
-			children = (
-				1D37757B26C5CD120057E631 /* Health */,
-				1D37757A26C5CD070057E631 /* CoreMotion */,
-			);
-			name = SensorDataSimulator;
-			path = ../SensorDataSimulator;
-			sourceTree = "<group>";
-		};
-		1D37757A26C5CD070057E631 /* CoreMotion */ = {
-			isa = PBXGroup;
-			children = (
-				1D37758426C5CD2F0057E631 /* ActivityManager.swift */,
-				1D37758626C5CD2F0057E631 /* PedometerManager.swift */,
-			);
-			path = CoreMotion;
-			sourceTree = "<group>";
-		};
-		1D37757B26C5CD120057E631 /* Health */ = {
-			isa = PBXGroup;
-			children = (
-				1D37757E26C5CD240057E631 /* GenerateMockHeartRateData.swift */,
-				1D37757D26C5CD240057E631 /* GetHealthStaticInformation.swift */,
-				1D37757F26C5CD240057E631 /* HealthObjectToString.swift */,
-				1D37757C26C5CD240057E631 /* HealthStore.swift */,
-			);
-			path = Health;
-			sourceTree = "<group>";
-		};
 		2F93E697257EF9F5002DC064 /* MusicAndCall */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +257,7 @@
 		2FF5E7582563866200BD1CE1 = {
 			isa = PBXGroup;
 			children = (
+				1D8AA29C270752FA004BB2AA /* TestWC.swift */,
 				2FF5E7E92563991600BD1CE1 /* Shared */,
 				2FF5E7632563866200BD1CE1 /* AppEase */,
 				2FF5E7792563866400BD1CE1 /* AppEase WatchKit App */,
@@ -314,7 +280,6 @@
 		2FF5E7632563866200BD1CE1 /* AppEase */ = {
 			isa = PBXGroup;
 			children = (
-				1D37757326C5CCD80057E631 /* SensorDataSimulator */,
 				2FF5E7F42563AF1600BD1CE1 /* AppEase.entitlements */,
 				2FF5E7642563866200BD1CE1 /* AppDelegate.swift */,
 				2FF5E7662563866200BD1CE1 /* SceneDelegate.swift */,
@@ -368,6 +333,7 @@
 				2FF5E79A2563866500BD1CE1 /* Info.plist */,
 				2FF5E79B2563866500BD1CE1 /* PushNotificationPayload.apns */,
 				2FF5E7972563866500BD1CE1 /* Preview Content */,
+				1D8AA29E270754A4004BB2AA /* TestWCWatch.swift */,
 			);
 			path = "AppEase WatchKit Extension";
 			sourceTree = "<group>";
@@ -393,6 +359,7 @@
 		2FF5E7EE2563AF0B00BD1CE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D8AA29A2706F0DC004BB2AA /* WatchConnectivity.framework */,
 				2FF5E7F52563AF1600BD1CE1 /* HealthKit.framework */,
 				2FF5E7EF2563AF0B00BD1CE1 /* HealthKit.framework */,
 			);
@@ -538,22 +505,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D37758926C5CD2F0057E631 /* PedometerManager.swift in Sources */,
 				150E267F2578593F00D54C34 /* LoginManager.swift in Sources */,
-				1D37758726C5CD2F0057E631 /* ActivityManager.swift in Sources */,
 				2F0C4F21257B87300043EF33 /* FileIOManager.swift in Sources */,
 				2F0C4F2F257B98C20043EF33 /* LoginView.swift in Sources */,
 				1D37757026C5A5120057E631 /* HealthKitSimulator.swift in Sources */,
-				1D37758126C5CD240057E631 /* GetHealthStaticInformation.swift in Sources */,
 				2F137B17257CBD0800792D1D /* UserStateManager.swift in Sources */,
 				2FF5E7652563866200BD1CE1 /* AppDelegate.swift in Sources */,
-				1D37758226C5CD240057E631 /* GenerateMockHeartRateData.swift in Sources */,
+				1D8AA29D270752FA004BB2AA /* TestWC.swift in Sources */,
 				2FF5E7672563866200BD1CE1 /* SceneDelegate.swift in Sources */,
 				2F0D0E19256CCCBD00E5A0D0 /* KafkaManager.swift in Sources */,
 				2FE09141256D8EB20092575C /* WatchConnectivityManager.swift in Sources */,
 				2FF5E7692563866200BD1CE1 /* ContentView.swift in Sources */,
-				1D37758326C5CD240057E631 /* HealthObjectToString.swift in Sources */,
-				1D37758026C5CD240057E631 /* HealthStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,6 +543,7 @@
 				2FF5E78E2563866400BD1CE1 /* ExtensionDelegate.swift in Sources */,
 				2F0C4F22257B87300043EF33 /* FileIOManager.swift in Sources */,
 				2F93E699257EFA24002DC064 /* MusicManager.swift in Sources */,
+				1D8AA29F270754A4004BB2AA /* TestWCWatch.swift in Sources */,
 				2FCB2BB8256792AA00A5E1B0 /* HealthObjectToString.swift in Sources */,
 				2FF5E7922563866400BD1CE1 /* NotificationView.swift in Sources */,
 				2FE38EF825671284001D272F /* MemoryGameView.swift in Sources */,

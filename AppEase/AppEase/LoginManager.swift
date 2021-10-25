@@ -15,9 +15,11 @@ struct ServerMessage: Decodable{
 class LoginManager: ObservableObject {
     
     @Published var authenticated = false
+	var model = TestWC()
+	var messageText = "True"
     
     func checkDetails(username: String, password: String) {
-        guard let url = URL(string: "http://192.168.1.66:8000/auth/") else { return }
+        guard let url = URL(string: "http://192.168.0.152:8000/auth/") else { return }
         let body: [String:String] = [
             "username": username,
             "password": password
@@ -37,11 +39,16 @@ class LoginManager: ObservableObject {
                     DispatchQueue.main.async {
                         UserDefaults.standard.set(true, forKey: "ISUSERLOGGEDIN")
                         UserDefaults.standard.set(finalData.token, forKey: "USERTOKEN")
-                        print("User logged in, sending message to Watch")
-//                        WatchConnectivityManager.sharedManager.sendMessage(message: [
-//                                                                            "userToken" : finalData.token,
-//                                                                            "isLoggedIn": true ], replyHandler: nil)
-                        self.authenticated = true
+						let obj = UserStateManager()
+						print(obj.isUserLoggedIn)
+                        print("User logged in")
+						WatchConnectivityManager.sharedManager.sendMessage(message: ["message" : self.messageText], replyHandler: nil) { (error) in
+							print(error.localizedDescription)
+						}
+						WatchConnectivityManager.sharedManager.sendMessage(message: ["token" : finalData.token], replyHandler: nil) { (error) in
+							print(error.localizedDescription)
+						}
+						self.authenticated = true
                     }
                 }
             } catch {
