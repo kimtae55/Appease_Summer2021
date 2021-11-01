@@ -14,15 +14,26 @@ This script creates simulated AppEase data in 2 JSON files ('simulated_health_da
 NOTE: At least 63 rows of data are required for Azure Machine Learning analytics (assuming a 0.8/0.2 train/test split).
 
 2. '(RETIRED) AppEaseIoT.py'
-
+**This script is not working!**
 This script uploads a file as an Azure Storage Blob to a Container through an IoT Hub Device. This script requires an Azure IoT Hub that has been associated with a publicly-accessible Azure Storage Account Container and contains at least one IoT Device. This script should be run by calling "python3 AppEaseIoT.py [device_conn_str] [file]" where [device_conn_str] is the connection string of the IoT device created in the Azure IoT Hub and [file] is the name of the file in the local directory to be uploaded (i.e., 'simulated_health_data.json').
 
-(Tao Part):
+###### 2. (Tao Part) FileUpload.py:
+Because the old script 'AppEaseIoT.py' was not working, I created a new script to upload files.
+FileUpload.py
+How to use the script: 
+- CONNECTION_STRING: is the connection string of the IoT device created in the Azure IoT Hub
+- PATH_TO_FILE = r"/Users/sabrinazhang/Documents/ITP/Appease_Summer2021/AppEase_Cloud/Sample_Data/random_labels.json"
+*path_to_file is the path for the file in the local directory to be uploaded (i.e., 'simulated_health_data.json')*
+
 
 3. 'AppEaseML.ipynb'
 
 This notebook uses automated machine learning in Azure Machine Learning to create a classification model for predicting the above-created simulated labels (i.e., 'random_labels.json') from given data (i.e., 'simulated_health_data.json') and then outputs the best model ('best_model.pkl') and the data and labels used to train the best model (i.e., 'train_data.csv' and 'train_labels.csv'). The 'ML Analysis for Best Model' Folder contains examples of these output files. This notebook requires an Azure subscription. 
 NOTE: It is recommended to run this notebook on an Azure Data Science Virtual Machine with a Python 3 kernel to ensure the necessary packages are installed.
+**Comments by Tao**
+- step0: create an Azure Data Science Virtual Machine
+- step1: using x2goclient to connect the DSVM
+- step2: run the notebook on the DSVM remotely, not locally. *you need using DSVM IP address to connect and run the notebook*
 
 4. 'P2P' Folder
 
