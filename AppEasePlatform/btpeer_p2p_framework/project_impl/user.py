@@ -72,10 +72,11 @@ class AppEasePeer:
       Returns:
       A str reporting performance metrics of the built model.
       """
+      print('hello')
       result = self.getPrimaryModelNode()       
       data = self.btpeer.makerequest(result, intercept)
       data = ''.join(data).strip()
-      #print(data)
+      print(data)
       return data
 
    def query_data(self, argument):

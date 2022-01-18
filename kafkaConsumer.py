@@ -2,12 +2,12 @@ from kafka import KafkaConsumer
 import sqlite3
 from json import loads
 
-conn = sqlite3.connect('/Users/taehyo/Documents/GitHub/AppEase/AppEasePlatform/backendapi/db.sqlite3')
+conn = sqlite3.connect('/Users/taehyo/Documents/GitHub/Appease_Summer2021/AppEasePlatform/backendapi/db.sqlite3')
 c = conn.cursor()
 
 consumer = KafkaConsumer(
     'healthData',
-     bootstrap_servers=['192.168.1.66:9092'],
+     bootstrap_servers=['192.168.0.154:9092'],
      auto_offset_reset='latest',
      value_deserializer=lambda x: x.decode('utf-8')
 )

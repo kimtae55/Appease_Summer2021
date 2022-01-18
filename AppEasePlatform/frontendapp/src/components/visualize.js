@@ -47,7 +47,7 @@ const game_options = [
 ];
 
 // Endpoint for Django app used for sending requests for visualizations.
-const BACKEND_VISUALIZE = 'http://192.168.1.66:8000/api/visualize/'
+const BACKEND_VISUALIZE = 'http://192.168.0.154:8000/api/visualize/'
 
 /**
  * Component for the visualization page of the application.

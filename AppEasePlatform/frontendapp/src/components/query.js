@@ -47,7 +47,7 @@ const options = [
 ];
 
 // Endpoint for Django app used for sending requests for data querying.
-const BACKEND_QUERY = 'http://192.168.1.66:8000/api/query/'
+const BACKEND_QUERY = 'http://192.168.0.154:8000/api/query/'
 
 /**
  * Component for the query page of the application.

@@ -17,7 +17,7 @@ var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 // const user_data = require('../data/user_info.json');
 // const health_data = require('../data/health_data.json');
-const backendAddress = "192.168.1.66"
+const backendAddress = "192.168.0.154"
 
 
 class Monitor extends Component {

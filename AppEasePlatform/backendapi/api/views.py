@@ -61,12 +61,16 @@ def visualize(request, game, feature):
 
 @api_view(['GET'])
 def model(request, intercept, start, end):
+	print('hello')
+
 	app = AppEasePeer(firstpeer=settings.PEER, maxpeers=settings.MAX_PEERS, serverport=settings.P2P_PORT)
+	print('hello')
 	result = app.find_model(intercept)
 
 	data = {
 		'message': result
 	}
+
 	return JsonResponse(data)
 
 @api_view(['GET'])

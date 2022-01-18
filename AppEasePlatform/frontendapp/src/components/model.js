@@ -55,7 +55,7 @@ const options = [
 ];
 
 // Endpoint for Django app used for sending requests for model buildling.
-const BACKEND_MODEL = 'http://192.168.1.66:8000/api/model/'
+const BACKEND_MODEL = 'http://192.168.0.154:8000/api/model/'
 
 const resultPlaceholder = 'Modeling results will show here.'
 

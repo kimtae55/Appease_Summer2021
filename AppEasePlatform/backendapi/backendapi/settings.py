@@ -25,7 +25,7 @@ SECRET_KEY = 'ky5een=x*bl4wzc#t6j+!+syurrng*ez6q#(qt!&cd2j227@00'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', '10.0.0.55', '127.0.0.1', '192.168.0.152', '192.168.1.79','192.168.1.66']
+ALLOWED_HOSTS = ['0.0.0.0', '10.0.0.55', '127.0.0.1', '192.168.0.152', '192.168.1.79','192.168.1.66', '192.168.0.154']
 
 
 # Application definition
@@ -162,6 +162,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-PEER = "0.0.0.0:5000"
-P2P_PORT = "5002"
+PEER = "0.0.0.0:2000"
+P2P_PORT = "2002"
 MAX_PEERS = 5
