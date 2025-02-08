@@ -1,5 +1,5 @@
 # AppEase
-An Apple Watch application which detects, tracks and helps alleviate anxiety attacks in children and teenagers. It aids doctors and parents monitor children's health data and develop a plan for their treatment.
+An Apple Watch application which detects, tracks and helps alleviate anxiety attacks in children and teenagers. It aids doctors and parents monitor children's health data and develop a plan for their treatment. Part of the NYU CS Information Technology Project supervised by Professor Franchitti, Professor Gilberti, and NYU Meyers Hospital.
 
 # How To Run
 Each step should be carried out in a separate terminal window. You need your IP address to begin the process
